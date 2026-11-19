@@ -5,8 +5,29 @@
 #   flags:     things to check once (e.g. name shared with a musician). Set checked: true when done.
 #   needs_review: an unsure TMDB / YouTube match from `comedians resolve`. Fix the ID or clear it.
 comedians:
+  - slug: aaron-branch
+    name: Aaron Branch
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: aaron-chen
+    name: Aaron Chen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: abby-howells
     name: Abby Howells
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: abhay-nadkarni
+    name: Abhay Nadkarni
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -45,6 +66,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: adam-devine
+    name: Adam Devine
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: adam-flood
+    name: Adam Flood
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: adam-newman
     name: Adam Newman
     aliases: []
@@ -54,6 +89,34 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 5 people named Adam Newman (1746467, 3971136, 4619966, 4571432, 4185007); picked 1746467'
+  - slug: adam-newmans-one
+    name: Adam Newman's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: adam-pally
+    name: Adam Pally
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: adam-quesnells-album-despair-ii
+    name: Adam Quesnell's album Despair II
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: adam-quesnells-album-egghead-7
+    name: Adam Quesnell's album "Egghead" 7
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: adam-ray
     name: Adam Ray
     aliases: []
@@ -72,6 +135,13 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 5 people named Adam Rowe (1795138, 2323306, 6474102, 2631728, 4475391); picked 1795138'
+  - slug: adam-rowes-one
+    name: Adam Rowe's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: adam-sandler
     name: Adam Sandler
     aliases: []
@@ -81,6 +151,34 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 2 people named Adam Sandler (19292, 4247431); picked 19292'
+  - slug: ahir-shah
+    name: Ahir Shah
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: aida-rodriguez
+    name: Aida Rodríguez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: aidan-fealy
+    name: Aidan Fealy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: aisha-alfa
+    name: Aisha Alfa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: al-madrigal
     name: Al Madrigal
     aliases: []
@@ -89,6 +187,34 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: al-madrigals-one
+    name: Al Madrigal's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: al-pitcher
+    name: Al Pitcher
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alan-cumming
+    name: Alan Cumming
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alaska-thunderfuck
+    name: Alaska Thunderfuck
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: albert-brooks
     name: Albert Brooks
     aliases: []
@@ -98,6 +224,34 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 3 people named Albert Brooks (13, 2333452, 4871938); picked 13'
+  - slug: alec-baldwin
+    name: Alec Baldwin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alex-edelman
+    name: Alex Edelman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alexander-bennett
+    name: Alexander Bennett
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alfie-brown
+    name: Alfie Brown
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ali-siddiq
     name: Ali Siddiq
     aliases: []
@@ -106,6 +260,34 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: ali-siddiqs-special-the-domino-effect-2
+    name: Ali Siddiq's special The Domino Effect 2
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ali-siddiqs-special-the-domino-effect-on-comedy-central-stand
+    name: Ali Siddiq's special The Domino Effect on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ali-siddiqs-special-the-domino-effect-part-3
+    name: Ali Siddiq's special The Domino Effect part 3
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ali-siddiqs-special-the-domino-effect-part-4
+    name: Ali Siddiq's special The Domino Effect part 4
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ali-wong
     name: Ali Wong
     aliases: []
@@ -123,6 +305,20 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 2 people named Alice Fraser (1514458, 2584453); picked 1514458'
+  - slug: alice-wetterlund
+    name: Alice Wetterlund
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alison-stevenson
+    name: Alison Stevenson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: allen-strickland-williams
     name: Allen Strickland Williams
     aliases: []
@@ -131,6 +327,27 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: ally-beardsley
+    name: Ally Beardsley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alok
+    name: ALOK
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alok-vaid
+    name: Alok Vaid
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: alonzo-bodden
     name: Alonzo Bodden
     aliases: []
@@ -147,6 +364,20 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: amy-matthews
+    name: Amy Matthews
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: amy-millers-special-ham-mouth-on-comedy-central-stand
+    name: Amy Miller's special Ham Mouth on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: amy-schumer
     name: Amy Schumer
     aliases: []
@@ -155,6 +386,13 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: amy-schumers-one
+    name: Amy Schumer's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: amy-silverberg
     name: Amy Silverberg
     aliases: []
@@ -163,6 +401,13 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: andrew-ivimey
+    name: Andrew Ivimey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: andrew-santino
     name: Andrew Santino
     aliases: []
@@ -171,6 +416,13 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: andrew-santinos-one
+    name: Andrew Santino's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: andrew-schulz
     name: Andrew Schulz
     aliases: []
@@ -180,6 +432,20 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 5 people named Andrew Schulz (1880755, 2925957, 1487027, 2489410, 6447025); picked 1880755'
+  - slug: andy-field
+    name: Andy Field
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: andy-parsons
+    name: Andy Parsons
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: andy-woodhull
     name: Andy Woodhull
     aliases: []
@@ -197,6 +463,13 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'youtube: no exact channel; closest is The Bugle (UCY9DZKa4SilQC4k9rhS3-5g)'
+  - slug: anisa-nandaula
+    name: Anisa Nandaula
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: anjelah-johnson
     name: Anjelah Johnson
     aliases: []
@@ -206,6 +479,20 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: no exact match; closest is Anjelah Johnson-Reyes (106934); youtube: no exact channel; closest is Anjelah Johnson-Reyes (UCw4A0C1xVVfGnw7ZVZF0xhQ)'
+  - slug: anjelah-johnson-reyes
+    name: Anjelah Johnson-Reyes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: anjelah-johnsons-one
+    name: Anjelah Johnson's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: anthony-jeselnik
     name: Anthony Jeselnik
     aliases: []
@@ -222,6 +509,13 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: aravind-sa
+    name: Aravind SA
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ari-shaffir
     name: Ari Shaffir
     aliases: []
@@ -230,6 +524,41 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: ari-shaffirs-double-one
+    name: Ari Shaffir's double one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ashley-gavin
+    name: Ashley Gavin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: atsuko-okatsuka
+    name: Atsuko Okatsuka
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: austin-nasso
+    name: Austin Nasso
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: austin-torelli
+    name: Austin Torelli
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ayo-edebiri
     name: Ayo Edebiri
     aliases: []
@@ -251,6 +580,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bebe-zahara-benet
+    name: BeBe Zahara Benet
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-boutwell
+    name: Ben Boutwell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-elton
+    name: Ben Elton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-hunter
+    name: Ben Hunter
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-katzner
+    name: Ben Katzner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-roy
+    name: Ben Roy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: benny-feldman
     name: Benny Feldman
     aliases: []
@@ -265,6 +636,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bernie-wood
+    name: Bernie Wood
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: bert-kreischer
+    name: Bert Kreischer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: best-of-stand
+    name: Best of Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: beth-stelling
     name: Beth Stelling
     aliases: []
@@ -279,6 +671,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bill-bailey
+    name: Bill Bailey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bill-bellamy
     name: Bill Bellamy
     aliases: []
@@ -293,6 +692,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bill-burr-presents
+    name: Bill Burr Presents
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: bill-burrs-one
+    name: Bill Burr's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bill-hicks
     name: Bill Hicks
     aliases: []
@@ -300,6 +713,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bill-maher
+    name: Bill Maher
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: billy-connolly
     name: Billy Connolly
     aliases: []
@@ -314,6 +734,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: blake-pavey
+    name: Blake Pavey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bo-burnham
     name: Bo Burnham
     aliases: []
@@ -321,6 +748,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bo-johnson
+    name: Bo Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bob-newhart
     name: Bob Newhart
     aliases: []
@@ -335,6 +769,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bob-sagets-one
+    name: Bob Saget's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: bob-the-drag-queen
+    name: Bob the Drag Queen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bobby-lee
     name: Bobby Lee
     aliases: []
@@ -359,6 +807,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: brad-howe
+    name: Brad Howe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brad-wenzel
+    name: Brad Wenzel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brad-williams
     name: Brad Williams
     aliases: []
@@ -366,6 +828,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: brandie-posey
+    name: Brandie Posey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brennan-lee-mulligan
+    name: Brennan Lee Mulligan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brent-weinbach
     name: Brent Weinbach
     aliases: []
@@ -373,6 +849,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: brent-weinbachs-one
+    name: Brent Weinbach's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bret-ernst
     name: Bret Ernst
     aliases: []
@@ -408,6 +891,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: brian-posehns-one
+    name: Brian Posehn's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brian-regan
     name: Brian Regan
     aliases: []
@@ -415,6 +905,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: brian-regans-one
+    name: Brian Regan's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brian-roe
+    name: Brian Roe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brittany-carney
+    name: Brittany Carney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brittany-schmitt
+    name: Brittany Schmitt
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brody-stevens
     name: Brody Stevens
     aliases: []
@@ -439,6 +957,62 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: bryan-callen
+    name: Bryan Callen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: bryan-callens-one
+    name: Bryan Callen's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: caitlin-peluffo
+    name: Caitlin Peluffo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: caleb-hearon
+    name: Caleb Hearon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: caleb-synans-special-30-on-comedy-central-stand
+    name: Caleb Synan's special 30 on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cameron-b-smith
+    name: Cameron B Smith
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cameron-esposito
+    name: Cameron Esposito
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: carmen-lagala
+    name: Carmen Lagala
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: casey-james-salengo
     name: Casey James Salengo
     aliases: []
@@ -446,6 +1020,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: catherine-cohen
+    name: Catherine Cohen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: cedric-the-entertainer
     name: Cedric The Entertainer
     aliases: []
@@ -453,6 +1034,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: celia-pacquolas-one
+    name: Celia Pacquola's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chad-daniels
     name: Chad Daniels
     aliases: []
@@ -460,6 +1048,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chad-ridgely
+    name: Chad Ridgely
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: chappelles-home-team
+    name: Chappelle's Home Team
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: charles-haycock
+    name: Charles Haycock
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: charlie-baker
+    name: Charlie Baker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: charlie-berens
+    name: Charlie Berens
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chelsea-handler
     name: Chelsea Handler
     aliases: []
@@ -474,6 +1097,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chico-bean
+    name: Chico Bean
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chloe-radcliffe
     name: Chloe Radcliffe
     aliases: []
@@ -488,6 +1118,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-delias-one
+    name: Chris D'Elia's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-distefano
     name: Chris Distefano
     aliases: []
@@ -512,6 +1149,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-gethards-one
+    name: Chris Gethard's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: chris-grace
+    name: Chris Grace
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-hardwick
     name: Chris Hardwick
     aliases: []
@@ -519,6 +1170,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-parker
+    name: Chris Parker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-porter
     name: Chris Porter
     aliases: []
@@ -529,6 +1187,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: chris-ramsey
+    name: Chris Ramsey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-redd
     name: Chris Redd
     aliases: []
@@ -536,6 +1201,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-redds-special-the-half-hour-on-comedy-central-stand
+    name: Chris Redd's special The Half Hour on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-rock
     name: Chris Rock
     aliases: []
@@ -543,6 +1215,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-rocks-special-total-blackout
+    name: Chris Rock's special Total Blackout
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: chris-spencer
+    name: Chris Spencer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-tucker
     name: Chris Tucker
     aliases: []
@@ -550,6 +1236,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chris-weirs-special-chris-weir
+    name: Chris Weir's special Chris Weir
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: christina-catherine-martinez
+    name: Christina Catherine Martinez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: christina-pazsitzkys-one
+    name: Christina Pazsitzky's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: christopher-titus
     name: Christopher Titus
     aliases: []
@@ -557,6 +1264,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: claudia-oshry
+    name: Claudia Oshry
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cliff-cash
+    name: Cliff Cash
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cody-clarke
+    name: Cody Clarke
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: colin-jost
     name: Colin Jost
     aliases: []
@@ -578,6 +1306,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: conrad-molden
+    name: Conrad Molden
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: craig-ferguson
     name: Craig Ferguson
     aliases: []
@@ -585,6 +1320,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: craig-fergusons-one
+    name: Craig Ferguson's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: cristela-alonzo
     name: Cristela Alonzo
     aliases: []
@@ -592,6 +1334,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: cristela-alonzos-one
+    name: Cristela Alonzo's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: d-l-hughley
+    name: D. L. Hughley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: damien-power
+    name: Damien Power
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dan-cummins
     name: Dan Cummins
     aliases: []
@@ -599,6 +1362,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dan-cumminss-one
+    name: Dan Cummins's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dan-mintz
     name: Dan Mintz
     aliases: []
@@ -627,6 +1397,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dane-cook
+    name: Dane Cook
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: daniel-kitson
     name: Daniel Kitson
     aliases: []
@@ -634,6 +1411,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: daniel-muggleton
+    name: Daniel Muggleton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: daniel-sloss
     name: Daniel Sloss
     aliases: []
@@ -662,6 +1446,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dara-o-briain
+    name: Dara Ó Briain
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: darcy-michael
+    name: Darcy Michael
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: darienne-lake
+    name: Darienne Lake
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dave-attell
     name: Dave Attell
     aliases: []
@@ -676,6 +1481,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dave-chappelles-one
+    name: Dave Chappelle's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dave-chappelles-special-8
+    name: Dave Chappelle's special 8
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dave-chappelles-two-one
+    name: Dave Chappelle's two one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dave-hughes
+    name: Dave Hughes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dave-merheje
+    name: Dave Merheje
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: david-brenner
     name: David Brenner
     aliases: []
@@ -728,6 +1568,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: demi-adejuyigbe
+    name: Demi Adejuyigbe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: denis-leary
     name: Denis Leary
     aliases: []
@@ -749,6 +1596,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: deray-daviss-one
+    name: DeRay Davis's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: derrick-stroup
+    name: Derrick Stroup
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: des-bishop
     name: Des Bishop
     aliases: []
@@ -756,6 +1617,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: diane-spencers-one
+    name: Diane Spencer's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dina-hashem
     name: Dina Hashem
     aliases: []
@@ -770,6 +1638,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: don-rickles
+    name: Don Rickles
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: donald-glover
     name: Donald Glover
     aliases: []
@@ -787,6 +1662,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: doug-mellards-album-fart-safari-2
+    name: Doug Mellard's album Fart Safari 2
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: doug-mellards-album-fart-safari-3
+    name: Doug Mellard's album Fart Safari 3
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: doug-stanhope
     name: Doug Stanhope
     aliases: []
@@ -794,6 +1683,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: doug-stanhopes-one
+    name: Doug Stanhope's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dov-davidoff
     name: Dov Davidoff
     aliases: []
@@ -808,6 +1704,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: drew-michael
+    name: Drew Michael
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dudesys-special-george-carlin
+    name: Dudesy's special George Carlin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: duncan-trussell
     name: Duncan Trussell
     aliases: []
@@ -822,8 +1732,22 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dylan-morans-special-dr-cosmos-live
+    name: Dylan Moran's special Dr Cosmos live
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dyon-brooks
     name: Dyon Brooks
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: earthquake
+    name: Earthquake
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -836,6 +1760,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ed-gamble
+    name: Ed Gamble
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ed-night
+    name: Ed Night
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: eddie-griffin
     name: Eddie Griffin
     aliases: []
@@ -867,6 +1805,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: edy-modica
+    name: Edy Modica
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ellen-degeneres
     name: Ellen Degeneres
     aliases: []
@@ -888,6 +1833,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: emily-wilson
+    name: Emily Wilson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: emmy-blotnick
     name: Emmy Blotnick
     aliases: []
@@ -909,6 +1861,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: eric-rushton
+    name: Eric Rushton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: erik-griffins-one
+    name: Erik Griffin's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: eugene-mirman
     name: Eugene Mirman
     aliases: []
@@ -916,6 +1882,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: evan-hull
+    name: Evan Hull
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: fahim-anwar
     name: Fahim Anwar
     aliases: []
@@ -923,6 +1896,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: fahim-anwars-one
+    name: Fahim Anwar's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: felipe-esparzas-one
+    name: Felipe Esparza's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: fern-brady
     name: Fern Brady
     aliases: []
@@ -930,6 +1917,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: fin-taylor
+    name: Fin Taylor
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: finesse-mitchell
     name: Finesse Mitchell
     aliases: []
@@ -937,6 +1931,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: finlay-christie
+    name: Finlay Christie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: flip-wilson
     name: Flip Wilson
     aliases: []
@@ -965,6 +1966,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: frankie-quinones
+    name: Frankie Quiñones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: freddie-prinze
     name: Freddie Prinze
     aliases: []
@@ -979,6 +1987,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: gabriel-iglesias
+    name: Gabriel Iglesias
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gabriel-rutledge
+    name: Gabriel Rutledge
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gad-elmalehs-one
+    name: Gad Elmaleh's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: garfunkel-and-oates
     name: Garfunkel and Oates
     aliases: []
@@ -996,6 +2025,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: gary-owen
+    name: Gary Owen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: gavin-matts
     name: Gavin Matts
     aliases: []
@@ -1027,6 +2063,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: george-civeris
+    name: George Civeris
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: george-lopezs-one
+    name: George Lopez's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: george-wallace
     name: George Wallace
     aliases: []
@@ -1037,6 +2087,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: gerry-dee
+    name: Gerry Dee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: gianmarco-soresi
     name: Gianmarco Soresi
     aliases: []
@@ -1065,6 +2122,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: gina-yasheres-one
+    name: Gina Yashere's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ginger-minj
+    name: Ginger Minj
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: godfrey
     name: Godfrey
     aliases: []
@@ -1075,6 +2146,20 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: grace-jarvis
+    name: Grace Jarvis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: graham-kay
+    name: Graham Kay
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: greg-behrendt
     name: Greg Behrendt
     aliases: []
@@ -1117,6 +2202,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: guy-montgomery
+    name: Guy Montgomery
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: h-foley
+    name: H. Foley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: hampton-yount
     name: Hampton Yount
     aliases: []
@@ -1124,6 +2223,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: hank-green
+    name: Hank Green
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: hannah-berner
+    name: Hannah Berner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: hannah-einbinder
+    name: Hannah Einbinder
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: hannah-gadsby
+    name: Hannah Gadsby
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: hannibal-buress
     name: Hannibal Buress
     aliases: []
@@ -1152,6 +2279,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: hasan-minhajs-one
+    name: Hasan Minhaj's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: hazel-brugger
+    name: Hazel Brugger
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: heather-mcmahan
     name: Heather McMahan
     aliases: []
@@ -1173,6 +2314,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: horatio-gould
+    name: Horatio Gould
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: howard-kremer
     name: Howard Kremer
     aliases: []
@@ -1180,6 +2328,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ian-abramson
+    name: Ian Abramson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ian-edwards
     name: Ian Edwards
     aliases: []
@@ -1187,6 +2342,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ian-edwards-special-bill-burr-presents-iantalk
+    name: Ian Edwards' special Bill Burr Presents Iantalk
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ian-karmel
     name: Ian Karmel
     aliases: []
@@ -1201,6 +2363,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ian-laras-special-growing-shame-on-comedy-central-stand
+    name: Ian Lara's special Growing Shame on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ilana-glazer
+    name: Ilana Glazer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: iliza-shlesinger
     name: Iliza Shlesinger
     aliases: []
@@ -1208,6 +2384,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: isabel-hagen
+    name: Isabel Hagen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ismael-loutfis-special-sound-it-out-on-comedy-central-stand
+    name: Ismael Loutfi's special Sound It Out on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: j-b-ball
+    name: J.B. Ball
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: j-p-mcdade
+    name: J.P. McDade
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jack-barry
+    name: Jack Barry
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jack-dee
+    name: Jack Dee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jack-whitehall
     name: Jack Whitehall
     aliases: []
@@ -1215,6 +2433,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jack-whitehalls-one
+    name: Jack Whitehall's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jackie-kashian
     name: Jackie Kashian
     aliases: []
@@ -1243,6 +2468,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jake-schick
+    name: Jake Schick
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: james-acaster
     name: James Acaster
     aliases: []
@@ -1250,6 +2482,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: james-acasters-special-cold-lasagne-hate-myself-1999-is-live
+    name: James Acaster's special Cold Lasagne Hate Myself 1999 is live
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: james-davis
     name: James Davis
     aliases: []
@@ -1277,6 +2516,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: jane-fonda
+    name: Jane Fonda
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: janeane-garofalo
     name: Janeane Garofalo
     aliases: []
@@ -1298,6 +2544,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: jared-freid
+    name: Jared Freid
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jason-cheny
     name: Jason Cheny
     aliases: []
@@ -1305,6 +2558,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jason-manford
+    name: Jason Manford
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jason-salmon
     name: Jason Salmon
     aliases: []
@@ -1319,6 +2579,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jatty-robinson
+    name: Jatty Robinson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jay-jurden
+    name: Jay Jurden
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jay-larson
     name: Jay Larson
     aliases: []
@@ -1343,6 +2617,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jeff-arcuri
+    name: Jeff Arcuri
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-dunham
+    name: Jeff Dunham
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-dunhams-one
+    name: Jeff Dunham's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-dunhams-special-scrooged
+    name: Jeff Dunham's special Scrooged
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-dye
+    name: Jeff Dye
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-foxworthy
+    name: Jeff Foxworthy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jeff-garlin
     name: Jeff Garlin
     aliases: []
@@ -1350,6 +2666,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jeff-innocent
+    name: Jeff Innocent
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-ross
+    name: Jeff Ross
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-scheen
+    name: Jeff Scheen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jen-kirkman
+    name: Jen Kirkman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jen-kirkmans-one
+    name: Jen Kirkman's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jena-friedman
     name: Jena Friedman
     aliases: []
@@ -1364,6 +2715,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jenny-tian
+    name: Jenny Tian
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jenny-zigrino
     name: Jenny Zigrino
     aliases: []
@@ -1371,6 +2729,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jeremiah-watkins
+    name: Jeremiah Watkins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeremy-baer
+    name: Jeremy Baer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jermaine-fowler
     name: Jermaine Fowler
     aliases: []
@@ -1385,6 +2757,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jerrod-carmichaels-one
+    name: Jerrod Carmichael's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jerry-seinfeld
     name: Jerry Seinfeld
     aliases: []
@@ -1392,6 +2771,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jerry-seinfelds-one
+    name: Jerry Seinfeld's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jesse-joyce
     name: Jesse Joyce
     aliases: []
@@ -1413,6 +2799,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jiaoying-summers
+    name: Jiaoying Summers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jim-breuer
     name: Jim Breuer
     aliases: []
@@ -1434,6 +2827,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jim-gaffigans-one
+    name: Jim Gaffigan's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jim-jefferies
     name: Jim Jefferies
     aliases: []
@@ -1448,6 +2848,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jim-nortons-one
+    name: Jim Norton's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jimeoin
+    name: Jimeoin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jimmy-carr
     name: Jimmy Carr
     aliases: []
@@ -1469,6 +2883,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jin-hao-li
+    name: Jin Hao Li
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jinkx-monsoon
+    name: Jinkx Monsoon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jo-brand
     name: Jo Brand
     aliases: []
@@ -1476,6 +2904,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jo-caulfield
+    name: Jo Caulfield
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jo-firestone
     name: Jo Firestone
     aliases: []
@@ -1490,6 +2925,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jo-koys-one
+    name: Jo Koy's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: joan-rivers
     name: Joan Rivers
     aliases: []
@@ -1504,6 +2946,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: joe-derosas-one
+    name: Joe DeRosa's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-dombrowski
+    name: Joe Dombrowski
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-gatto
+    name: Joe Gatto
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-kwaczala
+    name: Joe Kwaczala
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: joe-list
     name: Joe List
     aliases: []
@@ -1518,6 +2988,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: joe-mandes-one
+    name: Joe Mande's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-pera
+    name: Joe Pera
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-rogan
+    name: Joe Rogan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: joe-zimmerman
     name: Joe Zimmerman
     aliases: []
@@ -1532,6 +3023,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: joel-mchale
+    name: Joel McHale
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: john-bishop
+    name: John Bishop
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: john-caparulo
     name: John Caparulo
     aliases: []
@@ -1560,6 +3065,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: john-novosad
+    name: John Novosad
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: john-oliver
     name: John Oliver
     aliases: []
@@ -1581,6 +3093,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jon-richardson
+    name: Jon Richardson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jon-stewart
     name: Jon Stewart
     aliases: []
@@ -1598,6 +3117,27 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: jordan-gray
+    name: Jordan Gray
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jordan-jensen
+    name: Jordan Jensen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jordan-shanks
+    name: Jordan Shanks
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jordan-temple
     name: Jordan Temple
     aliases: []
@@ -1612,6 +3152,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: josh-glanc
+    name: Josh Glanc
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: josh-gondelman
     name: Josh Gondelman
     aliases: []
@@ -1619,6 +3166,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: josh-johnson
+    name: Josh Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: josh-jones
+    name: Josh Jones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: josh-weller
+    name: Josh Weller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jourdain-fisher
     name: Jourdain Fisher
     aliases: []
@@ -1626,6 +3194,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: judah-friedlander
+    name: Judah Friedlander
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: judah-friedlanders-one
+    name: Judah Friedlander's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: judd-apatow
     name: Judd Apatow
     aliases: []
@@ -1633,6 +3215,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: judd-apatows-one
+    name: Judd Apatow's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: judith-lucys-one
+    name: Judith Lucy's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: judy-gold
     name: Judy Gold
     aliases: []
@@ -1647,8 +3243,57 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: k
+    name: K
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: k-trevor-wilsons-half
+    name: K. Trevor Wilson's half
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kaleb-coopers-special-the-world-according-to-kaleb
+    name: Kaleb Cooper's special The World According to Kaleb
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kanan-gill
+    name: Kanan Gill
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: karthik-kumar
+    name: Karthik Kumar
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kate-berlant
     name: Kate Berlant
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: katherine-ryan
+    name: Katherine Ryan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: katherine-ryans-one
+    name: Katherine Ryan's one
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1668,6 +3313,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: katie-boyle
+    name: Katie Boyle
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: katt-williams
+    name: Katt Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: keith-robinson
     name: Keith Robinson
     aliases: []
@@ -1675,6 +3334,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: kelsey-cook
+    name: Kelsey Cook
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ken-jeong
+    name: Ken Jeong
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kenny-sebastian
+    name: Kenny Sebastian
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kevin-brennan
     name: Kevin Brennan
     aliases: []
@@ -1685,6 +3365,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: kevin-bridges
+    name: Kevin Bridges
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kevin-hart
     name: Kevin Hart
     aliases: []
@@ -1709,6 +3396,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: kevin-james-doyle
+    name: Kevin James Doyle
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kevin-meaney
     name: Kevin Meaney
     aliases: []
@@ -1730,6 +3424,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: kevin-smith
+    name: Kevin Smith
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kountry-wayne
+    name: Kountry Wayne
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kristen-schaal
     name: Kristen Schaal
     aliases: []
@@ -1737,6 +3445,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: kristin-key
+    name: Kristin Key
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kumail-nanjiani
     name: Kumail Nanjiani
     aliases: []
@@ -1751,6 +3466,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: kurt-braunohlers-one
+    name: Kurt Braunohler's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kurtis-conners-45
+    name: Kurtis Conner's 45
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kyle-kinane
     name: Kyle Kinane
     aliases: []
@@ -1772,6 +3501,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lara-beitz
+    name: Lara Beitz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lara-ricote
+    name: Lara Ricote
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: larry-dean
+    name: Larry Dean
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: larry-miller
     name: Larry Miller
     aliases: []
@@ -1782,6 +3532,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: larry-the-cable-guy
+    name: Larry the Cable Guy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: laurie-kilmartin
     name: Laurie Kilmartin
     aliases: []
@@ -1796,6 +3553,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lavell-crawfords-one
+    name: Lavell Crawford's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: leanne-morgan
+    name: Leanne Morgan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: lee-evans
     name: Lee Evans
     aliases: []
@@ -1803,6 +3574,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lee-su
+    name: Lee Su
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: lenny-bruce
     name: Lenny Bruce
     aliases: []
@@ -1810,6 +3588,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: leo-reich
+    name: Leo Reich
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: leslie-jones
+    name: Leslie Jones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: leslie-liao
+    name: Leslie Liao
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lewis-black
+    name: Lewis Black
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lewis-garnham
+    name: Lewis Garnham
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: lil-rel-howery
     name: Lil Rel Howery
     aliases: []
@@ -1817,6 +3630,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lily-tomlin
+    name: Lily Tomlin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lisa-ann-walter
+    name: Lisa Ann Walter
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: liz-miele
     name: Liz Miele
     aliases: []
@@ -1831,6 +3658,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lloyd-langford
+    name: Lloyd Langford
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: london-hughess-special-london-hughes
+    name: London Hughes's special London Hughes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: lou-sanders
     name: Lou Sanders
     aliases: []
@@ -1845,6 +3686,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: louis-c-k
+    name: Louis C.K.
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: louis-c-k-s-one
+    name: Louis C.K.'s one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: louis-ck
     name: Louis CK
     aliases: []
@@ -1859,6 +3714,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: luis-j-gomez
+    name: Luis J. Gomez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: luisa-omielan
+    name: Luisa Omielan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: luke-heggie
+    name: Luke Heggie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: luke-null
+    name: Luke Null
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: luke-severeid
+    name: Luke Severeid
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lynne-koplitzs-one
+    name: Lynne Koplitz's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mae-martin
     name: Mae Martin
     aliases: []
@@ -1873,6 +3770,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: maggie-faris
+    name: Maggie Faris
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mal-hall
+    name: Mal Hall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: marc-jennings
+    name: Marc Jennings
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: marc-maron
     name: Marc Maron
     aliases: []
@@ -1880,6 +3798,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: marc-marons-one
+    name: Marc Maron's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: marcella-arguello
+    name: Marcella Arguello
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: marcello-hernandez
+    name: Marcello Hernández
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: marcia-belsky
     name: Marcia Belsky
     aliases: []
@@ -1887,6 +3826,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: marcus-d-wiley
+    name: Marcus D. Wiley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: margaret-cho
     name: Margaret Cho
     aliases: []
@@ -1901,6 +3847,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: maria-bamfords-one
+    name: Maria Bamford's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mark-chalifoux
+    name: Mark Chalifoux
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mark-normand
     name: Mark Normand
     aliases: []
@@ -1908,6 +3868,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mark-normands-one
+    name: Mark Normand's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mark-twain-prize-award
+    name: Mark Twain Prize Award
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: marlon-wayans
     name: Marlon Wayans
     aliases: []
@@ -1915,6 +3889,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: marlon-wayans-presents
+    name: Marlon Wayans Presents
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: marlon-wayans-special-woke
+    name: Marlon Wayan's special Woke
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: martin-lawrence
     name: Martin Lawrence
     aliases: []
@@ -1929,6 +3917,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mary-beth-barone
+    name: Mary Beth Barone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: matt-besser
     name: Matt Besser
     aliases: []
@@ -1964,6 +3959,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: matt-mccusker
+    name: Matt McCusker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: matt-rife
+    name: Matt Rife
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: matt-rifes-special-lucid
+    name: Matt Rife's special Lucid
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: matt-rifes-special-unwrapped
+    name: Matt Rife's special Unwrapped
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: matt-stewart
+    name: Matt Stewart
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: matt-wright
+    name: Matt Wright
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: matteo-lane
     name: Matteo Lane
     aliases: []
@@ -1978,6 +4015,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mayce-galoni
+    name: Mayce Galoni
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: maz-jobrani
     name: Maz Jobrani
     aliases: []
@@ -1985,6 +4029,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: maz-jobranis-one
+    name: Maz Jobrani's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: megan-gailey
     name: Megan Gailey
     aliases: []
@@ -1992,6 +4043,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: megan-mullallys-one
+    name: Megan Mullally's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: melanie-bracewell
+    name: Melanie Bracewell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: melissa-villasenor
     name: Melissa Villaseñor
     aliases: []
@@ -2002,6 +4067,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: mervyn-rozz
+    name: Mervyn Rozz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: michael-che
     name: Michael Che
     aliases: []
@@ -2009,6 +4081,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: michael-kayne
+    name: Michael Kayne
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: michael-kosta
     name: Michael Kosta
     aliases: []
@@ -2023,6 +4102,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: michael-mcintyres-special-25th-year-stand
+    name: Michael McIntyre's special 25th Year Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: michelle-buteau
     name: Michelle Buteau
     aliases: []
@@ -2030,6 +4116,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: michelle-buteaus-special-a-buteau
+    name: Michelle Buteau's special A Buteau
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: michelle-wolf
     name: Michelle Wolf
     aliases: []
@@ -2037,6 +4130,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: michelle-wolfs-one
+    name: Michelle Wolf's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mihai-bobonete
+    name: Mihai Bobonete
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-birbiglia
     name: Mike Birbiglia
     aliases: []
@@ -2044,6 +4151,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mike-birbiglias-one
+    name: Mike Birbiglia's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mike-birbiglias-special-good-one
+    name: Mike Birbiglia's special Good One
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mike-bubbins
+    name: Mike Bubbins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mike-cannon
+    name: Mike Cannon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-destefano
     name: Mike Destefano
     aliases: []
@@ -2051,6 +4186,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mike-epps
+    name: Mike Epps
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: mike-falzone
+    name: Mike Falzone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-feeney
     name: Mike Feeney
     aliases: []
@@ -2093,6 +4242,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: milo-edwards
+    name: Milo Edwards
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: milton-jones
     name: Milton Jones
     aliases: []
@@ -2114,6 +4270,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mo-gilligan
+    name: Mo Gilligan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: modi
+    name: Modi
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: moms-mabley
     name: Moms Mabley
     aliases: []
@@ -2131,6 +4301,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: morgan-jay
+    name: Morgan Jay
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: morgan-murphy
     name: Morgan Murphy
     aliases: []
@@ -2138,6 +4315,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: morgana-oreilly
+    name: Morgana O'Reilly
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mort-sahl
     name: Mort Sahl
     aliases: []
@@ -2173,6 +4357,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: natalia-valdebenitos-one
+    name: Natalia Valdebenito's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: natasha-leggero
     name: Natasha Leggero
     aliases: []
@@ -2194,6 +4385,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: nate-jackson
+    name: Nate Jackson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nathan-macintosh
     name: Nathan Macintosh
     aliases: []
@@ -2201,6 +4399,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: naveen-richard
+    name: Naveen Richard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: neal-brennan
     name: Neal Brennan
     aliases: []
@@ -2208,6 +4413,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: neal-brennans-one
+    name: Neal Brennan's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: neil-patrick-harris
+    name: Neil Patrick Harris
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-cannons-album-version-of-his-special-stand
+    name: Nick Cannon's album version of his special Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-cannons-one
+    name: Nick Cannon's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-di-paolos-one
+    name: Nick Di Paolo's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-guerra
+    name: Nick Guerra
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nick-kroll
     name: Nick Kroll
     aliases: []
@@ -2215,6 +4462,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: nick-offerman
+    name: Nick Offerman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nick-swardson
     name: Nick Swardson
     aliases: []
@@ -2229,6 +4483,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: nicola-dempsey
+    name: Nicola Dempsey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nicole-byer
+    name: Nicole Byer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nikki-glaser
     name: Nikki Glaser
     aliases: []
@@ -2243,6 +4511,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: nina-dicker
+    name: Nina Dicker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nina-g
+    name: Nina G
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nish-kumar
+    name: Nish Kumar
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nore-davis
     name: Nore Davis
     aliases: []
@@ -2257,6 +4546,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: norm-macdonalds-one
+    name: Norm Macdonald's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: olga-koch
+    name: Olga Koch
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: oliver-coleman
+    name: Oliver Coleman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ophira-eisenbergs-one
+    name: Ophira Eisenberg's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: owen-benjamin
+    name: Owen Benjamin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: pablo-francisco
     name: Pablo Francisco
     aliases: []
@@ -2278,6 +4602,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: patrick-hastie
+    name: Patrick Hastie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: patton-oswalt
     name: Patton Oswalt
     aliases: []
@@ -2285,6 +4616,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: patton-oswalts-one
+    name: Patton Oswalt's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: paul-chowdhry
+    name: Paul Chowdhry
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: paul-f-taylor
+    name: Paul F. Taylor
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: paul-f-tompkins
     name: Paul F. Tompkins
     aliases: []
@@ -2292,6 +4644,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: paul-foot
+    name: Paul Foot
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: paul-mooney
     name: Paul Mooney
     aliases: []
@@ -2299,6 +4658,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: paul-reiser
+    name: Paul Reiser
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: paul-rodriguez
     name: Paul Rodriguez
     aliases: []
@@ -2320,6 +4686,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: peppermint
+    name: Peppermint
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: pete-davidson
     name: Pete Davidson
     aliases: []
@@ -2327,6 +4700,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: pete-davidson-presents
+    name: Pete Davidson Presents
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: pete-holmes
     name: Pete Holmes
     aliases: []
@@ -2334,6 +4714,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: peter-serafinowiczs-special-brian-butterfield
+    name: Peter Serafinowicz's special Brian Butterfield
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: phil-hanley
     name: Phil Hanley
     aliases: []
@@ -2341,6 +4728,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: phil-wang
+    name: Phil Wang
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: phoebe-robinson
     name: Phoebe Robinson
     aliases: []
@@ -2355,6 +4749,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: pierce-campion
+    name: Pierce Campion
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: pierre-novellie
+    name: Pierre Novellie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: pink-foxx
+    name: Pink Foxx
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: punkie-johnson
     name: Punkie Johnson
     aliases: []
@@ -2362,6 +4777,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: raanan-hershberg
+    name: Raanan Hershberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rachel-bradley
+    name: Rachel Bradley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rachel-feinstein
     name: Rachel Feinstein
     aliases: []
@@ -2376,6 +4805,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: raditya-dika
+    name: Raditya Dika
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rae-gray
+    name: Rae Gray
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rafael-barbosa
     name: Rafael Barbosa
     aliases: []
@@ -2383,6 +4826,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rahul-subramanian
+    name: Rahul Subramanian
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rajiv-satyal
+    name: Rajiv Satyal
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ralph-barbosa
+    name: Ralph Barbosa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ralph-barbosa-jr
     name: Ralph Barbosa Jr
     aliases: []
@@ -2397,6 +4861,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ramy-youssef
+    name: Ramy Youssef
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ray-oleary
+    name: Ray O'Leary
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ray-romano
     name: Ray Romano
     aliases: []
@@ -2404,6 +4882,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rebellcomedy
+    name: RebellComedy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: redd-foxx
     name: Redd Foxx
     aliases: []
@@ -2418,6 +4903,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: renee-gauthier
+    name: Renee Gauthier
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rhod-gilbert
+    name: Rhod Gilbert
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rhys-darby
     name: Rhys Darby
     aliases: []
@@ -2425,6 +4924,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rhys-james
+    name: Rhys James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rich-vos
     name: Rich Vos
     aliases: []
@@ -2460,6 +4966,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rick-mercer
+    name: Rick Mercer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ricky-gervais
+    name: Ricky Gervais
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rik-mayall
+    name: Rik Mayall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: riki-lindhome
     name: Riki Lindhome
     aliases: []
@@ -2474,6 +5001,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rob-schneider
+    name: Rob Schneider
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: robby-hoffman
+    name: Robby Hoffman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: robert-klein
     name: Robert Klein
     aliases: []
@@ -2495,6 +5036,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: robin-tran
+    name: Robin Tran
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: robin-williams
     name: Robin Williams
     aliases: []
@@ -2502,6 +5050,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rod-quantock
+    name: Rod Quantock
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rodney-carrington
+    name: Rodney Carrington
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rodney-carringtons-one
+    name: Rodney Carrington's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rodney-dangerfield
     name: Rodney Dangerfield
     aliases: []
@@ -2509,6 +5078,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rolling-stone-publishes-a-ranked-listicle-entitled-50-best-stand
+    name: Rolling Stone publishes a ranked listicle entitled 50 Best Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rome-davis
+    name: Rome Davis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ron-ervin
+    name: Ron Ervin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ron-funches
     name: Ron Funches
     aliases: []
@@ -2516,6 +5106,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ron-white
+    name: Ron White
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ronnie-adrian
+    name: Ronnie Adrian
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ronny-chieng
     name: Ronny Chieng
     aliases: []
@@ -2523,6 +5127,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rory-oneill
+    name: Rory O'Neill
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rory-scovel
     name: Rory Scovel
     aliases: []
@@ -2530,6 +5141,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: rory-scovels-one
+    name: Rory Scovel's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: roseanne-barr
     name: Roseanne Barr
     aliases: []
@@ -2558,6 +5176,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: roy-chubby-brown
+    name: Roy 'Chubby' Brown
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: roy-wood-jr
     name: Roy Wood Jr.
     aliases: []
@@ -2565,6 +5190,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: roy-wood-jr-s-one
+    name: Roy Wood Jr.'s one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rufat-agayev
+    name: Rufat Agayev
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: russell-brand
+    name: Russell Brand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: russell-howards-one
+    name: Russell Howard's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: russell-peters
     name: Russell Peters
     aliases: []
@@ -2572,6 +5225,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: ryan-goldsher
+    name: Ryan Goldsher
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ryan-hamilton
+    name: Ryan Hamilton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ryan-hamiltons-one
+    name: Ryan Hamilton's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sal-vulcano
+    name: Sal Vulcano
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sam-burns
+    name: Sam Burns
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sam-jay
     name: Sam Jay
     aliases: []
@@ -2586,6 +5274,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sam-miller
+    name: Sam Miller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sam-morril
     name: Sam Morril
     aliases: []
@@ -2593,6 +5288,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sam-nicoresti
+    name: Sam Nicoresti
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sam-petersen
+    name: Sam Petersen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sam-rager
+    name: Sam Rager
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sam-simmonss-one
+    name: Sam Simmons's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sam-tallent
     name: Sam Tallent
     aliases: []
@@ -2600,6 +5323,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: samantha-hale
+    name: Samantha Hale
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sami-hedberg
+    name: Sami Hedberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sammy-obeid
+    name: Sammy Obeid
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: santiago-angel
+    name: Santiago Angel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sara-huntington
+    name: Sara Huntington
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sara-schaefer
     name: Sara Schaefer
     aliases: []
@@ -2607,6 +5365,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sarah-sherman
+    name: Sarah Sherman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sarah-shermans-special-sarah-squirm
+    name: Sarah Sherman’s special Sarah Squirm
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sarah-silverman
     name: Sarah Silverman
     aliases: []
@@ -2614,6 +5386,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sarah-silvermans-one
+    name: Sarah Silverman's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sarah-tollemache
     name: Sarah Tollemache
     aliases: []
@@ -2628,6 +5407,27 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sasheer-zamatas-one
+    name: Sasheer Zamata's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sashi-perera
+    name: Sashi Perera
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sean-choolburra
+    name: Sean Choolburra
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sean-lock
     name: Sean Lock
     aliases: []
@@ -2656,6 +5456,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: seann-walsh
+    name: Seann Walsh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sebastian-maniscalco
     name: Sebastian Maniscalco
     aliases: []
@@ -2663,6 +5470,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: seth-meyers
+    name: Seth Meyers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: shalewa-sharpe
     name: Shalewa Sharpe
     aliases: []
@@ -2684,6 +5498,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: shane-torres
+    name: Shane Torres
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: shayne-smith
+    name: Shayne Smith
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sheng-wang
+    name: Sheng Wang
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sierra-katow
+    name: Sierra Katow
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sinbad
     name: Sinbad
     aliases: []
@@ -2691,6 +5533,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sindhu-vee
+    name: Sindhu Vee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sofie-hagen
+    name: Sofie Hagen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: solomon-georgio
     name: Solomon Georgio
     aliases: []
@@ -2698,6 +5554,34 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sommore
+    name: Sommore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stand-out
+    name: Stand Out
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stavros-halkias
+    name: Stavros Halkias
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: steph-tolev
+    name: Steph Tolev
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: stephen-colbert
     name: Stephen Colbert
     aliases: []
@@ -2712,6 +5596,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: steve-byrnes-one
+    name: Steve Byrne's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: steve-coogan
     name: Steve Coogan
     aliases: []
@@ -2719,6 +5610,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: steve-delaney
+    name: Steve Delaney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: steve-harvey
     name: Steve Harvey
     aliases: []
@@ -2733,6 +5631,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: steven-rogers
+    name: Steven Rogers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: steven-wright
     name: Steven Wright
     aliases: []
@@ -2740,8 +5645,50 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: stewart-lee
+    name: Stewart Lee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stewart-lees-special-basic-lee
+    name: Stewart Lee's special Basic Lee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stoner-rob
+    name: Stoner Rob
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stuart-laws
+    name: Stuart Laws
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: subhah-agarwal
+    name: Subhah Agarwal
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sumukhi-suresh
     name: Sumukhi Suresh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: susie-mccabe
+    name: Susie McCabe
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2754,8 +5701,29 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: t-j-millers-one
+    name: T.J. Miller's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tammy-pescatelli
     name: Tammy Pescatelli
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tamsyn-kelly
+    name: Tamsyn Kelly
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: taylor-tomlinson
+    name: Taylor Tomlinson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2768,6 +5736,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: taylor-williamsons-one
+    name: Taylor Williamson's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ted-alexandro
     name: Ted Alexandro
     aliases: []
@@ -2777,6 +5752,27 @@ comedians:
     tracked: true
   - slug: tevin-mandal-williams
     name: Tevin 'Mandal' Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: the-hall
+    name: The Hall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: the-improv
+    name: The Improv
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: the-lucas-brothers-one
+    name: The Lucas Brothers' one
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2809,6 +5805,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: tiffany-haddishs-one
+    name: Tiffany Haddish's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tig-notaro
     name: Tig Notaro
     aliases: []
@@ -2823,6 +5826,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tim-hawkins
+    name: Tim Hawkins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tim-minchin
+    name: Tim Minchin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: todd-barry
     name: Todd Barry
     aliases: []
@@ -2830,6 +5847,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: todd-barrys-one
+    name: Todd Barry's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: todd-glass
     name: Todd Glass
     aliases: []
@@ -2837,6 +5861,48 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tom-achilles
+    name: Tom Achilles
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-allen
+    name: Tom Allen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-ballards-one
+    name: Tom Ballard's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-cashman
+    name: Tom Cashman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-gleesons-one
+    name: Tom Gleeson's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-green
+    name: Tom Green
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tom-papa
     name: Tom Papa
     aliases: []
@@ -2858,6 +5924,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tom-walkers-one
+    name: Tom Walker's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tommy-johnagin
     name: Tommy Johnagin
     aliases: []
@@ -2865,6 +5938,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tony-hinchcliffe
+    name: Tony Hinchcliffe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tony-woods
     name: Tony Woods
     aliases: []
@@ -2872,6 +5952,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: torching-2024
+    name: Torching 2024
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tracey-ullman
     name: Tracey Ullman
     aliases: []
@@ -2886,6 +5973,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tracy-morgans-one
+    name: Tracy Morgan's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: trevor-moore
     name: Trevor Moore
     aliases: []
@@ -2900,6 +5994,41 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: trevor-noahs-one
+    name: Trevor Noah's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: trevor-noahs-special-trevor-noah
+    name: Trevor Noah's special Trevor Noah
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: urzila-carlson
+    name: Urzila Carlson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: vanessa-gonzalez
+    name: Vanessa Gonzalez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: verified-stand
+    name: Verified Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: vic-henley
     name: Vic Henley
     aliases: []
@@ -2921,6 +6050,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: vir-dass-one
+    name: Vir Das's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: vittorio-angelone
+    name: Vittorio Angelone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: wanda-sykes
     name: Wanda Sykes
     aliases: []
@@ -2928,6 +6071,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: whitmer-thomas
+    name: Whitmer Thomas
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: whitney-cummings
     name: Whitney Cummings
     aliases: []
@@ -2935,6 +6085,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: wil-andersons-one
+    name: Wil Anderson's one
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: will-miles
     name: Will Miles
     aliases: []
@@ -2942,6 +6099,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: will-wood
+    name: Will Wood
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: woody-allen
     name: Woody Allen
     aliases: []
@@ -2956,6 +6120,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: wyatt-feegrados-special-de
+    name: Wyatt Feegrado's special De
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: yamaneika-saunders
     name: Yamaneika Saunders
     aliases: []
@@ -2970,6 +6141,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: yedoye-travis
+    name: Yedoye Travis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: yedoye-traviss-special-bury-me-loose-on-comedy-central-stand
+    name: Yedoye Travis's special Bury Me Loose on Comedy Central Stand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: yvonne-orji
     name: Yvonne Orji
     aliases: []
@@ -2984,8 +6169,50 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: zach-peterson
+    name: Zach Peterson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zach-zimmerman
+    name: Zach Zimmerman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zach-zucker
+    name: Zach Zucker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: zainab-johnson
     name: Zainab Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zarna-garg
+    name: Zarna Garg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zoe-lyons
+    name: Zoe Lyons
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zoltan-kaszas
+    name: Zoltan Kaszas
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
