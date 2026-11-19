@@ -5,153 +5,198 @@
 #   flags:     things to check once (e.g. name shared with a musician). Set checked: true when done.
 #   needs_review: an unsure TMDB / YouTube match from `comedians resolve`. Fix the ID or clear it.
 comedians:
+  - slug: abby-howells
+    name: Abby Howells
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: adam-burke
     name: Adam Burke
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 3025686
+    youtube_channel_id: UCADweu9R-jG7x7cWwD5ebVw
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 10 people named Adam Burke (2000112, 5562055, 948709, 3685734, 6103211, 3025686, 5115903, 6103202, 5816244, 5122860); picked 3025686'
   - slug: adam-carolla
     name: Adam Carolla
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 76245
+    youtube_channel_id: UC7qCAvNXX0Pi05tufrDN0XQ
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 2 people named Adam Carolla (76245, 5867477); picked 76245'
   - slug: adam-cayton-holland
     name: Adam Cayton-Holland
     aliases: []
+    tmdb_id: 1431396
+    youtube_channel_id: UCsHKWwvwc-AyjbdVHf_GqCg
+    followed: false
+    tracked: true
+    resolve_attempted: '2026-11-19'
+  - slug: adam-conover
+    name: Adam Conover
+    aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: adam-newman
     name: Adam Newman
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1746467
+    youtube_channel_id: UCiYnc7ysI6SokAtHVdGsDgg
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 5 people named Adam Newman (1746467, 3971136, 4619966, 4571432, 4185007); picked 1746467'
   - slug: adam-ray
     name: Adam Ray
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1637555
+    youtube_channel_id: UCorWnGJoJI-FuMXmd-rusbw
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 2 people named Adam Ray (1637555, 2898495); picked 1637555'
   - slug: adam-rowe
     name: Adam Rowe
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1795138
+    youtube_channel_id: UCBSZlxZH7UDzRJ3kPKZzNrA
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 5 people named Adam Rowe (1795138, 2323306, 6474102, 2631728, 4475391); picked 1795138'
   - slug: adam-sandler
     name: Adam Sandler
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 19292
+    youtube_channel_id: UChpldE1hFH0dpoejqux7X6A
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 2 people named Adam Sandler (19292, 4247431); picked 19292'
   - slug: al-madrigal
     name: Al Madrigal
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 90534
+    youtube_channel_id: UCajiirO05HTBL5pnTfiqxJQ
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: albert-brooks
     name: Albert Brooks
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 13
+    youtube_channel_id: UCfpMq04EQI-2Yq6IJOr1ung
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 3 people named Albert Brooks (13, 2333452, 4871938); picked 13'
   - slug: ali-siddiq
     name: Ali Siddiq
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1988843
+    youtube_channel_id: UCp1m5biWDhP6ogRCpD-qKpw
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: ali-wong
     name: Ali Wong
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 591835
+    youtube_channel_id: UCdmqUB4ojJtA80qOOxn_Eng
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: alice-fraser
     name: Alice Fraser
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1514458
+    youtube_channel_id: UCWRYEB1anqB1_S2MZwKVYxA
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 2 people named Alice Fraser (1514458, 2584453); picked 1514458'
   - slug: allen-strickland-williams
     name: Allen Strickland Williams
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1639458
+    youtube_channel_id: UC3PVpfFeEQwCMhtbJltnllQ
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: alonzo-bodden
     name: Alonzo Bodden
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 159424
+    youtube_channel_id: UCIY90QHSFphUg82Lz_s2z1w
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: amanda-seales
     name: Amanda Seales
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1758158
+    youtube_channel_id: UCWvk51OkReierLT9UetU0SA
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: amy-schumer
     name: Amy Schumer
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 440414
+    youtube_channel_id: UCmc61a2M0IEPPtvXcjgfK2A
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: amy-silverberg
     name: Amy Silverberg
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 2600540
+    youtube_channel_id: UCdzSAcaSjAgv6rPDC_xHDOg
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: andrew-santino
     name: Andrew Santino
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1181310
+    youtube_channel_id: UCNGbPFX8UOm7qk6kvnHKr0w
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: andrew-schulz
     name: Andrew Schulz
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1880755
+    youtube_channel_id: UCLZc32yrTEMxH1ZO-6fKOzA
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: 5 people named Andrew Schulz (1880755, 2925957, 1487027, 2489410, 6447025); picked 1880755'
   - slug: andy-woodhull
     name: Andy Woodhull
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 3265832
+    youtube_channel_id: UCJv3gMAo3dWw3nW1KgE9ajw
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: andy-zaltzman
     name: Andy Zaltzman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 84294
     youtube_channel_id: null
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'youtube: no exact channel; closest is The Bugle (UCY9DZKa4SilQC4k9rhS3-5g)'
   - slug: anjelah-johnson
     name: Anjelah Johnson
     aliases: []
@@ -159,27 +204,32 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
+    needs_review: 'tmdb: no exact match; closest is Anjelah Johnson-Reyes (106934); youtube: no exact channel; closest is Anjelah Johnson-Reyes (UCw4A0C1xVVfGnw7ZVZF0xhQ)'
   - slug: anthony-jeselnik
     name: Anthony Jeselnik
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1224942
+    youtube_channel_id: UCgNLQb0HXIU2jspQAhISRYA
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: aparna-nancherla
     name: Aparna Nancherla
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1625231
+    youtube_channel_id: UCcnmaN-xdAZW9xreLuS42pg
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: ari-shaffir
     name: Ari Shaffir
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1137588
+    youtube_channel_id: UCkqNTF2SegipHCkwkBrq6hw
     followed: false
     tracked: true
+    resolve_attempted: '2026-11-19'
   - slug: ayo-edebiri
     name: Ayo Edebiri
     aliases: []
@@ -201,6 +251,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: benny-feldman
+    name: Benny Feldman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bernie-mac
     name: Bernie Mac
     aliases: []
@@ -365,6 +422,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: bron-lewis
+    name: Bron Lewis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: bruce-bruce
     name: Bruce Bruce
     aliases: []
@@ -410,6 +474,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: chloe-radcliffe
+    name: Chloe Radcliffe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chris-delia
     name: Chris D'Elia
     aliases: []
@@ -643,6 +714,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: deirdre-okane
+    name: Deirdre O'Kane
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: demetri-martin
     name: Demetri Martin
     aliases: []
@@ -744,6 +822,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: dyon-brooks
+    name: Dyon Brooks
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ed-byrne
     name: Ed Byrne
     aliases: []
@@ -911,6 +996,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: gavin-matts
+    name: Gavin Matts
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: geoff-tate
     name: Geoff Tate
     aliases: []
@@ -945,6 +1037,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: gianmarco-soresi
+    name: Gianmarco Soresi
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: gilbert-gottfried
     name: Gilbert Gottfried
     aliases: []
@@ -1053,6 +1152,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: heather-mcmahan
+    name: Heather McMahan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: helen-hong
     name: Helen Hong
     aliases: []
@@ -1116,6 +1222,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: jackie-kashians-special-alter
+    name: Jackie Kashian's special Alter
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jacqueline-novak
     name: Jacqueline Novak
     aliases: []
@@ -1147,6 +1260,13 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+  - slug: jamie-foxx
+    name: Jamie Foxx
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jamie-lee
     name: Jamie Lee
     aliases: []
@@ -1164,6 +1284,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: janelle-james
+    name: Janelle James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: janine-harouni
+    name: Janine Harouni
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jason-cheny
     name: Jason Cheny
     aliases: []
@@ -1513,6 +1647,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: kate-berlant
+    name: Kate Berlant
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kathleen-madigan
     name: Kathleen Madigan
     aliases: []
@@ -1690,6 +1831,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: lou-sanders
+    name: Lou Sanders
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: louie-anderson
     name: Louie Anderson
     aliases: []
@@ -1910,6 +2058,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mike-hanford
+    name: Mike Hanford
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-recine
     name: Mike Recine
     aliases: []
@@ -1917,6 +2072,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: mike-tyson
+    name: Mike Tyson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-vecchione
     name: Mike Vecchione
     aliases: []
@@ -2151,6 +2313,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: pauly-shores-special-road-comic
+    name: Pauly Shore's special Road Comic
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: pete-davidson
     name: Pete Davidson
     aliases: []
@@ -2466,6 +2635,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sean-mcloughlin
+    name: Sean McLoughlin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sean-oconnor
     name: Sean O'Connor
     aliases: []
@@ -2564,6 +2740,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: sumukhi-suresh
+    name: Sumukhi Suresh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: t-j-miller
     name: T.J. Miller
     aliases: []
@@ -2571,6 +2754,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tammy-pescatelli
+    name: Tammy Pescatelli
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: taylor-williamson
     name: Taylor Williamson
     aliases: []
@@ -2585,6 +2775,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: tevin-mandal-williams
+    name: Tevin 'Mandal' Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: the-sklar-brothers
     name: The Sklar Brothers
     aliases: []
@@ -2595,6 +2792,13 @@ comedians:
     flags:
       - looks like a group or band name
     checked: false
+  - slug: theo-von
+    name: Theo Von
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tiffany-haddish
     name: Tiffany Haddish
     aliases: []
@@ -2780,3 +2984,10 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+  - slug: zainab-johnson
+    name: Zainab Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false

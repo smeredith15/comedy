@@ -1,1 +1,48 @@
-{}
+{
+  "counts": {
+    "candidates_pending": 82,
+    "comedians_tracked": 387,
+    "created_this_run": 35,
+    "merged_this_run": 0,
+    "rejected_by_rules_this_run": 234,
+    "released": 33,
+    "specials": 35,
+    "upcoming": 2
+  },
+  "last_run": "2026-11-19T21:38:26+00:00",
+  "mode": "nightly",
+  "sources": {
+    "news": {
+      "status": "disabled"
+    },
+    "resolve": {
+      "attempted": 25,
+      "needs_review": 11,
+      "tmdb": 24,
+      "youtube": 23
+    },
+    "tmdb": {
+      "items": 41,
+      "seconds": 5.1,
+      "status": "ok"
+    },
+    "watchmode": {
+      "status": "disabled"
+    },
+    "wikipedia": {
+      "items": 3,
+      "seconds": 0.3,
+      "status": "ok"
+    },
+    "youtube_feeds": {
+      "items": 261,
+      "seconds": 3.9,
+      "status": "ok"
+    },
+    "youtube_search": {
+      "items": 46,
+      "seconds": 1.1,
+      "status": "ok"
+    }
+  }
+}
