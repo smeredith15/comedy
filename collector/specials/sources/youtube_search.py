@@ -5,7 +5,7 @@ from __future__ import annotations
 import datetime as dt
 
 from . import Context, SourceSkipped
-from .youtube_api import API, key, video_candidate, video_details
+from .youtube_api import API, key, key_header, video_candidate, video_details
 
 
 def collect(ctx: Context) -> list[dict]:
@@ -24,7 +24,7 @@ def collect(ctx: Context) -> list[dict]:
                 "part": "snippet", "type": "video", "q": q, "order": "date",
                 "videoDuration": "long", "publishedAfter": after, "maxResults": 25,
                 "relevanceLanguage": ctx.config.scope.get("language", "en"),
-                "regionCode": ctx.config.scope.get("region", "US"), "key": k})
+                "regionCode": ctx.config.scope.get("region", "US")}, headers=key_header(k))
         except Exception as e:
             ctx.warn(f"youtube_search: {q!r}: {e}")
             continue

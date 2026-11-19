@@ -17,6 +17,11 @@ def key(ctx: Context) -> str | None:
     return ctx.env.get("YOUTUBE_API_KEY") or None
 
 
+def key_header(k: str) -> dict:
+    """Send the key as a header, never in the URL, so it can't end up in logs or meta.json."""
+    return {"X-goog-api-key": k}
+
+
 def video_details(ctx: Context, video_ids: list[str]) -> dict[str, dict]:
     """id -> {runtime_min, language, title, channel_id, published}. Empty without a key."""
     k = key(ctx)
@@ -26,7 +31,7 @@ def video_details(ctx: Context, video_ids: list[str]) -> dict[str, dict]:
     ids = list(dict.fromkeys(video_ids))
     for i in range(0, len(ids), 50):
         res = ctx.http.get_json(f"{API}/videos", params={
-            "part": "contentDetails,snippet", "id": ",".join(ids[i:i + 50]), "key": k})
+            "part": "contentDetails,snippet", "id": ",".join(ids[i:i + 50])}, headers=key_header(k))
         for v in res.get("items", []):
             sn = v.get("snippet") or {}
             out[v["id"]] = {
@@ -48,12 +53,12 @@ def find_channel(ctx: Context, name: str, handle: str | None = None) -> tuple[st
         return None, None
     if handle:
         res = ctx.http.get_json(f"{API}/channels", params={
-            "part": "snippet", "forHandle": handle.lstrip("@"), "key": k})
+            "part": "snippet", "forHandle": handle.lstrip("@")}, headers=key_header(k))
         items = res.get("items") or []
         if items:
             return items[0]["id"], None
     res = ctx.http.get_json(f"{API}/search", params={
-        "part": "snippet", "type": "channel", "q": name, "maxResults": 5, "key": k})
+        "part": "snippet", "type": "channel", "q": name, "maxResults": 5}, headers=key_header(k))
     items = res.get("items") or []
     want = norm(name)
     exact = [it for it in items if norm(it["snippet"].get("channelTitle") or it["snippet"].get("title", ""))

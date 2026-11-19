@@ -12,6 +12,19 @@ from ..ids import candidate_id
 from ..platforms import Platforms
 
 
+SECRET_VARS = ("TMDB_READ_TOKEN", "YOUTUBE_API_KEY", "WATCHMODE_API_KEY", "ANTHROPIC_API_KEY", "GITHUB_TOKEN")
+
+
+def redact(text: str, env: dict | None = None) -> str:
+    """Blank out any secret values that slipped into a message before it is logged or committed."""
+    env = env if env is not None else os.environ
+    for var in SECRET_VARS:
+        v = env.get(var)
+        if v and len(v) >= 8:
+            text = text.replace(v, "***")
+    return text
+
+
 class SourceSkipped(Exception):
     """Raised when a collector can't run (missing key, disabled for this mode)."""
 
@@ -36,7 +49,7 @@ class Context:
         return self._platforms
 
     def warn(self, msg: str) -> None:
-        self.log.append(msg)
+        self.log.append(redact(msg, self.env))
 
 
 def make_candidate(source: str, source_key: str, **fields) -> dict:

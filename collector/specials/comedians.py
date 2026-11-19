@@ -11,7 +11,7 @@ from .store import State
 from .util import iso, norm, parse_iso_date, slugify
 
 SUFFIX_RE = re.compile(r"\s*\((comedy|comedian|comic|stand[- ]?up|humor|humour)\)\s*$", re.I)
-GROUP_RE = re.compile(r"(\s&\s|\band the\b|\bband\b|\borchestra\b|\btrio\b|\bduo\b|\bquartet\b)", re.I)
+GROUP_RE = re.compile(r"(\s&\s|\band\b|\bband\b|\borchestra\b|\btrio\b|\bduo\b|\bquartet\b|\bbrothers\b|\bsisters\b)", re.I)
 
 
 def new_comedian(name: str, *, tracked: bool, flags: list[str] | None = None) -> CommentedMap:

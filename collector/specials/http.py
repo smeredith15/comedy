@@ -12,8 +12,9 @@ from . import __version__
 
 class HttpError(RuntimeError):
     def __init__(self, status: int, url: str, body: str = ""):
-        super().__init__(f"HTTP {status} for {url}: {body[:200]}")
+        super().__init__(f"HTTP {status} for {url.split('?')[0]}: {body[:200]}")
         self.status = status
+        self.body = body
 
 
 class Http:

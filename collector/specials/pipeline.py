@@ -14,7 +14,7 @@ from .comedians import NameIndex, ensure_performers
 from .config import Config, plain
 from .ids import add_redirect
 from .match import Matcher, derive, merge_into, new_special
-from .sources import Context, SourceSkipped
+from .sources import Context, SourceSkipped, redact
 from .store import State
 from .util import iso
 
@@ -79,7 +79,8 @@ def collect(ctx: Context, names: list[str], report: RunReport) -> list[dict]:
         except SourceSkipped as e:
             report.sources[name] = {"status": "skipped", "reason": str(e)}
         except Exception as e:   # a broken source shouldn't stop the others
-            report.sources[name] = {"status": "error", "error": f"{type(e).__name__}: {e}"[:300]}
+            report.sources[name] = {"status": "error",
+                                    "error": redact(f"{type(e).__name__}: {e}", ctx.env)[:300]}
         if len(ctx.log) > before:
             info = report.sources.setdefault(name, {})
             info["warnings"] = [w[:300] for w in ctx.log[before:][:20]]
@@ -236,7 +237,7 @@ def run(state: State, config: Config, http, *, today: dt.date, since_year: int |
             report.sources["resolve"] = comedians_mod.resolve(
                 state, ctx, limit=resolve_limit, retry_after_days=int(rcfg.get("retry_after_days", 30)))
         except Exception as e:
-            report.sources["resolve"] = {"status": "error", "error": str(e)[:300]}
+            report.sources["resolve"] = {"status": "error", "error": redact(str(e), ctx.env)[:300]}
         ctx = make_context(state, config, http, today, since_year, env)
     collected = collect(ctx, SOURCES if sources is None else sources, report)
     if extra:

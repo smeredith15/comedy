@@ -155,6 +155,17 @@ def cmd_db(args) -> None:
     print(f"wrote {build_sqlite(load_state(repo))}")
 
 
+def cmd_check(args) -> None:
+    from . import check
+    _setup()
+    results = check.run(_http(), dict(os.environ))
+    icons = {"ok": "✅", "warn": "⚠️", "fail": "❌", "missing": "❌", "set": "•", "not set": "•"}
+    for name, status, msg in results:
+        print(f"{icons.get(status, '•')} {name}: {status}. {msg}")
+    if any(status in ("fail", "missing") for name, status, _ in results if not name.startswith(("Watchmode", "Anthropic"))):
+        sys.exit(1)
+
+
 def main(argv=None) -> None:
     p = argparse.ArgumentParser(prog="python -m specials", description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -191,6 +202,7 @@ def main(argv=None) -> None:
     e.add_argument("--out")
     e.set_defaults(func=cmd_export)
     sub.add_parser("db", help="rebuild the SQLite cache").set_defaults(func=cmd_db)
+    sub.add_parser("check", help="confirm the API keys work").set_defaults(func=cmd_check)
 
     args = p.parse_args(argv)
     args.func(args)
