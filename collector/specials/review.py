@@ -14,6 +14,7 @@ from .store import State, save_overrides
 GITHUB_API = "https://api.github.com"
 QUEUE_LABEL = "review-queue"
 REPORT_LABEL = "missing-special"
+REMOVE_LABEL = "not-a-special"
 
 
 # --- the queue as markdown ---------------------------------------------------
@@ -22,37 +23,54 @@ def _md(text) -> str:
     return str(text or "").replace("|", "\\|").replace("\n", " ")
 
 
+MAX_LISTED = 80
+# Checkbox lines the nightly job reads back. Keep the leading words stable.
+BOX_ACCEPT = "It's a special"
+BOX_REJECT = "Not a special (never show again)"
+BOX_BLOCK = "Not a special, and ignore this YouTube channel"
+BOX_MERGE = "Same special as"
+CAND_HEADER = re.compile(r"^#{3,4}\s+`(cand_[0-9a-f]{8})`")
+CHECKED = re.compile(r"^\s*[-*]\s+\[[xX]\]\s+(.*)$")
+
+
 def queue_markdown(state: State, repo_slug: str | None = None) -> str:
     cands = sorted(state.candidates.values(), key=lambda c: (c.get("release_date") or "", c["id"]), reverse=True)
     edit_link = (f"https://github.com/{repo_slug}/edit/main/data/overrides.yaml" if repo_slug
                  else "data/overrides.yaml")
     lines = [
-        f"**{len(cands)} candidate(s) waiting.** Decide by editing [`data/overrides.yaml`]({edit_link}):",
-        "",
-        "```yaml",
-        "accept: [cand_xxxxxxxx]            # it's a special",
-        "reject: [cand_xxxxxxxx]            # it isn't",
-        "merge:",
-        "  - [cand_xxxxxxxx, special-id]    # same special as an existing record",
-        "```",
+        f"**{len(cands)} candidate(s) waiting.** Tick a box under each one. The next nightly run "
+        f"records your choice in [`data/overrides.yaml`]({edit_link}) and drops it from this list. "
+        "Leave it unticked to decide later.",
         "",
     ]
-    if cands:
-        lines += ["| Candidate | Performer | Title | Date | Min | Source | Why it's here | Possible match |",
-                  "|---|---|---|---|---|---|---|---|"]
-        for c in cands:
-            who = ", ".join(c.get("performer_names") or c.get("performers") or []) or "?"
-            src = f"[{c.get('source')}]({c['url']})" if c.get("url") else c.get("source")
-            lines.append("| `{}` | {} | {} | {} | {} | {} | {} | {} |".format(
-                c["id"], _md(who), _md(c.get("title")), c.get("release_date") or "",
-                c.get("runtime_min") or "", src, _md("; ".join(c.get("reasons") or [])),
-                f"`{c['match']}`" if c.get("match") else ""))
+    for c in cands[:MAX_LISTED]:
+        who = ", ".join(c.get("performer_names") or c.get("performers") or []) or "?"
+        src = f"[{c.get('source')}]({c['url']})" if c.get("url") else c.get("source")
+        facts = " · ".join(x for x in [c.get("release_date") or "no date",
+                                       f"{c['runtime_min']} min" if c.get("runtime_min") else "",
+                                       src, (c.get("channel") or {}).get("title") or ""] if x)
+        lines += [f"#### `{c['id']}` {_md(who)}: {_md(c.get('title'))}",
+                  f"{facts}  ",
+                  f"_{_md('; '.join(c.get('reasons') or []))}_",
+                  "",
+                  f"- [ ] {BOX_ACCEPT}",
+                  f"- [ ] {BOX_REJECT}"]
+        if (c.get("channel") or {}).get("id"):
+            lines.append(f"- [ ] {BOX_BLOCK}")
+        if c.get("match"):
+            lines.append(f"- [ ] {BOX_MERGE} `{c['match']}`")
+        lines.append("")
+    if len(cands) > MAX_LISTED:
+        lines += [f"_…and {len(cands) - MAX_LISTED} more. They appear here as the list shrinks, "
+                  "or run `python -m specials review` on a computer._", ""]
     people = flagged(state)
     if people:
         lines += ["", f"### Comedians to check ({len(people)})",
-                  "Edit `data/comedians.yaml`: fix IDs, then set `checked: true` / remove `needs_review`.", ""]
+                  "Edit `data/comedians.yaml`: fix the ID if the match is wrong, then set `checked: true` "
+                  "or delete the `tmdb_review` / `youtube_review` line.", ""]
         for c in people[:100]:
-            notes = "; ".join([*(c.get("flags") or []), c.get("needs_review") or ""]).strip("; ")
+            notes = "; ".join(x for x in [*(c.get("flags") or []), c.get("needs_review"), c.get("tmdb_review"),
+                                          c.get("youtube_review")] if x)
             lines.append(f"- **{_md(c.get('name'))}** (`{c.get('slug')}`): {_md(notes)}")
     sources = (state.meta or {}).get("sources") or {}
     problems = [f"- `{k}`: {v.get('error') or v.get('reason')}" for k, v in sources.items()
@@ -61,6 +79,67 @@ def queue_markdown(state: State, repo_slug: str | None = None) -> str:
         lines += ["", "### Sources that didn't run", *problems]
     lines += ["", f"_Last run: {(state.meta or {}).get('last_run', 'never')}_"]
     return "\n".join(lines)
+
+
+def parse_decisions(body: str) -> list[tuple[str, str, str | None]]:
+    """Ticked boxes in the review issue -> [(candidate id, accept|reject|block|merge, merge target)]."""
+    out, current = [], None
+    for line in (body or "").splitlines():
+        h = CAND_HEADER.match(line)
+        if h:
+            current = h[1]
+            continue
+        m = CHECKED.match(line)
+        if not (m and current):
+            continue
+        text = m[1]
+        if text.startswith(BOX_BLOCK):
+            out.append((current, "block", None))
+        elif text.startswith(BOX_REJECT):
+            out.append((current, "reject", None))
+        elif text.startswith(BOX_ACCEPT):
+            out.append((current, "accept", None))
+        elif text.startswith(BOX_MERGE):
+            t = re.search(r"`([^`]+)`", text)
+            if t:
+                out.append((current, "merge", t[1]))
+    # One decision per candidate: the strongest wins (block > reject > merge > accept).
+    rank = {"block": 3, "reject": 2, "merge": 1, "accept": 0}
+    best: dict[str, tuple[str, str, str | None]] = {}
+    for d in out:
+        if d[0] not in best or rank[d[1]] > rank[best[d[0]][1]]:
+            best[d[0]] = d
+    return list(best.values())
+
+
+def apply_decisions(state: State, decisions) -> int:
+    """Write decisions into overrides.yaml (in memory; the caller saves)."""
+    n = 0
+    for cid, action, target in decisions:
+        if action == "accept":
+            _append(state, "accept", cid)
+        elif action in ("reject", "block"):
+            _append(state, "reject", cid)
+            ch = ((state.candidates.get(cid) or {}).get("channel") or {}).get("id")
+            if action == "block" and ch:
+                _append(state, "block_channels", ch)
+        elif action == "merge" and target:
+            if not any(list(m) == [cid, target] for m in state.override_list("merge")):
+                state.overrides["merge"].append(CommentedSeq([cid, target]))
+                state.overrides["merge"][-1].fa.set_flow_style()
+        n += 1
+    return n
+
+
+def read_issue_decisions(http, token: str, repo_slug: str, state: State) -> int:
+    """Apply boxes ticked in the open review issue. Returns how many were applied."""
+    issues = http.get_json(f"{GITHUB_API}/repos/{repo_slug}/issues",
+                           params={"labels": QUEUE_LABEL, "state": "open", "per_page": 10},
+                           headers=_gh_headers(token))
+    issues = [i for i in issues if "pull_request" not in i]
+    if not issues:
+        return 0
+    return apply_decisions(state, parse_decisions(issues[0].get("body") or ""))
 
 
 # --- GitHub -------------------------------------------------------------------
@@ -147,6 +226,38 @@ def close_resolved_reports(http, token: str, repo_slug: str, state: State) -> in
     return closed
 
 
+def apply_removal_requests(http, token: str, repo_slug: str, state: State) -> int:
+    """`not-a-special` issues (from the app's Remove button): hide the record for good, close the issue."""
+    h = _gh_headers(token)
+    issues = http.get_json(f"{GITHUB_API}/repos/{repo_slug}/issues",
+                           params={"labels": REMOVE_LABEL, "state": "open", "per_page": 100}, headers=h)
+    done = 0
+    for i in issues:
+        if "pull_request" in i:
+            continue
+        f = parse_issue_form(i.get("body") or "")
+        sid = (f.get("special id") or "").strip().strip("`")
+        resolved = state.resolve_id(sid) if sid else ""
+        if resolved not in state.specials:
+            http.send_json("POST", f"{i['url']}/comments", {"body": (
+                f"Couldn't find a special with ID `{sid}`. Check the ID on the special's page and edit "
+                "this issue; the next nightly run will try again.")}, headers=h)
+            continue
+        _append(state, "reject", resolved)
+        extra = ""
+        block = (f.get("also ignore its youtube channel?") or f.get("ignore channel") or "").lower()
+        ch = (state.specials[resolved].get("ids") or {}).get("youtube_channel")
+        if block.startswith("yes") and ch:
+            _append(state, "block_channels", ch)
+            extra = " Its YouTube channel is ignored from now on."
+        http.send_json("POST", f"{i['url']}/comments", {"body": (
+            f"Removed `{resolved}` from the database for good (added to `reject` in "
+            f"`data/overrides.yaml`).{extra} It disappears from the app after this run deploys.")}, headers=h)
+        http.send_json("PATCH", i["url"], {"state": "closed", "state_reason": "completed"}, headers=h)
+        done += 1
+    return done
+
+
 # --- terminal review -----------------------------------------------------------
 
 def interactive(state: State, ask=input, say=print) -> dict:
@@ -204,6 +315,7 @@ def _append(state: State, key: str, value: str) -> None:
     if value not in seq:
         seq.append(value)
     try:
-        seq.fa.set_flow_style()
+        # Short lists stay on one line; long ones go one per line so they're easy to edit on a phone.
+        seq.fa.set_flow_style() if len(seq) <= 4 else seq.fa.set_block_style()
     except AttributeError:
         pass

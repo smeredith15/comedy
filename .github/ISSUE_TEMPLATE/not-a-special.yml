@@ -1,0 +1,26 @@
+name: Not a special
+description: Remove a record that isn't a stand-up special (a podcast, clip, interview…)
+title: "Not a special: "
+labels: ["not-a-special"]
+body:
+  - type: input
+    id: special_id
+    attributes:
+      label: Special ID
+      description: Filled in by the app's Remove button. It's the last part of the special's link.
+    validations:
+      required: true
+  - type: dropdown
+    id: ignore_channel
+    attributes:
+      label: Also ignore its YouTube channel?
+      description: Only pick Yes for a channel that never posts specials (a podcast or clips channel).
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

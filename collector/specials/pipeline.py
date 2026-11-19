@@ -45,6 +45,25 @@ def trusted_channels(state: State, config: Config) -> dict:
     return out
 
 
+def resolve_distributors(state: State, config: Config, ctx: Context) -> int:
+    """Fill in missing distributor channel IDs in config/sources.yaml (1 quota unit each by handle)."""
+    from .config import dump_yaml
+    from .sources.youtube_api import find_channel
+    if not ctx.env.get("YOUTUBE_API_KEY"):
+        return 0
+    changed = 0
+    for d in config.sources.get("distributors") or []:
+        if d.get("channel_id") or not d.get("handle"):
+            continue
+        cid, _ = find_channel(ctx, d["name"], d.get("handle"))
+        if cid:
+            d["channel_id"] = cid
+            changed += 1
+    if changed:
+        dump_yaml(state.repo.config / "sources.yaml", config.sources)
+    return changed
+
+
 def make_context(state: State, config: Config, http, today: dt.date, since_year: int | None = None,
                  env: dict | None = None) -> Context:
     ctx = Context(http=http, config=config, index=NameIndex(state.comedians), today=today,
@@ -98,11 +117,12 @@ def process(state: State, config: Config, collected: list[dict], today: dt.date,
     matcher = Matcher(state.specials, index.names, scope)
 
     rejects = set(state.override_list("reject"))
+    blocked = {str(x) for x in state.override_list("block_channels")}
     accepts = set(state.override_list("accept"))
     merges = {m[0]: m[1] for m in state.override_list("merge") if m and len(m) == 2}
 
     # Previously pending candidates get re-evaluated too; fresh copies win.
-    pool: dict[str, dict] = {cid: c for cid, c in state.candidates.items()}
+    pool: dict[str, dict] = {cid: _refresh(c, scope) for cid, c in state.candidates.items()}
     for c in collected:
         prev = pool.get(c["id"])
         c["first_seen"] = (prev or {}).get("first_seen") or iso(today)
@@ -113,6 +133,8 @@ def process(state: State, config: Config, collected: list[dict], today: dt.date,
         if cid in rejects:
             continue
         c["performers"] = _performer_slugs(state, c, index)
+        if (c.get("channel") or {}).get("id") in blocked:
+            c["channel_blocked"] = True
         target = merges.get(cid)
         if target:
             sid = state.resolve_id(target)
@@ -134,6 +156,7 @@ def process(state: State, config: Config, collected: list[dict], today: dt.date,
             decision_action, reasons = d.action, d.reasons
         if decision_action == "reject":
             report.rejected_by_rules += 1
+            _log_rejection(state, c, reasons, today)
             continue
         if decision_action == "accept" and strength == "strong":
             merge_into(state.specials[sid], c)
@@ -158,6 +181,7 @@ def process(state: State, config: Config, collected: list[dict], today: dt.date,
         pending[cid] = _candidate_record(c)
 
     state.candidates = pending
+    _prune_rejected(state, today)
     _apply_special_overrides(state)
     for s in state.specials.values():
         derive(s, scope, today)
@@ -171,6 +195,42 @@ def process(state: State, config: Config, collected: list[dict], today: dt.date,
             s["updated"] = iso(today)
     report.pending = len(state.candidates)
     return report
+
+
+# Rejections worth keeping for `specials gaps` ("why isn't X here?"). YouTube noise
+# (Shorts, clips, untitled uploads) is left out so the file stays small.
+_NOISE = ("a Short or clip", "title doesn't say it's a special", "clickbait", "title isn't in English",
+          "title looks like a podcast", "channel is on your ignore list")
+REJECTED_KEEP_DAYS = 400
+
+
+TITLE_FLAGS = {"title_hint", "negative_title_hint", "clickbait_title", "non_latin_title"}
+
+
+def _refresh(c: dict, scope: dict) -> dict:
+    """Re-check a waiting YouTube candidate's title with the current rules (they may have changed)."""
+    if c.get("source", "").startswith("youtube") and c.get("raw_title"):
+        from .sources.youtube_api import title_signals
+        ev = set(c.get("evidence") or []) - TITLE_FLAGS
+        ev |= title_signals(c["raw_title"], scope.get("youtube") or {})
+        if c.get("runtime_min") is not None and c["runtime_min"] < 5:
+            ev.add("short")
+        c["evidence"] = sorted(ev)
+    return c
+
+
+def _log_rejection(state: State, c: dict, reasons: list[str], today: dt.date) -> None:
+    if c.get("source", "").startswith("youtube") and any(r.startswith(_NOISE) for r in reasons):
+        return
+    state.rejected[c["id"]] = {
+        "id": c["id"], "source": c.get("source"), "performer_names": c.get("performer_names") or [],
+        "title": c.get("title"), "release_date": c.get("release_date"), "runtime_min": c.get("runtime_min"),
+        "url": c.get("url"), "reasons": reasons, "last_seen": iso(today)}
+
+
+def _prune_rejected(state: State, today: dt.date) -> None:
+    cutoff = iso(today - dt.timedelta(days=REJECTED_KEEP_DAYS))
+    state.rejected = {k: v for k, v in state.rejected.items() if (v.get("last_seen") or "") >= cutoff}
 
 
 def _performer_slugs(state: State, c: dict, index: NameIndex) -> list[str]:
@@ -238,6 +298,12 @@ def run(state: State, config: Config, http, *, today: dt.date, since_year: int |
                 state, ctx, limit=resolve_limit, retry_after_days=int(rcfg.get("retry_after_days", 30)))
         except Exception as e:
             report.sources["resolve"] = {"status": "error", "error": redact(str(e), ctx.env)[:300]}
+        try:
+            n = resolve_distributors(state, config, ctx)
+            if n:
+                report.sources["resolve"]["distributors"] = n
+        except Exception as e:
+            report.sources["resolve"]["distributors_error"] = redact(str(e), ctx.env)[:200]
         ctx = make_context(state, config, http, today, since_year, env)
     collected = collect(ctx, SOURCES if sources is None else sources, report)
     if extra:

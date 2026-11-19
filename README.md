@@ -43,8 +43,8 @@ nightly GitHub Action
 
 | Source | What it catches | Access |
 |---|---|---|
-| **TMDB** | Specials on streaming services and TV (Netflix, Max, Prime Video, Hulu, Peacock, Paramount+…), with announced dates, runtimes, IMDb IDs and where to watch | Free API token (non-commercial use) |
-| **Wikipedia** "YYYY in stand-up comedy" | Dated English-language releases, including YouTube. The yearly pages go back to at least 2017, which covers the backfill | MediaWiki API, no key |
+| **TMDB** | Specials on streaming services and TV (Netflix, Max, Prime Video, Hulu, Peacock, Paramount+…), with announced dates, runtimes, IMDb IDs and where to watch. Found two ways: everything tagged "stand-up comedy", plus each tracked comedian's credits where they appear as Self in a 20–100 minute comedy (many specials aren't tagged). Every tracked comedian's TMDB ID is looked up each night until found | Free API token (non-commercial use) |
+| **Wikipedia** "YYYY in stand-up comedy" | Dated releases, including YouTube. The pages exist for 2015 on and are prose bullets ("January 15: Name's special *Title* on Netflix."); the italic title anchors the parser. Albums, deaths, awards and roasts on the same pages are skipped | MediaWiki API, no key |
 | **YouTube channel RSS** | New uploads from tracked comedians and distributors | No key, no quota |
 | **YouTube Data API** | Video length (`videos.list`), channel lookup by handle (`channels.list`), and a few searches a day for comedians nobody is tracking yet (`search.list` has a small daily cap) | Free API key |
 | **News / press RSS** (v1.1) | Announcements and less common platforms (Veeps, Patreon, comedians' own sites) | Free. Turning articles into records needs an extraction step |
@@ -168,6 +168,7 @@ Early-access releases are kept as one record with two dates. An example is a spe
 | `data/overrides.yaml` | Your manual decisions (accept, reject, merge, edit). The job applies these after its own rules |
 | `data/redirects.json` | Merged IDs mapped to the record that replaced them |
 | `data/meta.json` | Time and counts of the last run |
+| `data/rejected.jsonl` | What the rules dropped and why (kept 400 days, YouTube noise left out). Used by `gaps` |
 
 Small additions to the record: each platform entry can carry its own `date` (used to work out `public_release_date`), `alt_ids` keeps the TMDB/YouTube IDs of records merged into this one, and `"hidden": true` marks a record you rejected (it stays so re-collection lands on it, but the app doesn't show it).
 
@@ -179,7 +180,9 @@ Small additions to the record: each platform entry can carry its own `date` (use
 
 - **Match:** each candidate is compared to existing records on performer, title and date. Titles are cleaned first: the "Name:" prefix, "Full Special", "| Netflix" and punctuation are removed. Dates count as matching within ±45 days, because announcements, early access and public release often fall on different days.
 - **Merge automatically:** same performer and a very close title. **Review:** a partial title match, a YouTube video from an untrusted channel, or a runtime close to the cutoff.
-- **Review from your phone:** each night the job updates one GitHub issue, titled *Review queue (N pending)*, that lists the candidate IDs. You decide by editing `data/overrides.yaml` in GitHub's web editor:
+- **Review from your phone:** each night the job updates one GitHub issue, titled *Review queue (N pending)*. Each candidate has checkboxes: **It's a special**, **Not a special (never show again)**, **Not a special, and ignore this YouTube channel**, and **Same special as `…`** when there's a likely match. Tick one; the next nightly run writes it to `data/overrides.yaml` and the item drops off the list. Rejections are permanent: the same video or TMDB entry is skipped from then on.
+- **Remove something already in the database:** on a special's page in the app, tap **Remove it from the database**. It opens a short GitHub form (label `not-a-special`); the next nightly run hides the record for good, optionally ignores its YouTube channel, and closes the issue.
+- **By hand:** everything above ends up in `data/overrides.yaml`, which you can also edit directly:
 
 ```yaml
 accept: [cand_8f3a2c]
@@ -189,7 +192,10 @@ merge:
 edit:
   jane-doe--example-hour--2026:
     format: half_hour
+block_channels: [UCxxxxxxxxxxxxxxxxxxxxxx]   # ignore every upload from these YouTube channels
 ```
+
+**YouTube rules.** A video only counts if its title says it's a special ("full special", "comedy special", "full hour"…; plain "stand-up" and hashtags don't count). Shorts, clips, podcasts, "best of" compilations and clickbait re-uploads are dropped without reaching the queue. A comedian posting their own special to their own channel (channel name = performer) is trusted.
 
 `python -m specials review` gives you the same review on a computer. `reject` also takes a special ID (hides the record), and `merge` takes `[special_id, special_id]` to fold one record into another.
 
@@ -224,7 +230,7 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 - **Export / Import** saves and restores a JSON backup file.
 - The app and the last downloaded database are cached, so browsing and Spin work offline. New data loads in the background.
 
-**Missing a special?** *Report missing special* opens a pre-filled GitHub issue (label `missing-special`). The nightly job adds those issues to the review queue.
+**Missing a special?** First look for the pattern: **Actions → gaps → Run workflow** (or `python -m specials gaps`). The report shows specials per year with thin years flagged, which comedians have no TMDB ID yet (so their untagged specials are invisible), which have no specials at all, and which rules drop the most. Type a few missing specials into the `specials` box (`Brian Regan: Nunchucks and Flamethrowers; Colin Quinn`) and it says, for each one, whether it's in the database, waiting for review, dropped by a rule (which one), or on TMDB but not collected, and why. For a single special, *Report missing special* opens a pre-filled GitHub issue (label `missing-special`) that goes to the review queue.
 
 **Install on Android:** open the GitHub Pages URL in Chrome, then tap ⋮ → **Install app** (or **Add to Home screen**).
 
@@ -269,6 +275,7 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 │   │   ├── review.py         # review queue + GitHub issue + missing-special reports
 │   │   ├── comedians.py      # shared list: import, resolve IDs (add + add-comedian issues planned)
 │   │   ├── check.py          # `specials check`: confirm the API keys work
+│   │   ├── gaps.py           # `specials gaps`: coverage report, "why is X missing?"
 │   │   ├── export.py         # JSON for the app
 │   │   └── playlist/         # Spotify playlist builder, planned (see PLAYLIST.md)
 │   └── tests/                # pytest, against fixture data (no network)
@@ -282,9 +289,11 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
     │   ├── nightly.yml       # collect → commit → build → deploy (also the one-time backfill)
     │   ├── pages.yml         # build + deploy (reusable; also runs on push)
     │   ├── ci.yml            # tests on pull requests and branches
-    │   └── check-keys.yml    # Run workflow → confirms the API key secrets work
+    │   ├── check-keys.yml    # Run workflow → confirms the API key secrets work
+    │   └── gaps.yml          # Run workflow → coverage report + "why is this special missing?"
     └── ISSUE_TEMPLATE/
         ├── missing-special.yml
+        ├── not-a-special.yml
         └── add-comedian.yml  # planned
 ```
 
@@ -326,6 +335,7 @@ python -m specials comedians resolve      # find TMDB person + YouTube channel; 
                                           # (Spotify, Last.fm and Wikipedia IDs come with the playlist builder)
 python -m specials sources resolve        # look up the distributor channel IDs from their handles
 python -m specials check                  # confirm the API keys work
+python -m specials gaps "Name: Title"     # coverage report + why a special is missing
 python -m specials backfill --since 2017  # one-time history load
 python -m specials nightly                # collect → classify → match → export
 python -m specials review                 # review pending candidates on a computer

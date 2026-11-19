@@ -82,6 +82,8 @@ class TableParser(HTMLParser):
             if self._li is None:
                 self._li = []
             self._li_depth += 1
+        elif self._table is None and self._li is not None and tag == "i":
+            self._li.append("«")     # keep italics: on these pages the title is the italic text
         elif tag == "br" and self._cell is not None:
             self._cell["text"].append("\n")
 
@@ -109,6 +111,8 @@ class TableParser(HTMLParser):
                 if self._row:
                     self._table.rows.append(self._row)
                 self._row = None
+        elif tag == "i" and self._table is None and self._li is not None:
+            self._li.append("»")
         elif tag == "li" and self._li is not None:
             self._li_depth -= 1
             if self._li_depth == 0:
@@ -227,26 +231,86 @@ def parse_page(html: str, year: int) -> list[dict]:
                 "kind": clean(cell("kind")) or None,
                 "heading": t.heading,
             })
-    if not rows:
-        rows = parse_list_items(p.list_items, year)
+    rows.extend(parse_list_items(p.list_items, year))
     return rows
 
 
-LIST_RE = re.compile(
-    r"^(?P<date>[A-Z][a-z]+ \d{1,2})\s*[–—:-]\s*(?P<who>[^:]+?)\s*[:–—-]\s*(?P<title>.+?)"
-    r"(?:\s*\((?P<platform>[^)]+)\))?$")
+_MONTH_NAMES = "January|February|March|April|May|June|July|August|September|October|November|December"
+DATE_PREFIX = re.compile(
+    rf"^(?P<date>(?:{_MONTH_NAMES})\s+\d{{1,2}}(?:\s*[–-]\s*\d{{1,2}})?(?:,\s*\d{{4}})?)\s*[:–—-]\s*(?P<body>.+)$")
+# "Jane Doe's one-hour special «Example Hour» is released on Netflix."
+POSSESSIVE = re.compile(r"^(?P<who>[^«»]{2,90}?)(?:'s|’s|'|’)\s+(?P<desc>[^«»]{0,60}?)«(?P<title>[^»]+)»(?P<rest>.*)$")
+# Typos seen on the pages: "Alex Fernándezs special «…»", "Are You Garbage special «…»"
+_ADJ = r"(?:(?:one-hour|hour-long|half-hour|hour|debut|new|stand-up|standup|comedy|first|second|third|latest|netflix|hbo|youtube)\s+){0,2}"
+LOOSE_POSSESSIVE = re.compile(rf"^(?P<who>[^«»]{{2,60}}?)s?\s+(?P<desc>{_ADJ}special)\s+«(?P<title>[^»]+)»(?P<rest>.*)$")
+# No italics: "Ryan Goodcase's special Maybe They're Dead on YouTube."
+PLAIN_TITLE = re.compile(r"^(?P<who>[^«»]{2,60}?)(?:'s|’s|'|’)\s+(?P<desc>(?:[\w-]+\s+){0,2}special)\s+"
+                         r"(?P<title>[^«».]{2,80}?)(?P<rest>\s+(?:is released |premieres |aired )?(?:on|by)\s+.*)$")
+# "D. L. Hughley: «Contrarian» is released on Netflix."
+NAME_COLON = re.compile(r"^(?P<who>[^«»:]{2,60}):\s*«(?P<title>[^»]+)»(?P<rest>.*)$")
+# "«D. L. Hughley: Contrarian» is released on Netflix."
+TITLE_FIRST = re.compile(r"^«(?P<title>[^»]+)»(?P<rest>.*)$")
+PLATFORM_RE = re.compile(
+    r"\b(?:on|by|via|through|aired on|airs on)\s+(?:the\s+)?(?P<plat>[A-Z0-9][^.,;()«»]*?)"
+    r"(?=\s+(?:in|at|with|and|as|after|for|from|on)\b|[.,;()]|$)")
+NOT_A_RELEASE = re.compile(
+    r"\b(wins?|won|nominat\w*|dies|died|announc\w*|launch\w*|publish\w*|unveil\w*|ranks?|tours?|touring|"
+    r"donat\w*|acquir\w*|sues|arrested|hosts?|hosted|cancel\w*|record(?:s|ed)? a)\b", re.I)
+NOT_A_SPECIAL_TITLE = re.compile(r"\b(prize|awards?|roast|tribute|honoring|gala|festival|best of)\b", re.I)
+NON_SPECIAL_KINDS = re.compile(r"\b(documentary|series|podcast|book|memoir|film|movie|sitcom|show|tour|play)\b", re.I)
+AUDIO_KINDS = re.compile(r"\b(album|ep|vinyl|record|audio)\b", re.I)
 
 
 def parse_list_items(items: list[tuple[str, str]], year: int) -> list[dict]:
-    """Fallback for pages that use bullet lists: 'January 5 – Jane Doe: Example Hour (Netflix)'."""
+    """The yearly pages are prose bullets:
+
+        January 15: Sebastian Maniscalco's special «Stay Hungry» on Netflix.
+        January 2: Nick DiPaolo's one-hour special «Another Senseless Killing» is released on VHX.
+        March 2: David Heti's album «And You Will Regret It» on Stand Up! Records.
+
+    («» marks the italic title.) Events, awards and deaths share the same list and are skipped.
+    """
     rows = []
     for heading, text in items:
-        m = LIST_RE.match(clean(text))
+        m = DATE_PREFIX.match(text.strip())
         if not m:
             continue
-        d = parse_loose_date(m["date"], default_year=year, default_month=month_from_text(heading))
-        rows.append({"date": iso(d), "performers": split_names(m["who"]), "title": clean(m["title"]),
-                     "platform": m["platform"], "runtime": None, "kind": None, "heading": heading})
+        body = m["body"].strip()
+        d = parse_loose_date(re.sub(r"[–-]\s*\d{1,2}", "", m["date"]), default_year=year,
+                             default_month=month_from_text(heading))
+        pm = POSSESSIVE.match(body) or LOOSE_POSSESSIVE.match(body) or PLAIN_TITLE.match(body)
+        verified = True
+        if not pm and (nc := NAME_COLON.match(body)) and not NOT_A_RELEASE.search(nc["who"]):
+            pm = {"who": nc["who"], "desc": "", "title": nc["title"], "rest": nc["rest"]}
+        if pm:
+            who, desc, title, rest = pm["who"], pm["desc"], pm["title"], pm["rest"]
+            if NOT_A_RELEASE.search(who) or len(who.split()) > 10:
+                continue
+        else:
+            tm = TITLE_FIRST.match(body)
+            if not tm or ":" not in tm["title"]:
+                continue
+            who, title = (x.strip() for x in tm["title"].split(":", 1))
+            desc, rest, verified = "", tm["rest"], False
+        if NOT_A_RELEASE.search(desc) or NOT_A_SPECIAL_TITLE.search(title):
+            continue
+        kind = "audio" if AUDIO_KINDS.search(desc) else (
+            "other" if NON_SPECIAL_KINDS.search(desc) and "special" not in desc.lower() else "special")
+        first_sentence = re.split(r"(?<=[a-z0-9\)])\.\s", rest, maxsplit=1)[0]
+        plat = PLATFORM_RE.search(first_sentence)
+        performers = split_names(who)
+        rows.append({
+            "date": iso(d),
+            "performers": performers,
+            "title": clean(title).strip('"“”'),
+            "platform": clean(plat["plat"]) if plat else None,
+            "runtime": None,
+            "kind": kind,
+            "desc": clean(desc),
+            "verified": verified,
+            "showcase": who.strip().lower().startswith("various"),
+            "heading": heading,
+        })
     return rows
 
 
@@ -277,7 +341,7 @@ def collect(ctx: Context) -> list[dict]:
         html = (res.get("parse") or {}).get("text") or ""
         rows = parse_page(html, year)
         if not rows:
-            ctx.warn(f"wikipedia: {page}: no release tables recognized")
+            ctx.warn(f"wikipedia: {page}: no releases recognized")
         url = f"https://en.wikipedia.org/wiki/{page}"
         for row in rows:
             out.append(row_to_candidate(ctx, row, page, url))
@@ -294,7 +358,7 @@ def row_to_candidate(ctx: Context, row: dict, page: str, url: str) -> dict:
             if clean(name):
                 platforms.append(ctx.platforms.entry(clean(name), date=row.get("date")))
     hints = ctx.config.scope.get("showcase_title_hints", [])
-    showcase = len(performers) > 2 or any(contains_phrase(row["title"], h) for h in hints)
+    showcase = row.get("showcase") or len(performers) > 2 or any(contains_phrase(row["title"], h) for h in hints)
     kind_text = f"{row.get('kind') or ''} {row.get('heading') or ''}".lower()
     kind_text += " " + " ".join(re.findall(r"\(([^)]*)\)", row["title"].lower()))
     who = slugify(performers[0]) if performers else "unknown"
@@ -306,11 +370,14 @@ def row_to_candidate(ctx: Context, row: dict, page: str, url: str) -> dict:
         performer_names=performers,
         release_date=row.get("date"),
         runtime_min=row.get("runtime"),
-        language="en",
+        language=None,     # the yearly pages list releases worldwide; TMDB fills this in when it matches
         platforms=platforms,
         ids={"wikipedia": page},
         url=url,
-        evidence=["wikipedia_list"] + (["audio"] if any(h in kind_text for h in AUDIO_HINTS) else []),
+        evidence=["wikipedia_list"]
+        + (["audio"] if row.get("kind") == "audio" or any(h in kind_text for h in AUDIO_HINTS) else [])
+        + (["not_a_special"] if row.get("kind") == "other" else [])
+        + ([] if row.get("verified", True) else ["performer_unverified"]),
         showcase=showcase,
         trusted=True,
     )

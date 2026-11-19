@@ -15,6 +15,8 @@ from . import Context, SourceSkipped, make_candidate
 
 API = "https://api.themoviedb.org/3"
 COMEDY_GENRE = 35
+DOCUMENTARY_GENRE = 99
+SELF_CHARACTER = re.compile(r"^\s*(self|him\s*self|her\s*self|them\s*selves|themselves|himself|herself|narrator, self)\b", re.I)
 KIND = {"flatrate": "subscription", "free": "free", "ads": "ads"}
 
 
@@ -91,11 +93,15 @@ def collect(ctx: Context) -> list[dict]:
                 continue
             for m in credits.get("cast", []):
                 d = parse_iso_date(m.get("release_date"))
-                if COMEDY_GENRE not in (m.get("genre_ids") or []):
+                genres = m.get("genre_ids") or []
+                is_self = bool(SELF_CHARACTER.match(m.get("character") or ""))
+                # Specials are usually filed as Comedy, but plenty have no genre at all.
+                if genres and COMEDY_GENRE not in genres and not is_self:
                     continue
                 if d and not (start <= d <= end):
                     continue
-                movie_ids.setdefault(m["id"], set()).add("person_credit")
+                movie_ids.setdefault(m["id"], set()).update(
+                    {"person_credit", f"credit_of:{slug}"} | ({"self_credit"} if is_self else set()))
 
     out = []
     for mid, how in sorted(movie_ids.items()):
@@ -126,12 +132,23 @@ def to_candidate(ctx: Context, m: dict, keyword_ids_: list[int], how: set[str]) 
 
     performers, title = _performers_and_title(ctx, m.get("title") or "", cast_names)
     known = bool(performers)
+    evidence = [e for e in evidence if not e.startswith("credit_of:")]
     if "person_credit" in how and "keyword" not in evidence:
-        # Only keep a tracked comic's comedy credit if it is shaped like a special.
+        # A tracked comic's credit that TMDB didn't tag stand-up: keep it if it's shaped like a special.
         rt = m.get("runtime") or 0
-        if not (known and ":" in (m.get("title") or "") and 25 <= rt <= 95):
+        genres = {g.get("id") for g in m.get("genres") or []}
+        if not 20 <= rt <= 100 or DOCUMENTARY_GENRE in genres:
             return None
-        evidence.append("special_shaped_title")
+        plays_self = "self_credit" in how
+        named_title = known and ":" in (m.get("title") or "")
+        if not (plays_self or named_title):
+            return None
+        evidence.append("special_shaped_title" if named_title else "plays_self")
+        # Solo: they're the top-billed (or only) cast member.
+        credited = {x.split(":", 1)[1] for x in how if x.startswith("credit_of:")}
+        top = cast[0]["name"] if cast else None
+        if len(cast) <= 3 and (not top or any(ctx.index.lookup(top) == s for s in credited) or len(cast) == 1):
+            evidence.append("solo_credit")
 
     release = _us_release(m, region) or m.get("release_date") or None
     platforms = []

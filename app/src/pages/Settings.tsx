@@ -15,6 +15,13 @@ export function repoSlug(): string | null {
   return (import.meta.env.VITE_REPO as string) || data.value?.repo || null;
 }
 
+export function notASpecialUrl(id: string, title: string): string | null {
+  const repo = repoSlug();
+  if (!repo) return null;
+  const q = new URLSearchParams({ template: 'not-a-special.yml', title: `Not a special: ${title}`, special_id: id });
+  return `https://github.com/${repo}/issues/new?${q}`;
+}
+
 export function missingSpecialUrl(prefill: Record<string, string> = {}): string | null {
   const repo = repoSlug();
   if (!repo) return null;

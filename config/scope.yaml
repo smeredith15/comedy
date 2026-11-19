@@ -20,5 +20,7 @@ youtube:
   # A YouTube video is only accepted automatically if it comes from a tracked
   # comedian's channel or a known distributor. Anything else goes to review.
   trusted_channels_only: true
-  title_hints_positive: ["special", "full special", "stand-up", "standup", "stand up", "full hour"]
-  title_hints_negative: ["podcast", "episode", "clip", "compilation", "reacts", "interview", "trailer", "teaser", "shorts", "highlights", "behind the scenes"]
+  # A video counts only if the title says it's a special. Plain "stand-up" isn't enough:
+  # comedians' channels use it on clips, podcasts and Shorts. Hashtags are ignored.
+  title_hints_positive: ["full special", "comedy special", "stand-up special", "standup special", "stand up special", "full stand-up special", "full comedy special", "full hour", "full set", "hour special", "half-hour special", "crowd work special", "full show"]
+  title_hints_negative: ["podcast", "episode", "ep", "clip", "clips", "compilation", "reacts", "reaction", "interview", "trailer", "teaser", "shorts", "highlights", "behind the scenes", "best of", "greatest hits", "funniest", "full movie", "roast", "pt 1", "pt 2", "part 1", "part 2", "hours of", "trivia", "book club"]

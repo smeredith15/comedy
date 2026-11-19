@@ -43,26 +43,41 @@ def classify(c: dict, scope: dict) -> Decision:
     ev = set(c.get("evidence") or [])
     if src in ("youtube_feed", "youtube_search"):
         yt = scope.get("youtube") or {}
-        if "negative_title_hint" in ev:
-            return Decision("reject", ["title looks like a podcast/clip/trailer"])
+        if c.get("channel_blocked"):
+            return Decision("reject", ["channel is on your ignore list"])
+        for flag, why in (("negative_title_hint", "title looks like a podcast/clip/trailer"),
+                          ("short", "a Short or clip"),
+                          ("clickbait_title", "clickbait-style title (usually a re-upload)"),
+                          ("non_latin_title", "title isn't in English")):
+            if flag in ev:
+                return Decision("reject", [why])
+        if "title_hint" not in ev:
+            # Comedians' own channels post podcasts, interviews and clips all week.
+            # Without "full special" / "comedy special" in the title it isn't one.
+            if "distributor_channel" in ev and (rt or 0) >= min_rt:
+                review.append("distributor upload that doesn't say it's a special")
+            else:
+                return Decision("reject", ["title doesn't say it's a special"])
+        if "names_another_comedian" in ev:
+            review.append("title names another comedian (interview or guest spot?)")
         if "live_or_upcoming_stream" in ev:
             review.append("live or scheduled stream")
-        if not c.get("trusted") and yt.get("trusted_channels_only", True):
+        if not c.get("trusted") and yt.get("trusted_channels_only", True) and "self_upload" not in ev:
             review.append("YouTube video from an untrusted channel")
-        if "title_hint" not in ev:
-            review.append("title doesn't say it's a special")
         if not rt:
             review.append("runtime unknown (no YouTube API key?)")
-        if "performer_unverified" in ev:
-            review.append("performer name not recognized")
     elif src == "tmdb":
-        if "keyword" not in ev:
+        if "keyword" not in ev and not ({"plays_self", "special_shaped_title"} & ev and "solo_credit" in ev):
             review.append("TMDB entry isn't tagged stand-up comedy")
     elif src == "report":
         review.append("reported missing special")
     elif src == "news":
         review.append("found in the news")
 
+    if "performer_unverified" in ev:
+        review.append("performer name not recognized")
+    if "not_a_special" in ev:
+        return Decision("reject", ["not a special (documentary, series, …)"])
     if not c.get("performers") and not c.get("performer_names"):
         review.append("no performer")
     if not c.get("title"):
