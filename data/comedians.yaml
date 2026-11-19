@@ -5,6 +5,13 @@
 #   flags:     things to check once (e.g. name shared with a musician). Set checked: true when done.
 #   needs_review: an unsure TMDB / YouTube match from `comedians resolve`. Fix the ID or clear it.
 comedians:
+  - slug: 85-south
+    name: 85 South
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: aaron-branch
     name: Aaron Branch
     aliases: []
@@ -14,6 +21,13 @@ comedians:
     tracked: false
   - slug: aaron-chen
     name: Aaron Chen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: aaron-naylor
+    name: Aaron Naylor
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -123,6 +137,20 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'tmdb: 2 people named Adam Sandler (19292, 4247431); picked 19292'
+  - slug: adel-karam
+    name: Adel Karam
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: adrienne-iapalucci
+    name: Adrienne Iapalucci
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ahir-shah
     name: Ahir Shah
     aliases: []
@@ -146,6 +174,13 @@ comedians:
     tracked: false
   - slug: aisha-alfa
     name: Aisha Alfa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: akaash-singh
+    name: Akaash Singh
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -187,6 +222,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: alan-davies
+    name: Alan Davies
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alan-saldana
+    name: Alan Saldaña
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: alaska-thunderfuck
     name: Alaska Thunderfuck
     aliases: []
@@ -210,8 +259,29 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: alejandro-riano
+    name: Alejandro Riaño
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alex-borstein
+    name: Alex Borstein
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: alex-edelman
     name: Alex Edelman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alex-fernandez
+    name: Alex Fernández
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -226,6 +296,13 @@ comedians:
     tracked: false
   - slug: alfie-brown
     name: Alfie Brown
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: alfred-robles
+    name: Alfred Robles
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -292,6 +369,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: alok-vaid-menon
+    name: Alok Vaid-Menon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: alonzo-bodden
     name: Alonzo Bodden
     aliases: []
@@ -317,6 +401,13 @@ comedians:
     tracked: false
   - slug: amy-matthews
     name: Amy Matthews
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: amy-miller
+    name: Amy Miller
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -376,6 +467,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: andy-franklin
+    name: Andy Franklin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: andy-kaufman
     name: Andy Kaufman
     aliases: []
@@ -385,6 +483,13 @@ comedians:
     tracked: false
   - slug: andy-parsons
     name: Andy Parsons
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: andy-peters
+    name: Andy Peters
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -407,6 +512,13 @@ comedians:
     tracked: true
     resolve_attempted: '2026-11-19'
     needs_review: 'youtube: no exact channel; closest is The Bugle (UCY9DZKa4SilQC4k9rhS3-5g)'
+  - slug: angela-barnes
+    name: Angela Barnes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: anisa-nandaula
     name: Anisa Nandaula
     aliases: []
@@ -425,6 +537,13 @@ comedians:
     needs_review: 'tmdb: no exact match; closest is Anjelah Johnson-Reyes (106934); youtube: no exact channel; closest is Anjelah Johnson-Reyes (UCw4A0C1xVVfGnw7ZVZF0xhQ)'
   - slug: anjelah-johnson-reyes
     name: Anjelah Johnson-Reyes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: anthony-bonazzo
+    name: Anthony Bonazzo
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -453,6 +572,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: are-you-garbage
+    name: Are You Garbage
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ari-shaffir
     name: Ari Shaffir
     aliases: []
@@ -461,8 +587,43 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: aries-spears
+    name: Aries Spears
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: armando-anto
+    name: Armando Anto
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: arnez-j
+    name: Arnez J
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: arsenio-hall
+    name: Arsenio Hall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ashley-gavin
     name: Ashley Gavin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ashley-leisten
+    name: Ashley Leisten
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -492,24 +653,44 @@ comedians:
   - slug: ayo-edebiri
     name: Ayo Edebiri
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 2195140
+    youtube_channel_id: UCSJKH2cMJq_eSZLO8c7jj0A
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: aziz-ansari
     name: Aziz Ansari
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 86626
+    youtube_channel_id: UCrVtUWY2JChSotnQXucSHkA
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: baron-vaughn
     name: Baron Vaughn
+    aliases: []
+    tmdb_id: 1187107
+    youtube_channel_id: UC4fVjRvoY9ALgpyGQRQ43Ww
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: barry-crimmins
+    name: Barry Crimmins
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: barry-hilton
+    name: Barry Hilton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: basile
     name: Basile
     aliases: []
@@ -524,6 +705,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: ben-bailey
+    name: Ben Bailey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-bankas
+    name: Ben Bankas
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ben-boutwell
     name: Ben Boutwell
     aliases: []
@@ -533,6 +728,13 @@ comedians:
     tracked: false
   - slug: ben-elton
     name: Ben Elton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ben-gleib
+    name: Ben Gleib
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -569,10 +771,14 @@ comedians:
   - slug: bernie-mac
     name: Bernie Mac
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1897
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Bernie Mac (1897, 4173329); picked 1897'
+    tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Bernie Mac - Topic (UCHDIFX38Q5yifi8T-IXnguA)'
+    youtube_attempted: '2026-11-19'
   - slug: bernie-wood
     name: Bernie Wood
     aliases: []
@@ -590,17 +796,29 @@ comedians:
   - slug: beth-stelling
     name: Beth Stelling
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 1625019
+    youtube_channel_id: UCHA_p9UBCXIwV46q61VrfvA
     followed: false
     tracked: true
-  - slug: big-jay-oakerson
-    name: Big Jay Oakerson
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: bianca-del-rio
+    name: Bianca Del Rio
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: big-jay-oakerson
+    name: Big Jay Oakerson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: UCmy9rOEiLiDafFWgLk8gZuQ
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: no exact match; closest is Jay Oakerson (1638417)'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bill-bailey
     name: Bill Bailey
     aliases: []
@@ -611,17 +829,22 @@ comedians:
   - slug: bill-bellamy
     name: Bill Bellamy
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 77896
+    youtube_channel_id: UCAnFwjxqOardvbWCCTmSaRg
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Bill Bellamy (77896, 2620750, 4137751); picked 77896'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bill-burr
     name: Bill Burr
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 109708
+    youtube_channel_id: UCAp990eMLzmei84WNR4ptgA
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bill-cosby
     name: Bill Cosby
     aliases: []
@@ -632,10 +855,13 @@ comedians:
   - slug: bill-hicks
     name: Bill Hicks
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 77193
+    youtube_channel_id: UCr32Oj45HCUFf8pzM5mRpOw
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Bill Hicks (77193, 2984725, 5561031); picked 77193'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bill-maher
     name: Bill Maher
     aliases: []
@@ -646,17 +872,28 @@ comedians:
   - slug: billy-connolly
     name: Billy Connolly
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 9188
+    youtube_channel_id: UCYi13ofGUPQb53mmmzq-2ZQ
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: billy-gardell
     name: Billy Gardell
+    aliases: []
+    tmdb_id: 64344
+    youtube_channel_id: UCRYnbR5HYAfoc8ZmvxGlydQ
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: blake-hammond
+    name: Blake Hammond
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: blake-pavey
     name: Blake Pavey
     aliases: []
@@ -667,10 +904,12 @@ comedians:
   - slug: bo-burnham
     name: Bo Burnham
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 115128
+    youtube_channel_id: UCz5dBvyREnqUzkwHBwZccZQ
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bo-johnson
     name: Bo Johnson
     aliases: []
@@ -695,17 +934,21 @@ comedians:
   - slug: bob-newhart
     name: Bob Newhart
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 64930
+    youtube_channel_id: UCjCVSOnIcfRA5WyAScLSHog
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bob-saget
     name: Bob Saget
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 72450
+    youtube_channel_id: UCRMZ7c8o-gIpe5n4RWw0fNw
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: bob-the-drag-queen
     name: Bob the Drag Queen
     aliases: []
@@ -716,29 +959,46 @@ comedians:
   - slug: bobby-lee
     name: Bobby Lee
     aliases: []
-    tmdb_id: null
+    tmdb_id: 198149
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 10 people named Bobby Lee (198149, 2919870, 2517147, 4361809, 4883021, 5972247, 5942231, 4209609, 4708664, 4927020); picked 198149'
+    tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Bad Friends (UCRBpynZV0b7ww2XMCfC17qg)'
+    youtube_attempted: '2026-11-19'
   - slug: bobcat-goldthwait
     name: Bobcat Goldthwait
     aliases: []
-    tmdb_id: null
+    tmdb_id: 95024
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Bobcat Goldthwait - Topic (UCldENHUiDlMlHzYz_c-vRbg)'
+    youtube_attempted: '2026-11-19'
   - slug: bonnie-mcfarlane
     name: Bonnie McFarlane
+    aliases: []
+    tmdb_id: 1221695
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Bonnie McFarlane - Topic (UCiozIR1JJOcI1C-FgySjajQ)'
+    youtube_attempted: '2026-11-19'
+  - slug: brad-howe
+    name: Brad Howe
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: brad-howe
-    name: Brad Howe
+    tracked: false
+  - slug: brad-paisley
+    name: Brad Paisley
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -754,12 +1014,43 @@ comedians:
   - slug: brad-williams
     name: Brad Williams
     aliases: []
+    tmdb_id: 1231673
+    youtube_channel_id: UCSj_Ewo8V0CUKF0JT9s6sAA
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 8 people named Brad Williams (1231673, 3175936, 3842469, 1259799, 2941778, 4260418, 4905922, 5686300); picked 1231673'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: brandie-posey
+    name: Brandie Posey
+    aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: brandie-posey
-    name: Brandie Posey
+    tracked: false
+  - slug: brandon-brickz
+    name: Brandon Brickz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brendan-sagalow
+    name: Brendan Sagalow
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brendan-schaub
+    name: Brendan Schaub
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brendon-burns
+    name: Brendon Burns
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -772,57 +1063,125 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: brent-morin
+    name: Brent Morin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brent-pella
+    name: Brent Pella
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brent-weinbach
     name: Brent Weinbach
     aliases: []
-    tmdb_id: null
+    tmdb_id: 552257
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is BrentWeinbach (UCw98-O5dJwfmnZKrblUiTLQ)'
+    youtube_attempted: '2026-11-19'
   - slug: bret-ernst
     name: Bret Ernst
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 115219
+    youtube_channel_id: UCMMtvmDMxoONyAKTsgjcN4A
     followed: false
     tracked: true
-  - slug: brett-goldstein
-    name: Brett Goldstein
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: brett-erickson
+    name: Brett Erickson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: brett-goldstein
+    name: Brett Goldstein
+    aliases: []
+    tmdb_id: 21422
+    youtube_channel_id: UCC57l0WgIoenD3GwQDUkeAg
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Brett Goldstein (21422, 577752, 1410349); picked 21422'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: brian-babylon
     name: Brian Babylon
     aliases: []
     tmdb_id: null
-    youtube_channel_id: null
+    youtube_channel_id: UCRmvKeQ_50-VylGnVvQsfhQ
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no person found'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: brian-bates
+    name: Brian Bates
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: brian-gaar
+    name: Brian Gaar
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: brian-holtzman
     name: Brian Holtzman
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 4697416
+    youtube_channel_id: UC5OPCm0ObCmu4B7-wfHRrzA
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Brian Holtzman (4697416, 4497032); picked 4697416'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: brian-posehn
     name: Brian Posehn
     aliases: []
-    tmdb_id: null
-    youtube_channel_id: null
+    tmdb_id: 20405
+    youtube_channel_id: UCHU69WOBQkD6z3qBRui5f3g
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
   - slug: brian-regan
     name: Brian Regan
+    aliases: []
+    tmdb_id: 83995
+    youtube_channel_id: UC44jEUbjTOkvdP_FWT1GgfQ
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 4 people named Brian Regan (83995, 60543, 1577591, 2378658); picked 83995'
+    tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-19'
+  - slug: brian-roe
+    name: Brian Roe
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: brian-roe
-    name: Brian Roe
+    tracked: false
+  - slug: brian-simpson
+    name: Brian Simpson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: bridget-everett
+    name: Bridget Everett
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -845,10 +1204,11 @@ comedians:
   - slug: brody-stevens
     name: Brody Stevens
     aliases: []
-    tmdb_id: null
+    tmdb_id: 142373
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: bron-lewis
     name: Bron Lewis
     aliases: []
@@ -859,13 +1219,14 @@ comedians:
   - slug: bruce-bruce
     name: Bruce Bruce
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1568932
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: bryan-callen
     name: Bryan Callen
     aliases: []
@@ -887,6 +1248,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: caleb-synan
+    name: Caleb Synan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: cameron-b-smith
     name: Cameron B Smith
     aliases: []
@@ -901,8 +1269,36 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: candice-guardino
+    name: Candice Guardino
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cara-connors
+    name: Cara Connors
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: carlos-ballarta
+    name: Carlos Ballarta
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: carmen-lagala
     name: Carmen Lagala
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: carolin-kebekus
+    name: Carolin Kebekus
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -918,10 +1314,11 @@ comedians:
   - slug: casey-james-salengo
     name: Casey James Salengo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2600449
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: catherine-cohen
     name: Catherine Cohen
     aliases: []
@@ -932,19 +1329,43 @@ comedians:
   - slug: cedric-the-entertainer
     name: Cedric The Entertainer
     aliases: []
-    tmdb_id: null
+    tmdb_id: 5726
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: chad-daniels
-    name: Chad Daniels
+    tmdb_attempted: '2026-11-19'
+  - slug: celeste-barber
+    name: Celeste Barber
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: celia-pacquola
+    name: Celia Pacquola
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: chad-daniels
+    name: Chad Daniels
+    aliases: []
+    tmdb_id: 1698816
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Chad Daniels (1698816, 3029673); picked 1698816'
+    tmdb_attempted: '2026-11-19'
   - slug: chad-ridgely
     name: Chad Ridgely
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: chappelle
+    name: Chappelle
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -971,22 +1392,38 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: chase-odonnell
+    name: Chase O'Donnell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: chelsea-handler
     name: Chelsea Handler
     aliases: []
-    tmdb_id: null
+    tmdb_id: 151254
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: chelsea-peretti
     name: Chelsea Peretti
+    aliases: []
+    tmdb_id: 1240868
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: chico-bean
+    name: Chico Bean
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: chico-bean
-    name: Chico Bean
+    tracked: false
+  - slug: chinedu-unaka
+    name: Chinedu Unaka
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1002,34 +1439,39 @@ comedians:
   - slug: chris-delia
     name: Chris D'Elia
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1260036
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: chris-distefano
     name: Chris Distefano
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2221185
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: chris-fleming
     name: Chris Fleming
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2051375
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 8 people named Chris Fleming (2051375, 4099915, 4541856, 6216683, 2099926, 2867916, 4913842, 6302599); picked 2051375'
+    tmdb_attempted: '2026-11-19'
   - slug: chris-gethard
     name: Chris Gethard
     aliases: []
-    tmdb_id: null
+    tmdb_id: 169265
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: chris-grace
     name: Chris Grace
     aliases: []
@@ -1040,10 +1482,11 @@ comedians:
   - slug: chris-hardwick
     name: Chris Hardwick
     aliases: []
-    tmdb_id: null
+    tmdb_id: 27738
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: chris-parker
     name: Chris Parker
     aliases: []
@@ -1054,13 +1497,15 @@ comedians:
   - slug: chris-porter
     name: Chris Porter
     aliases: []
-    tmdb_id: null
+    tmdb_id: 934364
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 11 people named Chris Porter (3220994, 934364, 4279404, 5119542, 4316072, 5259094, 3749958, 5420052, 5985032, 1572735, 5336168); picked 934364'
+    tmdb_attempted: '2026-11-19'
   - slug: chris-ramsey
     name: Chris Ramsey
     aliases: []
@@ -1071,17 +1516,20 @@ comedians:
   - slug: chris-redd
     name: Chris Redd
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1631358
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: chris-rock
     name: Chris Rock
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2632
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Chris Rock (2632, 4344716); picked 2632'
+    tmdb_attempted: '2026-11-19'
   - slug: chris-spencer
     name: Chris Spencer
     aliases: []
@@ -1092,12 +1540,35 @@ comedians:
   - slug: chris-tucker
     name: Chris Tucker
     aliases: []
-    tmdb_id: null
+    tmdb_id: 66
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Chris Tucker (66, 2788182, 6189510, 3279428, 5783114); picked 66'
+    tmdb_attempted: '2026-11-19'
+  - slug: chris-weir
+    name: Chris Weir
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: christina-catherine-martinez
     name: Christina Catherine Martinez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: christina-p
+    name: Christina P
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: christina-pazsitzky
+    name: Christina Pazsitzky
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1106,10 +1577,12 @@ comedians:
   - slug: christopher-titus
     name: Christopher Titus
     aliases: []
-    tmdb_id: null
+    tmdb_id: 80103
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Christopher Titus (80103, 6419692); picked 80103'
+    tmdb_attempted: '2026-11-19'
   - slug: claudia-oshry
     name: Claudia Oshry
     aliases: []
@@ -1124,8 +1597,22 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: clint-hall
+    name: Clint Hall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: cody-clarke
     name: Cody Clarke
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: cody-hughes
+    name: Cody Hughes
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1134,26 +1621,65 @@ comedians:
   - slug: colin-jost
     name: Colin Jost
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1226277
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: colin-quinn
     name: Colin Quinn
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1219901
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: conan-obrien
-    name: Conan O'Brien
+    tmdb_review: 'tmdb: 3 people named Colin Quinn (1219901, 2972498, 5029823); picked 1219901'
+    tmdb_attempted: '2026-11-19'
+  - slug: colleen-ballinger
+    name: Colleen Ballinger
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: colum-tyrrell
+    name: Colum Tyrrell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: comedian-cp
+    name: Comedian CP
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: conan-obrien
+    name: Conan O'Brien
+    aliases: []
+    tmdb_id: 81200
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: conner-omalley
+    name: Conner O'Malley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: conrad-molden
     name: Conrad Molden
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: craig-fay
+    name: Craig Fay
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1162,17 +1688,34 @@ comedians:
   - slug: craig-ferguson
     name: Craig Ferguson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 24264
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Craig Ferguson (24264, 586533, 2320225, 2900620, 6467912, 5979677); picked 24264'
+    tmdb_attempted: '2026-11-19'
   - slug: cristela-alonzo
     name: Cristela Alonzo
+    aliases: []
+    tmdb_id: 1374727
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: d-l-hughley
+    name: D. L. Hughley
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: dale-jones
+    name: Dale Jones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: damien-power
     name: Damien Power
     aliases: []
@@ -1183,40 +1726,74 @@ comedians:
   - slug: dan-cummins
     name: Dan Cummins
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1238010
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: dan-levy
+    name: Dan Levy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dan-licata
+    name: Dan Licata
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dan-mintz
     name: Dan Mintz
     aliases: []
-    tmdb_id: null
+    tmdb_id: 224512
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Dan Mintz (224512, 205018, 3948623); picked 224512'
+    tmdb_attempted: '2026-11-19'
+  - slug: dan-rath
+    name: Dan Rath
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dan-soder
     name: Dan Soder
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1578815
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dana-carvey
     name: Dana Carvey
     aliases: []
-    tmdb_id: null
+    tmdb_id: 56159
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dana-gould
     name: Dana Gould
+    aliases: []
+    tmdb_id: 122807
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: dane-cook
+    name: Dane Cook
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: dane-cook
-    name: Dane Cook
+    tracked: false
+  - slug: daniel-howell
+    name: Daniel Howell
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1225,10 +1802,11 @@ comedians:
   - slug: daniel-kitson
     name: Daniel Kitson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1271491
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: daniel-muggleton
     name: Daniel Muggleton
     aliases: []
@@ -1239,31 +1817,37 @@ comedians:
   - slug: daniel-sloss
     name: Daniel Sloss
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1122344
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Daniel Sloss (1122344, 5866088); picked 1122344'
+    tmdb_attempted: '2026-11-19'
   - slug: daniel-tosh
     name: Daniel Tosh
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1221694
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Daniel Tosh (1221694, 2508229); picked 1221694'
+    tmdb_attempted: '2026-11-19'
   - slug: daniel-van-kirk
     name: Daniel Van Kirk
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3505541
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: danny-bhoy
     name: Danny Bhoy
     aliases: []
-    tmdb_id: null
+    tmdb_id: 87088
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dans-karagannis
     name: Dans Karagannis
     aliases: []
@@ -1295,17 +1879,19 @@ comedians:
   - slug: dave-attell
     name: Dave Attell
     aliases: []
-    tmdb_id: null
+    tmdb_id: 65923
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dave-chappelle
     name: Dave Chappelle
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4169
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dave-hughes
     name: Dave Hughes
     aliases: []
@@ -1320,46 +1906,81 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: david-brenner
-    name: David Brenner
+  - slug: dave-stone
+    name: Dave Stone
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: david-a-arnold
+    name: David A. Arnold
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: david-brenner
+    name: David Brenner
+    aliases: []
+    tmdb_id: 1224212
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named David Brenner (1224212, 6051, 1572879, 4799646); picked 1224212'
+    tmdb_attempted: '2026-11-19'
   - slug: david-cross
     name: David Cross
     aliases: []
-    tmdb_id: null
+    tmdb_id: 212
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 10 people named David Cross (212, 127442, 1583790, 4104496, 5410648, 4140423, 4997430, 2776090, 4485708, 5985150); picked 212'
+    tmdb_attempted: '2026-11-19'
   - slug: david-gborie
     name: David Gborie
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1838652
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: david-nihill
+    name: David Nihill
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: david-odoherty
     name: David O'Doherty
     aliases: []
-    tmdb_id: null
+    tmdb_id: 109977
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: david-spade
     name: David Spade
+    aliases: []
+    tmdb_id: 60950
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: david-steinberg
+    name: David Steinberg
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: david-steinberg
-    name: David Steinberg
+    tracked: false
+  - slug: dawn-french
+    name: Dawn French
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1375,10 +1996,11 @@ comedians:
   - slug: demetri-martin
     name: Demetri Martin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 84075
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: demi-adejuyigbe
     name: Demi Adejuyigbe
     aliases: []
@@ -1389,24 +2011,35 @@ comedians:
   - slug: denis-leary
     name: Denis Leary
     aliases: []
-    tmdb_id: null
+    tmdb_id: 5724
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dennis-miller
     name: Dennis Miller
     aliases: []
-    tmdb_id: null
+    tmdb_id: 18326
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Dennis Miller (18326, 1233003, 1842288, 4821514, 5277836, 5490353); picked 18326'
+    tmdb_attempted: '2026-11-19'
   - slug: deon-cole
     name: Deon Cole
+    aliases: []
+    tmdb_id: 216140
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: deray-davis
+    name: DeRay Davis
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: derrick-stroup
     name: Derrick Stroup
     aliases: []
@@ -1417,10 +2050,11 @@ comedians:
   - slug: des-bishop
     name: Des Bishop
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1504664
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: diane-spencer
     name: Diane Spencer
     aliases: []
@@ -1438,17 +2072,33 @@ comedians:
   - slug: dina-hashem
     name: Dina Hashem
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2261093
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: dom-irrera
-    name: Dom Irrera
+    tmdb_attempted: '2026-11-19'
+  - slug: dino-archie
+    name: Dino Archie
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: django-gold
+    name: Django Gold
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dom-irrera
+    name: Dom Irrera
+    aliases: []
+    tmdb_id: 60275
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: don-rickles
     name: Don Rickles
     aliases: []
@@ -1459,43 +2109,59 @@ comedians:
   - slug: donald-glover
     name: Donald Glover
     aliases: []
-    tmdb_id: null
+    tmdb_id: 119589
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 2 people named Donald Glover (119589, 3376295); picked 119589'
+    tmdb_attempted: '2026-11-19'
   - slug: doug-benson
     name: Doug Benson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 143073
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Doug Benson (143073, 5032362); picked 143073'
+    tmdb_attempted: '2026-11-19'
   - slug: doug-stanhope
     name: Doug Stanhope
     aliases: []
-    tmdb_id: null
+    tmdb_id: 82994
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Doug Stanhope (82994, 3201947); picked 82994'
+    tmdb_attempted: '2026-11-19'
   - slug: dov-davidoff
     name: Dov Davidoff
     aliases: []
-    tmdb_id: null
+    tmdb_id: 176763
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: drew-lynch
     name: Drew Lynch
+    aliases: []
+    tmdb_id: 2478796
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 5 people named Drew Lynch (2478796, 94094, 5192861, 5534497, 5792911); picked 2478796'
+    tmdb_attempted: '2026-11-19'
+  - slug: drew-michael
+    name: Drew Michael
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: drew-michael
-    name: Drew Michael
+    tracked: false
+  - slug: dudesy
+    name: Dudesy
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1504,17 +2170,40 @@ comedians:
   - slug: duncan-trussell
     name: Duncan Trussell
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1838651
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: dusty-slay
     name: Dusty Slay
+    aliases: []
+    tmdb_id: 2438292
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: dwayne-perkins
+    name: Dwayne Perkins
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: dwight-simmons
+    name: Dwight Simmons
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dylan-moran
+    name: Dylan Moran
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dyon-brooks
     name: Dyon Brooks
     aliases: []
@@ -1532,12 +2221,21 @@ comedians:
   - slug: ed-byrne
     name: Ed Byrne
     aliases: []
-    tmdb_id: null
+    tmdb_id: 95664
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Ed Byrne (95664, 5307128); picked 95664'
+    tmdb_attempted: '2026-11-19'
   - slug: ed-gamble
     name: Ed Gamble
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ed-hill
+    name: Ed Hill
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1553,10 +2251,12 @@ comedians:
   - slug: eddie-griffin
     name: Eddie Griffin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 62842
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Eddie Griffin (62842, 6030249, 6030248, 2336187); picked 62842'
+    tmdb_attempted: '2026-11-19'
   - slug: eddie-izzard
     name: Eddie Izzard
     aliases: []
@@ -1564,25 +2264,44 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no exact match; closest is Suzy Eddie Izzard (1926)'
+    tmdb_attempted: '2026-11-19'
   - slug: eddie-murphy
     name: Eddie Murphy
     aliases: []
-    tmdb_id: null
+    tmdb_id: 776
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 4 people named Eddie Murphy (776, 1551813, 1414933, 5927370); picked 776'
+    tmdb_attempted: '2026-11-19'
   - slug: eddie-pepitone
     name: Eddie Pepitone
+    aliases: []
+    tmdb_id: 1214063
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: edy-modica
+    name: Edy Modica
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: edy-modica
-    name: Edy Modica
+    tracked: false
+  - slug: ehsan-ahmad
+    name: Ehsan Ahmad
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: eleanor-kerrigan
+    name: Eleanor Kerrigan
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1591,24 +2310,34 @@ comedians:
   - slug: ellen-degeneres
     name: Ellen Degeneres
     aliases: []
-    tmdb_id: null
+    tmdb_id: 14
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: elliott-morgan
+    name: Elliott Morgan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: emily-catalano
     name: Emily Catalano
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4946507
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: emily-heller
     name: Emily Heller
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1475135
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: emily-wilson
     name: Emily Wilson
     aliases: []
@@ -1619,26 +2348,51 @@ comedians:
   - slug: emmy-blotnick
     name: Emmy Blotnick
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2892997
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: emo-philips
     name: Emo Philips
     aliases: []
-    tmdb_id: null
+    tmdb_id: 216837
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: eric-andre
     name: Eric Andre
+    aliases: []
+    tmdb_id: 934159
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 3 people named Eric Andre (934159, 3883252, 6541402); picked 934159'
+    tmdb_attempted: '2026-11-19'
+  - slug: eric-rushton
+    name: Eric Rushton
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: eric-rushton
-    name: Eric Rushton
+    tracked: false
+  - slug: erick-esteban
+    name: Erick Esteban
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: erik-griffin
+    name: Erik Griffin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: esther-povitsky
+    name: Esther Povitsky
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1647,10 +2401,18 @@ comedians:
   - slug: eugene-mirman
     name: Eugene Mirman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1217563
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: eunji-kim
+    name: Eunji Kim
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: evan-hull
     name: Evan Hull
     aliases: []
@@ -1661,17 +2423,33 @@ comedians:
   - slug: fahim-anwar
     name: Fahim Anwar
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1037154
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: fern-brady
-    name: Fern Brady
+    tmdb_attempted: '2026-11-19'
+  - slug: fakkah-fuzz
+    name: Fakkah Fuzz
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: felipe-esparza
+    name: Felipe Esparza
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: fern-brady
+    name: Fern Brady
+    aliases: []
+    tmdb_id: 2403477
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: fin-taylor
     name: Fin Taylor
     aliases: []
@@ -1682,10 +2460,11 @@ comedians:
   - slug: finesse-mitchell
     name: Finesse Mitchell
     aliases: []
-    tmdb_id: null
+    tmdb_id: 66528
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: finlay-christie
     name: Finlay Christie
     aliases: []
@@ -1696,31 +2475,36 @@ comedians:
   - slug: flip-wilson
     name: Flip Wilson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 103903
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Flip Wilson (103903, 1672174); picked 103903'
+    tmdb_attempted: '2026-11-19'
   - slug: flula-borg
     name: Flula Borg
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1471841
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: fortune-feimster
     name: Fortune Feimster
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1183672
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: frank-caliendo
     name: Frank Caliendo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 209203
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: frank-skinner
     name: Frank Skinner
     aliases: []
@@ -1742,20 +2526,36 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: fred-armisen
+    name: Fred Armisen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: freddie-prinze
     name: Freddie Prinze
     aliases: []
-    tmdb_id: null
+    tmdb_id: 198940
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: gabe-liedman
-    name: Gabe Liedman
+    tmdb_attempted: '2026-11-19'
+  - slug: gabe-kea
+    name: Gabe Kea
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: gabe-liedman
+    name: Gabe Liedman
+    aliases: []
+    tmdb_id: 1304330
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: gabriel-iglesias
     name: Gabriel Iglesias
     aliases: []
@@ -1765,6 +2565,34 @@ comedians:
     tracked: false
   - slug: gabriel-rutledge
     name: Gabriel Rutledge
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gad-elmaleh
+    name: Gad Elmaleh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gag-reflex
+    name: Gag Reflex
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gareth-reynolds
+    name: Gareth Reynolds
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: garfunkel
+    name: Garfunkel
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1780,15 +2608,25 @@ comedians:
     flags:
       - looks like a group or band name
     checked: false
+    tmdb_review: 'tmdb: no person found'
+    tmdb_attempted: '2026-11-19'
   - slug: gary-gulman
     name: Gary Gulman
+    aliases: []
+    tmdb_id: 1123616
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: gary-owen
+    name: Gary Owen
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: gary-owen
-    name: Gary Owen
+    tracked: false
+  - slug: gary-vider
+    name: Gary Vider
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1804,27 +2642,45 @@ comedians:
   - slug: geoff-tate
     name: Geoff Tate
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1618531
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 2 people named Geoff Tate (1618531, 2434163); picked 1618531'
+    tmdb_attempted: '2026-11-19'
+  - slug: geoff-tice
+    name: Geoff Tice
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: geoffrey-asmus
+    name: Geoffrey Asmus
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: george-burns
     name: George Burns
     aliases: []
-    tmdb_id: null
+    tmdb_id: 80625
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: george-carlin
     name: George Carlin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 15903
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: george-civeris
     name: George Civeris
     aliases: []
@@ -1842,13 +2698,15 @@ comedians:
   - slug: george-wallace
     name: George Wallace
     aliases: []
-    tmdb_id: null
+    tmdb_id: 552139
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 12 people named George Wallace (552139, 1587842, 1482702, 1626409, 2102588, 2432757, 3228982, 3886944, 2968159, 4794444, 6291790, 5819684); picked 552139'
+    tmdb_attempted: '2026-11-19'
   - slug: gerry-dee
     name: Gerry Dee
     aliases: []
@@ -1866,24 +2724,34 @@ comedians:
   - slug: gilbert-gottfried
     name: Gilbert Gottfried
     aliases: []
-    tmdb_id: null
+    tmdb_id: 15832
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: gilda-radner
     name: Gilda Radner
     aliases: []
-    tmdb_id: null
+    tmdb_id: 46949
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: gina-yashere
     name: Gina Yashere
+    aliases: []
+    tmdb_id: 585607
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: ginger-billy
+    name: Ginger Billy
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: ginger-minj
     name: Ginger Minj
     aliases: []
@@ -1894,13 +2762,14 @@ comedians:
   - slug: godfrey
     name: Godfrey
     aliases: []
-    tmdb_id: null
+    tmdb_id: 73831
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: grace-jarvis
     name: Grace Jarvis
     aliases: []
@@ -1918,47 +2787,69 @@ comedians:
   - slug: greg-behrendt
     name: Greg Behrendt
     aliases: []
-    tmdb_id: null
+    tmdb_id: 109365
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: greg-davies
     name: Greg Davies
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1240641
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Greg Davies (1240641, 5316600); picked 1240641'
+    tmdb_attempted: '2026-11-19'
   - slug: greg-fitzsimmons
     name: Greg Fitzsimmons
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1218686
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: greg-giraldo
     name: Greg Giraldo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 105787
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: greg-proops
     name: Greg Proops
     aliases: []
-    tmdb_id: null
+    tmdb_id: 61965
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: greg-warren
     name: Greg Warren
+    aliases: []
+    tmdb_id: 1904470
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 2 people named Greg Warren (1904470, 2223477); picked 1904470'
+    tmdb_attempted: '2026-11-19'
+  - slug: gus-tate
+    name: Gus Tate
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: guy-montgomery
     name: Guy Montgomery
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: gwen-sunkel
+    name: Gwen Sunkel
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -1974,10 +2865,19 @@ comedians:
   - slug: hampton-yount
     name: Hampton Yount
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1796125
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Hampton Yount (1796125, 2600432); picked 1796125'
+    tmdb_attempted: '2026-11-19'
+  - slug: handren-seavey
+    name: Handren Seavey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: hank-green
     name: Hank Green
     aliases: []
@@ -2009,24 +2909,34 @@ comedians:
   - slug: hannibal-buress
     name: Hannibal Buress
     aliases: []
-    tmdb_id: null
+    tmdb_id: 500427
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: hari-kondabolu
     name: Hari Kondabolu
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1882905
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: harland-williams
-    name: Harland Williams
+    tmdb_attempted: '2026-11-19'
+  - slug: harith-iskander
+    name: Harith Iskander
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: harland-williams
+    name: Harland Williams
+    aliases: []
+    tmdb_id: 16846
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: harry-anderson
     name: Harry Anderson
     aliases: []
@@ -2037,10 +2947,11 @@ comedians:
   - slug: hasan-minhaj
     name: Hasan Minhaj
     aliases: []
-    tmdb_id: null
+    tmdb_id: 552252
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: hazel-brugger
     name: Hazel Brugger
     aliases: []
@@ -2058,17 +2969,28 @@ comedians:
   - slug: helen-hong
     name: Helen Hong
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1552816
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Helen Hong (1552816, 6462852); picked 1552816'
+    tmdb_attempted: '2026-11-19'
   - slug: henry-phillips
     name: Henry Phillips
+    aliases: []
+    tmdb_id: 139541
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 5 people named Henry Phillips (139541, 2841532, 3579230, 2841555, 4742740); picked 139541'
+    tmdb_attempted: '2026-11-19'
+  - slug: henry-rollins
+    name: Henry Rollins
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: horatio-gould
     name: Horatio Gould
     aliases: []
@@ -2079,12 +3001,21 @@ comedians:
   - slug: howard-kremer
     name: Howard Kremer
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4079066
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Howard Kremer (4079066, 1505911); picked 4079066'
+    tmdb_attempted: '2026-11-19'
   - slug: ian-abramson
     name: Ian Abramson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ian-bagg
+    name: Ian Bagg
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2093,24 +3024,42 @@ comedians:
   - slug: ian-edwards
     name: Ian Edwards
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4742163
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Ian Edwards (160007, 4658881, 3361702, 2364279, 4742163); picked 4742163'
+    tmdb_attempted: '2026-11-19'
+  - slug: ian-fidance
+    name: Ian Fidance
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ian-harvie
+    name: Ian Harvie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ian-karmel
     name: Ian Karmel
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1498100
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: ian-lara
     name: Ian Lara
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3624599
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: ilana-glazer
     name: Ilana Glazer
     aliases: []
@@ -2121,12 +3070,34 @@ comedians:
   - slug: iliza-shlesinger
     name: Iliza Shlesinger
     aliases: []
-    tmdb_id: null
+    tmdb_id: 96316
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: isaac-butterfield
+    name: Isaac Butterfield
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: isabel-hagen
     name: Isabel Hagen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ismael-loutfi
+    name: Ismael Loutfi
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ismo
+    name: ISMO
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2146,6 +3117,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: jack-assadourian-jr
+    name: Jack Assadourian Jr.
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jack-barry
     name: Jack Barry
     aliases: []
@@ -2160,20 +3138,30 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: jack-tucker
+    name: Jack Tucker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jack-whitehall
     name: Jack Whitehall
     aliases: []
-    tmdb_id: null
+    tmdb_id: 212285
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Jack Whitehall (212285, 6007707); picked 212285'
+    tmdb_attempted: '2026-11-19'
   - slug: jackie-kashian
     name: Jackie Kashian
     aliases: []
-    tmdb_id: null
+    tmdb_id: 199706
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jackie-mason
     name: Jackie Mason
     aliases: []
@@ -2184,19 +3172,29 @@ comedians:
   - slug: jacqueline-novak
     name: Jacqueline Novak
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3319727
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jake-johannsen
     name: Jake Johannsen
+    aliases: []
+    tmdb_id: 176029
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 3 people named Jake Johannsen (176029, 1234617, 4103056); picked 176029'
+    tmdb_attempted: '2026-11-19'
+  - slug: jake-schick
+    name: Jake Schick
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: jake-schick
-    name: Jake Schick
+    tracked: false
+  - slug: jamal-guichon
+    name: Jamal Guichon
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2205,20 +3203,44 @@ comedians:
   - slug: james-acaster
     name: James Acaster
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1684762
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: james-austin-johnson
+    name: James Austin Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: james-davis
     name: James Davis
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2198141
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 20 people named James Davis (2198141, 1458334, 1807720, 1557359, 6118902, 1097028, 5387295, 1072418, 2952569, 4332860, 3113778, 4438181, 4626972, 5367961, 4679825, 3520334, 3728769, 6492408, 2673124, 2526098); picked 2198141'
+    tmdb_attempted: '2026-11-19'
+  - slug: james-donald-forbes-mccaan
+    name: James Donald Forbes McCaan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jamie-demetriou
+    name: Jamie Demetriou
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jamie-foxx
     name: Jamie Foxx
     aliases: []
@@ -2229,13 +3251,15 @@ comedians:
   - slug: jamie-lee
     name: Jamie Lee
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2205532
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 15 people named Jamie Lee (3150813, 2205532, 2676108, 1700698, 4550533, 2238072, 5099839, 3803092, 3928582, 2675239, 1425761, 6466014, 4291104, 2770471, 4694304); picked 2205532'
+    tmdb_attempted: '2026-11-19'
   - slug: jan-uuspold
     name: Jan Uuspõld
     aliases: []
@@ -2246,12 +3270,27 @@ comedians:
   - slug: janeane-garofalo
     name: Janeane Garofalo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 21197
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: janeane-garofalo-album-version-of-her-october-26
+    name: Janeane Garofalo album version of her October 26
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: janelle-james
     name: Janelle James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: janet-mcnamara
+    name: Janet McNamara
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2271,13 +3310,22 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: jason-cheny
-    name: Jason Cheny
+  - slug: jason-banks
+    name: Jason Banks
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: jason-cheny
+    name: Jason Cheny
+    aliases: []
+    tmdb_id: 5099516
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Jason Cheny (5099516, 4490363); picked 5099516'
+    tmdb_attempted: '2026-11-19'
   - slug: jason-manford
     name: Jason Manford
     aliases: []
@@ -2288,19 +3336,28 @@ comedians:
   - slug: jason-salmon
     name: Jason Salmon
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4252423
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jasper-redd
     name: Jasper Redd
+    aliases: []
+    tmdb_id: 983578
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: jatty-robinson
+    name: Jatty Robinson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: jatty-robinson
-    name: Jatty Robinson
+    tracked: false
+  - slug: jay-chandrasekhar
+    name: Jay Chandrasekhar
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2316,29 +3373,53 @@ comedians:
   - slug: jay-larson
     name: Jay Larson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1334288
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: jay-leno
     name: Jay Leno
     aliases: []
-    tmdb_id: null
+    tmdb_id: 14991
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jay-mohr
     name: Jay Mohr
+    aliases: []
+    tmdb_id: 12217
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: jay-pharoah
+    name: Jay Pharoah
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: jc-currais
+    name: JC Currais
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jeff-arcuri
     name: Jeff Arcuri
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jeff-cerulli
+    name: Jeff Cerulli
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2368,10 +3449,11 @@ comedians:
   - slug: jeff-garlin
     name: Jeff Garlin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 60074
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jeff-innocent
     name: Jeff Innocent
     aliases: []
@@ -2400,20 +3482,29 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: jen-kober
+    name: Jen Kober
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jena-friedman
     name: Jena Friedman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1696096
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jenny-slate
     name: Jenny Slate
     aliases: []
-    tmdb_id: null
+    tmdb_id: 213001
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jenny-tian
     name: Jenny Tian
     aliases: []
@@ -2424,10 +3515,11 @@ comedians:
   - slug: jenny-zigrino
     name: Jenny Zigrino
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1720527
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jeremiah-watkins
     name: Jeremiah Watkins
     aliases: []
@@ -2445,45 +3537,65 @@ comedians:
   - slug: jermaine-fowler
     name: Jermaine Fowler
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1488960
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jerrod-carmichael
     name: Jerrod Carmichael
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1400880
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: jerry-law
+    name: Jerry Law
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jerry-seinfeld
     name: Jerry Seinfeld
     aliases: []
-    tmdb_id: null
+    tmdb_id: 16377
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jesse-joyce
     name: Jesse Joyce
     aliases: []
-    tmdb_id: null
+    tmdb_id: 933410
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jessi-klein
     name: Jessi Klein
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1226305
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jessica-kirson
     name: Jessica Kirson
+    aliases: []
+    tmdb_id: 1226535
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: jesus-sepulveda
+    name: Jesus Sepulveda
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: jethro
     name: Jethro
     aliases: []
@@ -2501,38 +3613,52 @@ comedians:
   - slug: jim-breuer
     name: Jim Breuer
     aliases: []
-    tmdb_id: null
+    tmdb_id: 57690
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jim-carrey
     name: Jim Carrey
     aliases: []
-    tmdb_id: null
+    tmdb_id: 206
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Jim Carrey (206, 6178767, 6250524); picked 206'
+    tmdb_attempted: '2026-11-19'
+  - slug: jim-florentine
+    name: Jim Florentine
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jim-gaffigan
     name: Jim Gaffigan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 84407
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jim-jefferies
     name: Jim Jefferies
     aliases: []
-    tmdb_id: null
+    tmdb_id: 142516
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jim-norton
     name: Jim Norton
     aliases: []
-    tmdb_id: null
+    tmdb_id: 14950
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Jim Norton (14950, 135855, 2437943, 4838366, 6307369, 6438444); picked 14950'
+    tmdb_attempted: '2026-11-19'
   - slug: jimeoin
     name: Jimeoin
     aliases: []
@@ -2543,24 +3669,35 @@ comedians:
   - slug: jimmy-carr
     name: Jimmy Carr
     aliases: []
-    tmdb_id: null
+    tmdb_id: 59077
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Jimmy Carr (59077, 4408626, 4655917, 2571361, 5066900); picked 59077'
+    tmdb_attempted: '2026-11-19'
+  - slug: jimmy-dore
+    name: Jimmy Dore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: jimmy-o-yang
     name: Jimmy O. Yang
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1468779
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jimmy-pardo
     name: Jimmy Pardo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1212434
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jin-hao-li
     name: Jin Hao Li
     aliases: []
@@ -2578,10 +3715,12 @@ comedians:
   - slug: jo-brand
     name: Jo Brand
     aliases: []
-    tmdb_id: null
+    tmdb_id: 117352
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Jo Brand (117352, 5727230); picked 117352'
+    tmdb_attempted: '2026-11-19'
   - slug: jo-caulfield
     name: Jo Caulfield
     aliases: []
@@ -2592,31 +3731,35 @@ comedians:
   - slug: jo-firestone
     name: Jo Firestone
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1726012
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jo-koy
     name: Jo Koy
     aliases: []
-    tmdb_id: null
+    tmdb_id: 114394
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: joan-rivers
     name: Joan Rivers
     aliases: []
-    tmdb_id: null
+    tmdb_id: 14670
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: joe-derosa
     name: Joe Derosa
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1452575
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: joe-dombrowski
     name: Joe Dombrowski
     aliases: []
@@ -2626,6 +3769,13 @@ comedians:
     tracked: false
   - slug: joe-gatto
     name: Joe Gatto
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joe-hill
+    name: Joe Hill
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2641,17 +3791,26 @@ comedians:
   - slug: joe-list
     name: Joe List
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2432951
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: joe-mande
     name: Joe Mande
+    aliases: []
+    tmdb_id: 1052684
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: joe-matarese
+    name: Joe Matarese
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: joe-pasquale
     name: Joe Pasquale
     aliases: []
@@ -2683,19 +3842,36 @@ comedians:
   - slug: joe-zimmerman
     name: Joe Zimmerman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 91150
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Joe Zimmerman (91150, 2281437, 4303472); picked 91150'
+    tmdb_attempted: '2026-11-19'
   - slug: joel-kim-booster
     name: Joel Kim Booster
+    aliases: []
+    tmdb_id: 2371545
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: joel-mchale
+    name: Joel McHale
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: joel-mchale
-    name: Joel McHale
+    tracked: false
+  - slug: joey-avery
+    name: Joey Avery
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: joey-diaz
+    name: Joey Diaz
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2711,31 +3887,64 @@ comedians:
   - slug: john-caparulo
     name: John Caparulo
     aliases: []
-    tmdb_id: null
+    tmdb_id: 108658
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: john-crist
+    name: John Crist
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: john-early
     name: John Early
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1542758
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 7 people named John Early (1542758, 2065907, 3756462, 4170652, 4646491, 4416637, 5582538); picked 1542758'
+    tmdb_attempted: '2026-11-19'
+  - slug: john-franklin
+    name: John Franklin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: john-grimes
+    name: John Grimes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: john-heffron
     name: John Heffron
     aliases: []
-    tmdb_id: null
+    tmdb_id: 131727
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: john-mulaney
-    name: John Mulaney
+    tmdb_attempted: '2026-11-19'
+  - slug: john-mccombs
+    name: John McCombs
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: john-mulaney
+    name: John Mulaney
+    aliases: []
+    tmdb_id: 933558
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: john-novosad
     name: John Novosad
     aliases: []
@@ -2746,17 +3955,20 @@ comedians:
   - slug: john-oliver
     name: John Oliver
     aliases: []
-    tmdb_id: null
+    tmdb_id: 84292
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 9 people named John Oliver (84292, 1320871, 134202, 1527783, 5645033, 2680362, 6207318, 4599341, 5067330); picked 84292'
+    tmdb_attempted: '2026-11-19'
   - slug: john-pinette
     name: John Pinette
     aliases: []
-    tmdb_id: null
+    tmdb_id: 82415
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: johnny-casson
     name: Johnny Casson
     aliases: []
@@ -2767,10 +3979,11 @@ comedians:
   - slug: jon-dore
     name: Jon Dore
     aliases: []
-    tmdb_id: null
+    tmdb_id: 205459
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: jon-richardson
     name: Jon Richardson
     aliases: []
@@ -2781,10 +3994,12 @@ comedians:
   - slug: jon-stewart
     name: Jon Stewart
     aliases: []
-    tmdb_id: null
+    tmdb_id: 12219
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Jon Stewart (12219, 5283668); picked 12219'
+    tmdb_attempted: '2026-11-19'
   - slug: jonah-ray
     name: Jonah Ray
     aliases: []
@@ -2795,6 +4010,8 @@ comedians:
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: no exact match; closest is Jonah Ray Rodrigues (1350757)'
+    tmdb_attempted: '2026-11-19'
   - slug: jonathan-katz
     name: Jonathan Katz
     aliases: []
@@ -2826,17 +4043,19 @@ comedians:
   - slug: jordan-temple
     name: Jordan Temple
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2504620
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: josh-blue
     name: Josh Blue
     aliases: []
-    tmdb_id: null
+    tmdb_id: 488207
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: josh-glanc
     name: Josh Glanc
     aliases: []
@@ -2847,10 +4066,11 @@ comedians:
   - slug: josh-gondelman
     name: Josh Gondelman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1935421
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: josh-johnson
     name: Josh Johnson
     aliases: []
@@ -2865,8 +4085,29 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: josh-means
+    name: Josh Means
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: josh-weller
     name: Josh Weller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: josh-widdicombe
+    name: Josh Widdicombe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: josh-wolf
+    name: Josh Wolf
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2875,10 +4116,25 @@ comedians:
   - slug: jourdain-fisher
     name: Jourdain Fisher
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2600450
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: joyelle-nicole-johnson
+    name: Joyelle Nicole Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: jr-de-guzman
+    name: JR De Guzman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: judah-friedlander
     name: Judah Friedlander
     aliases: []
@@ -2889,17 +4145,27 @@ comedians:
   - slug: judd-apatow
     name: Judd Apatow
     aliases: []
-    tmdb_id: null
+    tmdb_id: 41039
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: judy-gold
-    name: Judy Gold
+    tmdb_attempted: '2026-11-19'
+  - slug: judith-lucy
+    name: Judith Lucy
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: judy-gold
+    name: Judy Gold
+    aliases: []
+    tmdb_id: 28024
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Judy Gold (28024, 5073627); picked 28024'
+    tmdb_attempted: '2026-11-19'
   - slug: julie-kavner
     name: Julie Kavner
     aliases: []
@@ -2910,10 +4176,40 @@ comedians:
   - slug: julio-torres
     name: Julio Torres
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1659144
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Julio Torres (1659144, 1517068, 2889445, 1126563, 6103170, 5780091); picked 1659144'
+    tmdb_attempted: '2026-11-19'
+  - slug: justin-willman
+    name: Justin Willman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: k-trevor-wilson
+    name: K. Trevor Wilson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: k-von
+    name: K-Von
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kaleb-cooper
+    name: Kaleb Cooper
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kanan-gill
     name: Kanan Gill
     aliases: []
@@ -2935,6 +4231,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: kate-willett
+    name: Kate Willett
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: katherine-ryan
     name: Katherine Ryan
     aliases: []
@@ -2945,19 +4248,28 @@ comedians:
   - slug: kathleen-madigan
     name: Kathleen Madigan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 96317
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: kathy-griffin
     name: Kathy Griffin
+    aliases: []
+    tmdb_id: 3138
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: katie-boyle
+    name: Katie Boyle
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: katie-boyle
-    name: Katie Boyle
+    tracked: false
+  - slug: katie-hughes
+    name: Katie Hughes
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -2970,15 +4282,31 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: keith-robinson
-    name: Keith Robinson
+  - slug: kavin-jayaram
+    name: Kavin Jayaram
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: keith-robinson
+    name: Keith Robinson
+    aliases: []
+    tmdb_id: 1429611
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 12 people named Keith Robinson (1280478, 1708073, 1429611, 1085614, 5367732, 3788361, 4009127, 4823866, 1406244, 5820881, 3136334, 2307931); picked 1429611'
+    tmdb_attempted: '2026-11-19'
   - slug: kelsey-cook
     name: Kelsey Cook
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ken-flores
+    name: Ken Flores
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3001,13 +4329,15 @@ comedians:
   - slug: kevin-brennan
     name: Kevin Brennan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 186043
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 10 people named Kevin Brennan (186043, 3126194, 3304179, 1238741, 5526121, 3229612, 5712927, 3841202, 5434481, 5751303); picked 186043'
+    tmdb_attempted: '2026-11-19'
   - slug: kevin-bridges
     name: Kevin Bridges
     aliases: []
@@ -3018,27 +4348,40 @@ comedians:
   - slug: kevin-hart
     name: Kevin Hart
     aliases: []
-    tmdb_id: null
+    tmdb_id: 55638
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 11 people named Kevin Hart (55638, 4357866, 1118965, 1034445, 3012263, 4688530, 2101974, 1738553, 4688528, 5148006, 5264666); picked 55638'
+    tmdb_attempted: '2026-11-19'
+  - slug: kevin-harts
+    name: Kevin Harts
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kevin-heffernan
     name: Kevin Heffernan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 56251
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Kevin Heffernan (56251, 3125642); picked 56251'
+    tmdb_attempted: '2026-11-19'
   - slug: kevin-james
     name: Kevin James
     aliases: []
-    tmdb_id: null
+    tmdb_id: 32895
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 11 people named Kevin James (32895, 2788551, 1354419, 4835383, 1242163, 1657084, 3299632, 2047953, 3720967, 5399467, 4181403); picked 32895'
+    tmdb_attempted: '2026-11-19'
   - slug: kevin-james-doyle
     name: Kevin James Doyle
     aliases: []
@@ -3049,26 +4392,43 @@ comedians:
   - slug: kevin-meaney
     name: Kevin Meaney
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1234618
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: kevin-nealon
     name: Kevin Nealon
     aliases: []
-    tmdb_id: null
+    tmdb_id: 58478
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: kevin-pollak
     name: Kevin Pollak
+    aliases: []
+    tmdb_id: 7166
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: kevin-ryan
+    name: Kevin Ryan
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: kevin-smith
     name: Kevin Smith
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: kim-mcvicar
+    name: Kim McVicar
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3084,10 +4444,11 @@ comedians:
   - slug: kristen-schaal
     name: Kristen Schaal
     aliases: []
-    tmdb_id: null
+    tmdb_id: 109869
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: kristin-key
     name: Kristin Key
     aliases: []
@@ -3098,38 +4459,57 @@ comedians:
   - slug: kumail-nanjiani
     name: Kumail Nanjiani
     aliases: []
-    tmdb_id: null
+    tmdb_id: 466505
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: kurt-braunohler
     name: Kurt Braunohler
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1059412
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: kurtis-conner
+    name: Kurtis Conner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: kyle-kinane
     name: Kyle Kinane
     aliases: []
-    tmdb_id: null
+    tmdb_id: 448526
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: lace-larrabee
     name: Lace Larrabee
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4788010
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: langston-kerman
-    name: Langston Kerman
+    tmdb_attempted: '2026-11-19'
+  - slug: lachlan-patterson
+    name: Lachlan Patterson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: langston-kerman
+    name: Langston Kerman
+    aliases: []
+    tmdb_id: 1677384
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: lara-beitz
     name: Lara Beitz
     aliases: []
@@ -3154,13 +4534,15 @@ comedians:
   - slug: larry-miller
     name: Larry Miller
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1211
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_review: 'tmdb: 7 people named Larry Miller (1211, 2829837, 1330712, 4224188, 4197287, 3978773, 6147136); picked 1211'
+    tmdb_attempted: '2026-11-19'
   - slug: larry-the-cable-guy
     name: Larry the Cable Guy
     aliases: []
@@ -3171,17 +4553,19 @@ comedians:
   - slug: laurie-kilmartin
     name: Laurie Kilmartin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1251841
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: lavell-crawford
     name: Lavell Crawford
     aliases: []
-    tmdb_id: null
+    tmdb_id: 564348
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: leanne-morgan
     name: Leanne Morgan
     aliases: []
@@ -3192,12 +4576,28 @@ comedians:
   - slug: lee-evans
     name: Lee Evans
     aliases: []
-    tmdb_id: null
+    tmdb_id: 7400
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Lee Evans (7400, 2526834, 5166468, 2662896, 5516965); picked 7400'
+    tmdb_attempted: '2026-11-19'
+  - slug: lee-kimbrell
+    name: Lee Kimbrell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: lee-mack
     name: Lee Mack
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: lee-su-geun
+    name: Lee Su-geun
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3206,10 +4606,11 @@ comedians:
   - slug: lenny-bruce
     name: Lenny Bruce
     aliases: []
-    tmdb_id: null
+    tmdb_id: 107605
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: lenny-henry
     name: Lenny Henry
     aliases: []
@@ -3219,6 +4620,13 @@ comedians:
     tracked: false
   - slug: leo-reich
     name: Leo Reich
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: leonard-ouzts
+    name: Leonard Ouzts
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3255,10 +4663,11 @@ comedians:
   - slug: lil-rel-howery
     name: Lil Rel Howery
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1488961
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: lisa-ann-walter
     name: Lisa Ann Walter
     aliases: []
@@ -3276,19 +4685,35 @@ comedians:
   - slug: liz-miele
     name: Liz Miele
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2716737
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: liza-treyger
     name: Liza Treyger
+    aliases: []
+    tmdb_id: 1580616
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: lloyd-langford
+    name: Lloyd Langford
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: lloyd-langford
-    name: Lloyd Langford
+    tracked: false
+  - slug: lokillo
+    name: Lokillo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: london-hughes
+    name: London Hughes
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3304,10 +4729,12 @@ comedians:
   - slug: louie-anderson
     name: Louie Anderson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 44795
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Louie Anderson (44795, 2039242, 1526792); picked 44795'
+    tmdb_attempted: '2026-11-19'
   - slug: louis-c-k
     name: Louis C.K.
     aliases: []
@@ -3322,13 +4749,17 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no exact match; closest is Louis C.K. (52849)'
+    tmdb_attempted: '2026-11-19'
   - slug: louis-katz
     name: Louis Katz
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4331741
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Louis Katz (2141418, 4331741); picked 4331741'
+    tmdb_attempted: '2026-11-19'
   - slug: loyiso-gola
     name: Loyiso Gola
     aliases: []
@@ -3345,6 +4776,13 @@ comedians:
     tracked: false
   - slug: luisa-omielan
     name: Luisa Omielan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: luke-capasso
+    name: Luke Capasso
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3371,20 +4809,30 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: lynne-koplitz
+    name: Lynne Koplitz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mae-martin
     name: Mae Martin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2544703
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: maeve-higgins
     name: Maeve Higgins
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1237054
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Maeve Higgins (1237054, 6396016); picked 1237054'
+    tmdb_attempted: '2026-11-19'
   - slug: maggie-faris
     name: Maggie Faris
     aliases: []
@@ -3394,6 +4842,13 @@ comedians:
     tracked: false
   - slug: mal-hall
     name: Mal Hall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: malik-s
+    name: Malik S
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3409,10 +4864,11 @@ comedians:
   - slug: marc-maron
     name: Marc Maron
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1231717
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: marcella-arguello
     name: Marcella Arguello
     aliases: []
@@ -3430,10 +4886,11 @@ comedians:
   - slug: marcia-belsky
     name: Marcia Belsky
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3702421
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: marcus-d-wiley
     name: Marcus D. Wiley
     aliases: []
@@ -3444,17 +4901,33 @@ comedians:
   - slug: margaret-cho
     name: Margaret Cho
     aliases: []
-    tmdb_id: null
+    tmdb_id: 11152
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: maria-bamford
     name: Maria Bamford
+    aliases: []
+    tmdb_id: 60278
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: mario-adrion
+    name: Mario Adrion
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: marjolein-robertson
+    name: Marjolein Robertson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mark-chalifoux
     name: Mark Chalifoux
     aliases: []
@@ -3465,12 +4938,20 @@ comedians:
   - slug: mark-normand
     name: Mark Normand
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1580615
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: mark-thomas
     name: Mark Thomas
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: marlon-wayan
+    name: Marlon Wayan
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3479,24 +4960,37 @@ comedians:
   - slug: marlon-wayans
     name: Marlon Wayans
     aliases: []
-    tmdb_id: null
+    tmdb_id: 9562
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Marlon Wayans (9562, 5124272); picked 9562'
+    tmdb_attempted: '2026-11-19'
   - slug: martin-lawrence
     name: Martin Lawrence
     aliases: []
-    tmdb_id: null
+    tmdb_id: 78029
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Martin Lawrence (78029, 2204604); picked 78029'
+    tmdb_attempted: '2026-11-19'
   - slug: martin-short
     name: Martin Short
+    aliases: []
+    tmdb_id: 519
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 4 people named Martin Short (519, 3855976, 2171743, 4952669); picked 519'
+    tmdb_attempted: '2026-11-19'
+  - slug: mary-basmadjian
+    name: Mary Basmadjian
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: mary-beth-barone
     name: Mary Beth Barone
     aliases: []
@@ -3507,38 +5001,52 @@ comedians:
   - slug: matt-besser
     name: Matt Besser
     aliases: []
-    tmdb_id: null
+    tmdb_id: 177475
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: matt-braunger
     name: Matt Braunger
     aliases: []
-    tmdb_id: null
+    tmdb_id: 208685
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Matt Braunger (208685, 5475629); picked 208685'
+    tmdb_attempted: '2026-11-19'
   - slug: matt-fulchiron
     name: Matt Fulchiron
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2082003
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: matt-green
+    name: Matt Green
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: matt-koff
     name: Matt Koff
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2705118
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: matt-mccarthy
     name: Matt McCarthy
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2004307
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Matt McCarthy (2004307, 2267827, 4063371, 1580159, 3030006); picked 2004307'
+    tmdb_attempted: '2026-11-19'
   - slug: matt-mccusker
     name: Matt McCusker
     aliases: []
@@ -3570,17 +5078,34 @@ comedians:
   - slug: matteo-lane
     name: Matteo Lane
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1722348
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: matthew-broussard
     name: Matthew Broussard
+    aliases: []
+    tmdb_id: 3082799
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 2 people named Matthew Broussard (3082799, 238079); picked 3082799'
+    tmdb_attempted: '2026-11-19'
+  - slug: mau-nieto
+    name: Mau Nieto
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: max-amini
+    name: Max Amini
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mayce-galoni
     name: Mayce Galoni
     aliases: []
@@ -3591,17 +5116,26 @@ comedians:
   - slug: maz-jobrani
     name: Maz Jobrani
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2252
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: megan-gailey
     name: Megan Gailey
+    aliases: []
+    tmdb_id: 1736688
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: mel-brooks
+    name: Mel Brooks
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: melanie-bracewell
     name: Melanie Bracewell
     aliases: []
@@ -3612,13 +5146,14 @@ comedians:
   - slug: melissa-villasenor
     name: Melissa Villaseñor
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1695631
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: mervyn-rozz
     name: Mervyn Rozz
     aliases: []
@@ -3629,10 +5164,18 @@ comedians:
   - slug: michael-che
     name: Michael Che
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1395347
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: michael-ian-black
+    name: Michael Ian Black
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: michael-kayne
     name: Michael Kayne
     aliases: []
@@ -3643,31 +5186,45 @@ comedians:
   - slug: michael-kosta
     name: Michael Kosta
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1681997
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Michael Kosta (1681997, 2887151); picked 1681997'
+    tmdb_attempted: '2026-11-19'
   - slug: michael-mcintyre
     name: Michael McIntyre
     aliases: []
-    tmdb_id: null
+    tmdb_id: 77297
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 7 people named Michael McIntyre (77297, 2404306, 1959734, 1815190, 3895012, 1815189, 4784610); picked 77297'
+    tmdb_attempted: '2026-11-19'
   - slug: michelle-buteau
     name: Michelle Buteau
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1475128
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: michelle-wolf
     name: Michelle Wolf
+    aliases: []
+    tmdb_id: 1710444
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 2 people named Michelle Wolf (1710444, 5207173); picked 1710444'
+    tmdb_attempted: '2026-11-19'
+  - slug: mick-foley
+    name: Mick Foley
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: mick-miller
     name: Mick Miller
     aliases: []
@@ -3685,10 +5242,11 @@ comedians:
   - slug: mike-birbiglia
     name: Mike Birbiglia
     aliases: []
-    tmdb_id: null
+    tmdb_id: 113373
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: mike-bubbins
     name: Mike Bubbins
     aliases: []
@@ -3706,10 +5264,11 @@ comedians:
   - slug: mike-destefano
     name: Mike Destefano
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1237217
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: mike-epps
     name: Mike Epps
     aliases: []
@@ -3727,10 +5286,11 @@ comedians:
   - slug: mike-feeney
     name: Mike Feeney
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2726095
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: mike-hanford
     name: Mike Hanford
     aliases: []
@@ -3741,10 +5301,18 @@ comedians:
   - slug: mike-recine
     name: Mike Recine
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3769417
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: mike-rice
+    name: Mike Rice
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mike-tyson
     name: Mike Tyson
     aliases: []
@@ -3755,17 +5323,27 @@ comedians:
   - slug: mike-vecchione
     name: Mike Vecchione
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2081963
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Mike Vecchione (2081963, 2829413); picked 2081963'
+    tmdb_attempted: '2026-11-19'
   - slug: mike-yard
     name: Mike Yard
+    aliases: []
+    tmdb_id: 2247532
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: miles-jupp
+    name: Miles Jupp
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: milo-edwards
     name: Milo Edwards
     aliases: []
@@ -3776,26 +5354,44 @@ comedians:
   - slug: milton-jones
     name: Milton Jones
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1243624
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Milton Jones (1243624, 5046499, 4104361, 6085302); picked 1243624'
+    tmdb_attempted: '2026-11-19'
+  - slug: miranda-sings
+    name: Miranda Sings
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: mitch-hedberg
     name: Mitch Hedberg
     aliases: []
-    tmdb_id: null
+    tmdb_id: 59255
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: mo-amer
     name: Mo Amer
+    aliases: []
+    tmdb_id: 1293978
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: mo-gilligan
+    name: Mo Gilligan
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: mo-gilligan
-    name: Mo Gilligan
+    tracked: false
+  - slug: mo-mandel
+    name: Mo Mandel
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3808,23 +5404,32 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: moms-mabley
-    name: Moms Mabley
+  - slug: mojo-brookzz
+    name: Mojo Brookzz
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: moms-mabley
+    name: Moms Mabley
+    aliases: []
+    tmdb_id: 149094
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: monique
     name: Mo'Nique
     aliases: []
-    tmdb_id: null
+    tmdb_id: 60561
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: morgan-jay
     name: Morgan Jay
     aliases: []
@@ -3835,10 +5440,12 @@ comedians:
   - slug: morgan-murphy
     name: Morgan Murphy
     aliases: []
-    tmdb_id: null
+    tmdb_id: 210386
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Morgan Murphy (210386, 4481237, 3589823); picked 210386'
+    tmdb_attempted: '2026-11-19'
   - slug: morgana-oreilly
     name: Morgana O'Reilly
     aliases: []
@@ -3849,17 +5456,26 @@ comedians:
   - slug: mort-sahl
     name: Mort Sahl
     aliases: []
-    tmdb_id: null
+    tmdb_id: 151937
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: moshe-kasher
-    name: Moshe Kasher
+    tmdb_attempted: '2026-11-19'
+  - slug: moses-storm
+    name: Moses Storm
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: moshe-kasher
+    name: Moshe Kasher
+    aliases: []
+    tmdb_id: 491911
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: ms-pat
     name: Ms. Pat
     aliases: []
@@ -3867,43 +5483,78 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no exact match; closest is Ms. Patty (6201322)'
+    tmdb_attempted: '2026-11-19'
   - slug: myq-kaplan
     name: Myq Kaplan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1419927
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: naomi-ekperigin
     name: Naomi Ekperigin
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1974164
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: natalia-valdebenito
+    name: Natalia Valdebenito
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: natalie-cuomo
+    name: Natalie Cuomo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: natasha-leggero
     name: Natasha Leggero
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1214835
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: natasha-vaynblat
+    name: Natasha Vaynblat
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nate-bargatze
     name: Nate Bargatze
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1337794
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: nate-craig
     name: Nate Craig
+    aliases: []
+    tmdb_id: 2637857
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: nate-jackson
+    name: Nate Jackson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: nate-jackson
-    name: Nate Jackson
+    tracked: false
+  - slug: nathan-lund
+    name: Nathan Lund
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3912,10 +5563,11 @@ comedians:
   - slug: nathan-macintosh
     name: Nathan Macintosh
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4032471
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: naveen-richard
     name: Naveen Richard
     aliases: []
@@ -3926,12 +5578,27 @@ comedians:
   - slug: neal-brennan
     name: Neal Brennan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 57692
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: neil-patrick-harris
     name: Neil Patrick Harris
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-di-paolo
+    name: Nick Di Paolo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: nick-dipaolo
+    name: Nick DiPaolo
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -3947,10 +5614,18 @@ comedians:
   - slug: nick-kroll
     name: Nick Kroll
     aliases: []
-    tmdb_id: null
+    tmdb_id: 208519
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: nick-mullen
+    name: Nick Mullen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nick-offerman
     name: Nick Offerman
     aliases: []
@@ -3961,17 +5636,27 @@ comedians:
   - slug: nick-swardson
     name: Nick Swardson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 32907
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: nick-thune
     name: Nick Thune
+    aliases: []
+    tmdb_id: 216147
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 2 people named Nick Thune (216147, 3734527); picked 216147'
+    tmdb_attempted: '2026-11-19'
+  - slug: nick-whitmer
+    name: Nick Whitmer
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: nicola-dempsey
     name: Nicola Dempsey
     aliases: []
@@ -3986,20 +5671,30 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: nigel-ng
+    name: Nigel Ng
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nikki-glaser
     name: Nikki Glaser
     aliases: []
-    tmdb_id: null
+    tmdb_id: 552243
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: nimesh-patel
     name: Nimesh Patel
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2240822
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Nimesh Patel (2240822, 5373352, 5316321, 5796711); picked 2240822'
+    tmdb_attempted: '2026-11-19'
   - slug: nina-conti
     name: Nina Conti
     aliases: []
@@ -4028,20 +5723,36 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: noel-miller
+    name: Noel Miller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: nore-davis
     name: Nore Davis
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2056594
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: norm-macdonald
     name: Norm MacDonald
+    aliases: []
+    tmdb_id: 77075
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: oates
+    name: Oates
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
   - slug: olga-koch
     name: Olga Koch
     aliases: []
@@ -4063,6 +5774,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: ophira-eisenberg
+    name: Ophira Eisenberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ossia-dwyer
+    name: Ossia Dwyer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: owen-benjamin
     name: Owen Benjamin
     aliases: []
@@ -4073,24 +5798,35 @@ comedians:
   - slug: pablo-francisco
     name: Pablo Francisco
     aliases: []
-    tmdb_id: null
+    tmdb_id: 87587
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: papp-johnson
+    name: Papp Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: pat-regan
     name: Pat Regan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2166900
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Pat Regan (2166900, 4702055, 978297, 5538625); picked 2166900'
+    tmdb_attempted: '2026-11-19'
   - slug: patrice-oneal
     name: Patrice O'Neal
     aliases: []
-    tmdb_id: null
+    tmdb_id: 543256
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: patrick-hastie
     name: Patrick Hastie
     aliases: []
@@ -4101,10 +5837,11 @@ comedians:
   - slug: patton-oswalt
     name: Patton Oswalt
     aliases: []
-    tmdb_id: null
+    tmdb_id: 10872
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: paul-chowdhry
     name: Paul Chowdhry
     aliases: []
@@ -4122,10 +5859,11 @@ comedians:
   - slug: paul-f-tompkins
     name: Paul F. Tompkins
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1219029
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: paul-foot
     name: Paul Foot
     aliases: []
@@ -4136,10 +5874,12 @@ comedians:
   - slug: paul-mooney
     name: Paul Mooney
     aliases: []
-    tmdb_id: null
+    tmdb_id: 81149
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Paul Mooney (81149, 5352650, 6190990, 1919774, 2523413); picked 81149'
+    tmdb_attempted: '2026-11-19'
   - slug: paul-reiser
     name: Paul Reiser
     aliases: []
@@ -4150,17 +5890,34 @@ comedians:
   - slug: paul-rodriguez
     name: Paul Rodriguez
     aliases: []
-    tmdb_id: null
+    tmdb_id: 55259
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: paula-poundstone
-    name: Paula Poundstone
+    tmdb_review: 'tmdb: 9 people named Paul Rodriguez (1246581, 55259, 1498779, 2846342, 2208327, 4551884, 3411618, 3373716, 6287529); picked 55259'
+    tmdb_attempted: '2026-11-19'
+  - slug: paul-virzi
+    name: Paul Virzi
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: paula-poundstone
+    name: Paula Poundstone
+    aliases: []
+    tmdb_id: 196502
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: pauly-shore
+    name: Pauly Shore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: peppermint
     name: Peppermint
     aliases: []
@@ -4171,19 +5928,29 @@ comedians:
   - slug: pete-davidson
     name: Pete Davidson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1427948
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: pete-holmes
     name: Pete Holmes
+    aliases: []
+    tmdb_id: 1177838
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 5 people named Pete Holmes (1177838, 4061023, 1180816, 2732550, 4891575); picked 1177838'
+    tmdb_attempted: '2026-11-19'
+  - slug: peter-kay
+    name: Peter Kay
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: peter-kay
-    name: Peter Kay
+    tracked: false
+  - slug: peter-serafinowicz
+    name: Peter Serafinowicz
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4192,10 +5959,19 @@ comedians:
   - slug: phil-hanley
     name: Phil Hanley
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1805214
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Phil Hanley (1805214, 1805215); picked 1805214'
+    tmdb_attempted: '2026-11-19'
+  - slug: phil-pointer
+    name: Phil Pointer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: phil-wang
     name: Phil Wang
     aliases: []
@@ -4206,17 +5982,20 @@ comedians:
   - slug: phoebe-robinson
     name: Phoebe Robinson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1837786
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: phyllis-diller
     name: Phyllis Diller
     aliases: []
-    tmdb_id: null
+    tmdb_id: 89784
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Phyllis Diller (89784, 3214329, 4275776); picked 89784'
+    tmdb_attempted: '2026-11-19'
   - slug: pierce-campion
     name: Pierce Campion
     aliases: []
@@ -4238,15 +6017,37 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: punkie-johnson
-    name: Punkie Johnson
+  - slug: preacher-lawson
+    name: Preacher Lawson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: punkie-johnson
+    name: Punkie Johnson
+    aliases: []
+    tmdb_id: 2386815
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: quincy-jones
+    name: Quincy Jones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: raanan-hershberg
     name: Raanan Hershberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rachel-bloom
+    name: Rachel Bloom
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4262,10 +6063,12 @@ comedians:
   - slug: rachel-feinstein
     name: Rachel Feinstein
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1196176
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Rachel Feinstein (1196176, 2691087); picked 1196176'
+    tmdb_attempted: '2026-11-19'
   - slug: rachel-mac
     name: Rachel Mac
     aliases: []
@@ -4273,6 +6076,15 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no exact match; closest is Rachel MacKall (3495192)'
+    tmdb_attempted: '2026-11-19'
+  - slug: rachel-scanlon
+    name: Rachel Scanlon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: raditya-dika
     name: Raditya Dika
     aliases: []
@@ -4290,10 +6102,12 @@ comedians:
   - slug: rafael-barbosa
     name: Rafael Barbosa
     aliases: []
-    tmdb_id: null
+    tmdb_id: 4854499
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Rafael Barbosa (3976608, 2602097, 3094278, 4895157, 4854499, 5831295); picked 4854499'
+    tmdb_attempted: '2026-11-19'
   - slug: rahul-subramanian
     name: Rahul Subramanian
     aliases: []
@@ -4322,15 +6136,25 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no person found'
+    tmdb_attempted: '2026-11-19'
   - slug: ralphie-may
     name: Ralphie May
+    aliases: []
+    tmdb_id: 125933
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: ramy-youssef
+    name: Ramy Youssef
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: ramy-youssef
-    name: Ramy Youssef
+    tracked: false
+  - slug: randy-feltface
+    name: Randy Feltface
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4346,24 +6170,27 @@ comedians:
   - slug: ray-romano
     name: Ray Romano
     aliases: []
-    tmdb_id: null
+    tmdb_id: 15757
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: redd-foxx
     name: Redd Foxx
     aliases: []
-    tmdb_id: null
+    tmdb_id: 56949
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: reggie-watts
     name: Reggie Watts
     aliases: []
-    tmdb_id: null
+    tmdb_id: 223879
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: renee-gauthier
     name: Renee Gauthier
     aliases: []
@@ -4381,12 +6208,27 @@ comedians:
   - slug: rhys-darby
     name: Rhys Darby
     aliases: []
-    tmdb_id: null
+    tmdb_id: 82666
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: rhys-james
     name: Rhys James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ricardo-quevedo
+    name: Ricardo Quevedo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: rich-hall
+    name: Rich Hall
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4395,17 +6237,20 @@ comedians:
   - slug: rich-vos
     name: Rich Vos
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1225924
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Rich Vos (1225924, 4734518); picked 1225924'
+    tmdb_attempted: '2026-11-19'
   - slug: richard-belzer
     name: Richard Belzer
     aliases: []
-    tmdb_id: null
+    tmdb_id: 32396
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: richard-herring
     name: Richard Herring
     aliases: []
@@ -4416,17 +6261,20 @@ comedians:
   - slug: richard-jeni
     name: Richard Jeni
     aliases: []
-    tmdb_id: null
+    tmdb_id: 53402
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: richard-lewis
     name: Richard Lewis
     aliases: []
-    tmdb_id: null
+    tmdb_id: 6105
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 17 people named Richard Lewis (6105, 2457462, 2837437, 1423698, 4604638, 5877367, 2919567, 4032877, 5865639, 4114976, 2162945, 4720923, 3543251, 3818213, 5394159, 5059976, 4097013); picked 6105'
+    tmdb_attempted: '2026-11-19'
   - slug: richard-pryor
     name: Richard Pryor
     aliases: []
@@ -4441,6 +6289,8 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: no person found'
+    tmdb_attempted: '2026-11-19'
   - slug: rick-mercer
     name: Rick Mercer
     aliases: []
@@ -4450,6 +6300,13 @@ comedians:
     tracked: false
   - slug: ricky-gervais
     name: Ricky Gervais
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ricky-velez
+    name: Ricky Velez
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4465,17 +6322,33 @@ comedians:
   - slug: riki-lindhome
     name: Riki Lindhome
     aliases: []
-    tmdb_id: null
+    tmdb_id: 453
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: rob-delaney
-    name: Rob Delaney
+    tmdb_attempted: '2026-11-19'
+  - slug: river-butcher
+    name: River Butcher
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: rob-delaney
+    name: Rob Delaney
+    aliases: []
+    tmdb_id: 1091324
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: rob-gronkowski
+    name: Rob Gronkowski
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rob-schneider
     name: Rob Schneider
     aliases: []
@@ -4490,27 +6363,39 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: robert-kelly
+    name: Robert Kelly
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: robert-klein
     name: Robert Klein
     aliases: []
-    tmdb_id: null
+    tmdb_id: 26715
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 5 people named Robert Klein (26715, 1366645, 3650974, 4459480, 5801551); picked 26715'
+    tmdb_attempted: '2026-11-19'
   - slug: robert-schimmel
     name: Robert Schimmel
     aliases: []
-    tmdb_id: null
+    tmdb_id: 95197
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: robin-harris
     name: Robin Harris
     aliases: []
-    tmdb_id: null
+    tmdb_id: 15535
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 6 people named Robin Harris (15535, 1155162, 2913287, 5991470, 2332596, 6365778); picked 15535'
+    tmdb_attempted: '2026-11-19'
   - slug: robin-tran
     name: Robin Tran
     aliases: []
@@ -4521,10 +6406,12 @@ comedians:
   - slug: robin-williams
     name: Robin Williams
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2157
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 10 people named Robin Williams (2157, 5435168, 2010415, 2714381, 3521670, 5347894, 4170949, 5071380, 2572092, 6224360); picked 2157'
+    tmdb_attempted: '2026-11-19'
   - slug: rod-quantock
     name: Rod Quantock
     aliases: []
@@ -4542,12 +6429,27 @@ comedians:
   - slug: rodney-dangerfield
     name: Rodney Dangerfield
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3198
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: rodrigo-marques
+    name: Rodrigo Marques
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rome-davis
     name: Rome Davis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: romesh-ranganathan
+    name: Romesh Ranganathan
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4563,10 +6465,18 @@ comedians:
   - slug: ron-funches
     name: Ron Funches
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1260038
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: ron-james
+    name: Ron James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ron-white
     name: Ron White
     aliases: []
@@ -4584,10 +6494,11 @@ comedians:
   - slug: ronny-chieng
     name: Ronny Chieng
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1319469
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: rory-oneill
     name: Rory O'Neill
     aliases: []
@@ -4598,38 +6509,51 @@ comedians:
   - slug: rory-scovel
     name: Rory Scovel
     aliases: []
-    tmdb_id: null
+    tmdb_id: 509193
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Rory Scovel (509193, 5791622); picked 509193'
+    tmdb_attempted: '2026-11-19'
+  - slug: rose-matafeo
+    name: Rose Matafeo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: roseanne-barr
     name: Roseanne Barr
     aliases: []
-    tmdb_id: null
+    tmdb_id: 46393
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: rosebud-baker
     name: Rosebud Baker
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1355795
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: rowan-atkinson
     name: Rowan Atkinson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 10730
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: roy-blount-jr
     name: Roy Blount, Jr.
     aliases: []
-    tmdb_id: null
+    tmdb_id: 112167
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: roy-chubby-brown
     name: Roy 'Chubby' Brown
     aliases: []
@@ -4640,10 +6564,18 @@ comedians:
   - slug: roy-wood-jr
     name: Roy Wood Jr.
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1680420
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: ruby-karp
+    name: Ruby Karp
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: rufat-agayev
     name: Rufat Agayev
     aliases: []
@@ -4675,10 +6607,11 @@ comedians:
   - slug: russell-peters
     name: Russell Peters
     aliases: []
-    tmdb_id: null
+    tmdb_id: 82417
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: ryan-goldsher
     name: Ryan Goldsher
     aliases: []
@@ -4686,8 +6619,36 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: ryan-goodcase
+    name: Ryan Goodcase
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: ryan-hamilton
     name: Ryan Hamilton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ryan-long
+    name: Ryan Long
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: ryan-sickler
+    name: Ryan Sickler
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: sage-huston
+    name: Sage Huston
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4710,17 +6671,19 @@ comedians:
   - slug: sam-jay
     name: Sam Jay
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1859727
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sam-kinison
     name: Sam Kinison
     aliases: []
-    tmdb_id: null
+    tmdb_id: 130281
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sam-miller
     name: Sam Miller
     aliases: []
@@ -4731,10 +6694,11 @@ comedians:
   - slug: sam-morril
     name: Sam Morril
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2128773
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sam-nicoresti
     name: Sam Nicoresti
     aliases: []
@@ -4756,13 +6720,21 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: sam-tallent
-    name: Sam Tallent
+  - slug: sam-simmons
+    name: Sam Simmons
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: sam-tallent
+    name: Sam Tallent
+    aliases: []
+    tmdb_id: 6147874
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: samantha-hale
     name: Samantha Hale
     aliases: []
@@ -4798,13 +6770,29 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: sara-schaefer
-    name: Sara Schaefer
+  - slug: sara-pascoe
+    name: Sara Pascoe
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: sara-schaefer
+    name: Sara Schaefer
+    aliases: []
+    tmdb_id: 1230226
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Sara Schaefer (1230226, 6197597); picked 1230226'
+    tmdb_attempted: '2026-11-19'
+  - slug: sarah-colonna
+    name: Sarah Colonna
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: sarah-millican
     name: Sarah Millican
     aliases: []
@@ -4822,26 +6810,37 @@ comedians:
   - slug: sarah-silverman
     name: Sarah Silverman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 7404
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Sarah Silverman (7404, 5691597, 6282687); picked 7404'
+    tmdb_attempted: '2026-11-19'
   - slug: sarah-tollemache
     name: Sarah Tollemache
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1649380
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sasheer-zamata
     name: Sasheer Zamata
+    aliases: []
+    tmdb_id: 1395348
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: sashi-perera
+    name: Sashi Perera
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: sashi-perera
-    name: Sashi Perera
+    tracked: false
+  - slug: scott-kelley
+    name: Scott Kelley
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4854,13 +6853,21 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
-  - slug: sean-lock
-    name: Sean Lock
+  - slug: sean-hughes
+    name: Sean Hughes
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: sean-lock
+    name: Sean Lock
+    aliases: []
+    tmdb_id: 94013
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sean-mcloughlin
     name: Sean McLoughlin
     aliases: []
@@ -4871,19 +6878,29 @@ comedians:
   - slug: sean-oconnor
     name: Sean O'Connor
     aliases: []
-    tmdb_id: null
+    tmdb_id: 6140242
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: "tmdb: 14 people named Sean O'Connor (3321116, 6419652, 1227829, 6012916, 6270149, 3055102, 3609325, 6101959, 2265815, 3469970, 6140242, 4597831, 4434538, 4899610); picked 6140242"
+    tmdb_attempted: '2026-11-19'
   - slug: sean-patton
     name: Sean Patton
+    aliases: []
+    tmdb_id: 1334289
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: seann-walsh
+    name: Seann Walsh
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: seann-walsh
-    name: Seann Walsh
+    tracked: false
+  - slug: seaton-smith
+    name: Seaton Smith
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4892,12 +6909,28 @@ comedians:
   - slug: sebastian-maniscalco
     name: Sebastian Maniscalco
     aliases: []
-    tmdb_id: null
+    tmdb_id: 299743
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Sebastian Maniscalco (299743, 6441120); picked 299743'
+    tmdb_attempted: '2026-11-19'
+  - slug: sebastian-marcelo
+    name: Sebastian Marcelo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: seth-meyers
     name: Seth Meyers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: seth-rogen
+    name: Seth Rogen
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4906,24 +6939,28 @@ comedians:
   - slug: shalewa-sharpe
     name: Shalewa Sharpe
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2269090
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: shane-gillis
     name: Shane Gillis
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3231008
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Shane Gillis (3231008, 2467383, 4506681, 4278595); picked 3231008'
+    tmdb_attempted: '2026-11-19'
   - slug: shane-mauss
     name: Shane Mauss
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1254962
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: shane-torres
     name: Shane Torres
     aliases: []
@@ -4952,6 +6989,20 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: simon-amstell
+    name: Simon Amstell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: simon-bird
+    name: Simon Bird
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: simon-munnery
     name: Simon Munnery
     aliases: []
@@ -4962,12 +7013,20 @@ comedians:
   - slug: sinbad
     name: Sinbad
     aliases: []
-    tmdb_id: null
+    tmdb_id: 57119
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sindhu-vee
     name: Sindhu Vee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: snoop-dogg
+    name: Snoop Dogg
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -4983,12 +7042,20 @@ comedians:
   - slug: solomon-georgio
     name: Solomon Georgio
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2067591
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: sommore
     name: Sommore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: soy-rada
+    name: Soy Rada
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5011,10 +7078,18 @@ comedians:
   - slug: stephen-colbert
     name: Stephen Colbert
     aliases: []
-    tmdb_id: null
+    tmdb_id: 58769
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: stephen-lynch
+    name: Stephen Lynch
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: stephen-merchant
     name: Stephen Merchant
     aliases: []
@@ -5025,17 +7100,27 @@ comedians:
   - slug: steve-agee
     name: Steve Agee
     aliases: []
-    tmdb_id: null
+    tmdb_id: 559457
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: steve-coogan
-    name: Steve Coogan
+    tmdb_review: 'tmdb: 3 people named Steve Agee (559457, 4513727, 5548189); picked 559457'
+    tmdb_attempted: '2026-11-19'
+  - slug: steve-byrne
+    name: Steve Byrne
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: steve-coogan
+    name: Steve Coogan
+    aliases: []
+    tmdb_id: 4581
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: steve-delaney
     name: Steve Delaney
     aliases: []
@@ -5046,17 +7131,42 @@ comedians:
   - slug: steve-harvey
     name: Steve Harvey
     aliases: []
-    tmdb_id: null
+    tmdb_id: 82587
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Steve Harvey (82587, 1408848, 2089460, 6059519); picked 82587'
+    tmdb_attempted: '2026-11-19'
   - slug: steve-martin
     name: Steve Martin
+    aliases: []
+    tmdb_id: 67773
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 12 people named Steve Martin (67773, 5398639, 2167143, 1699605, 5419052, 1865817, 556798, 1941962, 5687226, 1901622, 2954668, 6665376); picked 67773'
+    tmdb_attempted: '2026-11-19'
+  - slug: steve-o
+    name: Steve-O
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: steve-rannazzisi
+    name: Steve Rannazzisi
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: steve-trevino
+    name: Steve Treviño
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: steven-rogers
     name: Steven Rogers
     aliases: []
@@ -5067,10 +7177,12 @@ comedians:
   - slug: steven-wright
     name: Steven Wright
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3214
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 10 people named Steven Wright (3214, 2210711, 2689014, 2886905, 5892545, 4229516, 6235048, 2480777, 6472113, 6598561); picked 3214'
+    tmdb_attempted: '2026-11-19'
   - slug: stewart-francis
     name: Stewart Francis
     aliases: []
@@ -5087,6 +7199,13 @@ comedians:
     tracked: false
   - slug: stoner-rob
     name: Stoner Rob
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: stratton-smith
+    name: Stratton Smith
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5113,6 +7232,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: susan-calman
+    name: Susan Calman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: susie-mccabe
     name: Susie McCabe
     aliases: []
@@ -5123,10 +7249,18 @@ comedians:
   - slug: t-j-miller
     name: T.J. Miller
     aliases: []
-    tmdb_id: null
+    tmdb_id: 51990
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: tabari-mccoy
+    name: Tabari McCoy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tammy-pescatelli
     name: Tammy Pescatelli
     aliases: []
@@ -5151,17 +7285,19 @@ comedians:
   - slug: taylor-williamson
     name: Taylor Williamson
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1952496
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: ted-alexandro
     name: Ted Alexandro
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1439568
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: tevin-mandal-williams
     name: Tevin 'Mandal' Williams
     aliases: []
@@ -5171,6 +7307,13 @@ comedians:
     tracked: false
   - slug: the-improv
     name: The Improv
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: the-lucas-brothers
+    name: The Lucas Brothers
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5186,6 +7329,8 @@ comedians:
     flags:
       - looks like a group or band name
     checked: false
+    tmdb_review: 'tmdb: no person found'
+    tmdb_attempted: '2026-11-19'
   - slug: theo-von
     name: Theo Von
     aliases: []
@@ -5203,29 +7348,40 @@ comedians:
   - slug: tiffany-haddish
     name: Tiffany Haddish
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1230868
     youtube_channel_id: null
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
+    tmdb_attempted: '2026-11-19'
   - slug: tig-notaro
     name: Tig Notaro
     aliases: []
-    tmdb_id: null
+    tmdb_id: 220088
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: tim-dillon
     name: Tim Dillon
+    aliases: []
+    tmdb_id: 2419859
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_review: 'tmdb: 2 people named Tim Dillon (2419859, 1973600); picked 2419859'
+    tmdb_attempted: '2026-11-19'
+  - slug: tim-hawkins
+    name: Tim Hawkins
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
-  - slug: tim-hawkins
-    name: Tim Hawkins
+    tracked: false
+  - slug: tim-heidecker
+    name: Tim Heidecker
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5248,17 +7404,19 @@ comedians:
   - slug: todd-barry
     name: Todd Barry
     aliases: []
-    tmdb_id: null
+    tmdb_id: 176031
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: todd-glass
     name: Todd Glass
     aliases: []
-    tmdb_id: null
+    tmdb_id: 196500
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: tom-achilles
     name: Tom Achilles
     aliases: []
@@ -5273,8 +7431,22 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: tom-ballard
+    name: Tom Ballard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tom-cashman
     name: Tom Cashman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tom-gleeson
+    name: Tom Gleeson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5290,33 +7462,58 @@ comedians:
   - slug: tom-papa
     name: Tom Papa
     aliases: []
-    tmdb_id: null
+    tmdb_id: 170364
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: tom-segura
     name: Tom Segura
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1238012
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: tom-thakkar
     name: Tom Thakkar
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3264540
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: tommy-johnagin
-    name: Tommy Johnagin
+    tmdb_attempted: '2026-11-19'
+  - slug: tom-walker
+    name: Tom Walker
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: tommy-johnagin
+    name: Tommy Johnagin
+    aliases: []
+    tmdb_id: 1246333
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: tony-daro
+    name: Tony Daro
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: tony-hinchcliffe
     name: Tony Hinchcliffe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tony-roberts
+    name: Tony Roberts
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5325,10 +7522,12 @@ comedians:
   - slug: tony-woods
     name: Tony Woods
     aliases: []
-    tmdb_id: null
+    tmdb_id: 3633946
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Tony Woods (3828166, 1529912, 3633946); picked 3633946'
+    tmdb_attempted: '2026-11-19'
   - slug: torching-2024
     name: Torching 2024
     aliases: []
@@ -5339,31 +7538,94 @@ comedians:
   - slug: tracey-ullman
     name: Tracey Ullman
     aliases: []
-    tmdb_id: null
+    tmdb_id: 30364
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 2 people named Tracey Ullman (30364, 4892348); picked 30364'
+    tmdb_attempted: '2026-11-19'
   - slug: tracy-morgan
     name: Tracy Morgan
     aliases: []
-    tmdb_id: null
+    tmdb_id: 56903
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 3 people named Tracy Morgan (56903, 1998108, 5421485); picked 56903'
+    tmdb_attempted: '2026-11-19'
+  - slug: trae-crowder
+    name: Trae Crowder
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: trevor-moore
     name: Trevor Moore
     aliases: []
-    tmdb_id: null
+    tmdb_id: 84834
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_review: 'tmdb: 9 people named Trevor Moore (84834, 2276758, 3194875, 2853869, 4529175, 3266973, 5449227, 6373218, 5846575); picked 84834'
+    tmdb_attempted: '2026-11-19'
   - slug: trevor-noah
     name: Trevor Noah
+    aliases: []
+    tmdb_id: 131133
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: trevor-wallace
+    name: Trevor Wallace
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
-    tracked: true
+    tracked: false
+  - slug: trey-kennedy
+    name: Trey Kennedy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tristan-a-smith
+    name: Tristan A. Smith
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tumua
+    name: Tumua
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tuxford-turner
+    name: Tuxford Turner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tyler-fischer
+    name: Tyler Fischer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: tyler-ross
+    name: Tyler Ross
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: urzila-carlson
     name: Urzila Carlson
     aliases: []
@@ -5381,26 +7643,51 @@ comedians:
   - slug: vic-henley
     name: Vic Henley
     aliases: []
-    tmdb_id: null
+    tmdb_id: 216134
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: victor-borge
     name: Victor Borge
     aliases: []
-    tmdb_id: null
+    tmdb_id: 214904
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: vir-das
-    name: Vir Das
+    tmdb_review: 'tmdb: 4 people named Victor Borge (214904, 1388738, 4651671, 4651664); picked 214904'
+    tmdb_attempted: '2026-11-19'
+  - slug: vik-pandya
+    name: Vik Pandya
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: vince-carone
+    name: Vince Carone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: vir-das
+    name: Vir Das
+    aliases: []
+    tmdb_id: 119828
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: vittorio-angelone
     name: Vittorio Angelone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: w-kamau-bell
+    name: W. Kamau Bell
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5409,10 +7696,11 @@ comedians:
   - slug: wanda-sykes
     name: Wanda Sykes
     aliases: []
-    tmdb_id: null
+    tmdb_id: 27102
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: whitmer-thomas
     name: Whitmer Thomas
     aliases: []
@@ -5423,19 +7711,50 @@ comedians:
   - slug: whitney-cummings
     name: Whitney Cummings
     aliases: []
-    tmdb_id: null
+    tmdb_id: 66555
     youtube_channel_id: null
     followed: false
     tracked: true
-  - slug: will-miles
-    name: Will Miles
+    tmdb_attempted: '2026-11-19'
+  - slug: wil-anderson
+    name: Wil Anderson
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
     followed: false
+    tracked: false
+  - slug: wil-hodgson
+    name: Wil Hodgson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: will-abeles
+    name: Will Abeles
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: will-miles
+    name: Will Miles
+    aliases: []
+    tmdb_id: 1402892
+    youtube_channel_id: null
+    followed: false
     tracked: true
+    tmdb_review: 'tmdb: 4 people named Will Miles (3111561, 3721718, 1402892, 5426846); picked 1402892'
+    tmdb_attempted: '2026-11-19'
   - slug: will-wood
     name: Will Wood
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: willie-barcena
+    name: Willie Barcena
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
@@ -5444,31 +7763,42 @@ comedians:
   - slug: woody-allen
     name: Woody Allen
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1243
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: wyatt-cenac
     name: Wyatt Cenac
     aliases: []
-    tmdb_id: null
+    tmdb_id: 92782
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
+  - slug: wyatt-feegrado
+    name: Wyatt Feegrado
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: yamaneika-saunders
     name: Yamaneika Saunders
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2603651
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: yannis-pappas
     name: Yannis Pappas
     aliases: []
-    tmdb_id: null
+    tmdb_id: 2432956
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: yedoye-travis
     name: Yedoye Travis
     aliases: []
@@ -5479,17 +7809,19 @@ comedians:
   - slug: yvonne-orji
     name: Yvonne Orji
     aliases: []
-    tmdb_id: null
+    tmdb_id: 1662651
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: zach-galifianakis
     name: Zach Galifianakis
     aliases: []
-    tmdb_id: null
+    tmdb_id: 58225
     youtube_channel_id: null
     followed: false
     tracked: true
+    tmdb_attempted: '2026-11-19'
   - slug: zach-peterson
     name: Zach Peterson
     aliases: []
@@ -5506,6 +7838,13 @@ comedians:
     tracked: false
   - slug: zach-zucker
     name: Zach Zucker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: zack-hammond
+    name: Zack Hammond
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
