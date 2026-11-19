@@ -1,0 +1,10 @@
+# Your manual decisions. The nightly job applies these after its own rules.
+#   accept: [cand_id, ...]              it's a special: create it (or merge it if it matches one exactly)
+#   reject: [cand_id or special_id]     not a special: drop the candidate / hide the record
+#   merge:  [[from_id, into_id], ...]   from_id may be a candidate or a special
+#   edit:   {special_id: {field: value}} fields: title, performers, format, runtime_min,
+#                                        release_date, public_release_date, status, language, platforms
+accept: []
+reject: []
+merge: []
+edit: {}

@@ -2,9 +2,9 @@
 
 A self-updating database of stand-up comedy specials, plus an installable phone app (PWA) for tracking what you've seen and what you want to see, and for picking a special at random.
 
-The same repo also contains a **Spotify comedy playlist builder** that works from the same comedian list. See [PLAYLIST.md](PLAYLIST.md).
+The same repo will also hold a **Spotify comedy playlist builder** that works from the same comedian list. See [PLAYLIST.md](PLAYLIST.md).
 
-> **Status: design stage.** This README is the build plan. The commands, files and screens described below don't exist yet.
+> **Status:** the specials tracker v1 is built: the collector, data files, app and workflows below are in the repo. The database fills in on the first nightly run, once the API keys are set (see [Setup](#setup)). Items marked v1.1 or later, everything in [PLAYLIST.md](PLAYLIST.md), and the parts of the shared comedian list marked *planned* are still to be built.
 
 ---
 
@@ -58,6 +58,8 @@ nightly GitHub Action
 
 `data/comedians.yaml` is the single list behind both the specials collectors and the playlist builder.
 
+> **Planned schema.** The file in the repo today uses the v1 fields: `slug`, `name`, `aliases`, `tmdb_id`, `youtube_channel_id`, `tracked` (checked nightly), `followed` (pre-followed in the app on a new device) and `flags` / `checked` for names to check once. Performers the collectors discover are added with `tracked: false`. It moves to the layout below when the playlist builder is built, with a one-time migration.
+
 ```yaml
 - id: jane-doe                 # stable slug, never changes
   name: Jane Doe
@@ -89,6 +91,8 @@ nightly GitHub Action
 **Tracked is different from Following.** *Tracked* is shared and lives in the repo. *Following* in the app is personal and stays on your phone; it controls the "new from comedians you follow" list on the Home screen.
 
 ### Adding comedians
+
+*Planned: today, add a name to the seed file and re-run `comedians import`, or add an entry to `comedians.yaml` by hand.*
 
 Every method below only needs a **name**. The next nightly run looks up the IDs. If a match is unclear, for example a musician with the same name, it goes to the review queue instead of being guessed.
 
@@ -149,6 +153,7 @@ Early-access releases are kept as one record with two dates. An example is a spe
     {"platform": "youtube", "kind": "free", "url": "https://www.youtube.com/watch?v=…"}
   ],
   "ids": {"tmdb": null, "imdb": null, "youtube": "…", "wikipedia": "2026_in_stand-up_comedy"},
+  "alt_ids": ["youtube:…"],
   "sources": ["https://…", "https://…"],
   "first_seen": "2026-03-01",
   "updated": "2026-04-14"
@@ -163,6 +168,8 @@ Early-access releases are kept as one record with two dates. An example is a spe
 | `data/overrides.yaml` | Your manual decisions (accept, reject, merge, edit). The job applies these after its own rules |
 | `data/redirects.json` | Merged IDs mapped to the record that replaced them |
 | `data/meta.json` | Time and counts of the last run |
+
+Small additions to the record: each platform entry can carry its own `date` (used to work out `public_release_date`), `alt_ids` keeps the TMDB/YouTube IDs of records merged into this one, and `"hidden": true` marks a record you rejected (it stays so re-collection lands on it, but the app doesn't show it).
 
 **IDs never change.** A special keeps its ID even if its title is corrected later. When two records are merged, the old ID goes into `redirects.json`, and the app uses it to move your Seen and Want-to-see marks to the surviving record.
 
@@ -184,7 +191,9 @@ edit:
     format: half_hour
 ```
 
-`python -m specials review` gives you the same review on a computer.
+`python -m specials review` gives you the same review on a computer. `reject` also takes a special ID (hides the record), and `merge` takes `[special_id, special_id]` to fold one record into another.
+
+The issue also lists comedians to check once: names Pandora shared with another artist, and unsure TMDB/YouTube matches from `comedians resolve`.
 
 ---
 
@@ -194,10 +203,10 @@ edit:
 - **Home:** new this month, upcoming, and new from comedians you follow.
 - **Browse / search:** filter by platform, comedian, year, format, runtime, free only, and unseen only.
 - **Special:** watch links, Want to see / Seen / Not interested, rating, notes, and watch dates (rewatches are fine).
-- **Comedian:** every special by that comedian, a Follow button (personal), and **Track this comedian** for anyone not on the shared list yet.
+- **Comedian:** every special by that comedian, a Follow button (personal), and **Track this comedian** for anyone not on the shared list yet (planned).
 - **My lists:** Want to see, Seen, Not interested.
 - **Spin:** the random picker (described below).
-- **Settings:** your streaming services, region, **Add comedian**, backup and restore, and a manual data refresh.
+- **Settings:** your streaming services, region, **Add comedian** (planned), backup and restore, and a manual data refresh.
 
 **Spin**
 
@@ -219,7 +228,7 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 
 **Install on Android:** open the GitHub Pages URL in Chrome, then tap ⋮ → **Install app** (or **Add to Home screen**).
 
-**Planned stack:** Vite + TypeScript + Preact, `vite-plugin-pwa` (Workbox) for offline support, Dexie for IndexedDB.
+**Stack:** Vite + TypeScript + Preact (+ signals), `vite-plugin-pwa` (Workbox) for the offline app shell, Dexie for IndexedDB. The app downloads `data/db.json` itself and keeps the last copy in IndexedDB, so it opens instantly offline and swaps in new data when it arrives.
 
 ---
 
@@ -233,7 +242,7 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 │   ├── scope.yaml            # what counts as a special
 │   ├── sources.yaml          # collectors on/off, distributor channels, news feeds
 │   ├── platforms.yaml        # platform names, normalization, icons
-│   └── playlist.yaml         # playlist mix and rules
+│   └── playlist.yaml         # playlist mix and rules (planned)
 ├── data/
 │   ├── seeds/pandora_comedians.txt
 │   ├── comedians.yaml        # shared comedian list
@@ -242,34 +251,41 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 │   ├── overrides.yaml
 │   ├── redirects.json
 │   ├── meta.json
-│   └── playlist/             # catalog cache, metrics, encrypted state
+│   └── playlist/             # catalog cache, metrics, encrypted state (planned)
 ├── collector/                # Python package `specials`
 │   ├── pyproject.toml
 │   ├── .env.example
 │   ├── specials/
 │   │   ├── __main__.py       # CLI
-│   │   ├── sources/          # tmdb.py, wikipedia.py, youtube_feeds.py,
-│   │   │                     # youtube_search.py, news.py, watchmode.py
+│   │   ├── sources/          # tmdb.py, wikipedia.py, youtube_feeds.py, youtube_search.py,
+│   │   │                     # youtube_api.py (shared), news.py + watchmode.py (v1.1 stubs)
+│   │   ├── pipeline.py       # collect → classify → match → overrides
 │   │   ├── classify.py       # scope rules
 │   │   ├── match.py          # dedupe / merge
+│   │   ├── titles.py         # "Name: Title | Full Special" cleanup
+│   │   ├── comedians.py      # seed import, name lookup, TMDB/YouTube resolution
 │   │   ├── ids.py            # stable slugs, redirects
 │   │   ├── store.py          # jsonl/yaml ↔ SQLite cache
-│   │   ├── review.py         # review queue + GitHub issue
-│   │   ├── comedians.py      # shared list: import, add, resolve IDs, add-comedian issues
+│   │   ├── review.py         # review queue + GitHub issue + missing-special reports
+│   │   ├── comedians.py      # shared list: import, resolve IDs (add + add-comedian issues planned)
+│   │   ├── check.py          # `specials check`: confirm the API keys work
 │   │   ├── export.py         # JSON for the app
-│   │   └── playlist/         # Spotify playlist builder (see PLAYLIST.md)
-│   └── tests/
+│   │   └── playlist/         # Spotify playlist builder, planned (see PLAYLIST.md)
+│   └── tests/                # pytest, against fixture data (no network)
 ├── app/                      # the PWA
 │   ├── index.html
-│   ├── public/               # manifest.webmanifest, icons
-│   └── src/
+│   ├── public/icons/         # app icons (manifest is generated by vite-plugin-pwa)
+│   ├── scripts/              # sample-data.mjs (fictional data for trying the app), make-icons.mjs
+│   └── src/                  # pages/, components/, logic.ts (+ tests), store.ts, db.ts
 └── .github/
     ├── workflows/
-    │   ├── nightly.yml       # collect → commit → build → deploy
-    │   └── pages.yml         # build + deploy (reusable; also runs on push)
+    │   ├── nightly.yml       # collect → commit → build → deploy (also the one-time backfill)
+    │   ├── pages.yml         # build + deploy (reusable; also runs on push)
+    │   ├── ci.yml            # tests on pull requests and branches
+    │   └── check-keys.yml    # Run workflow → confirms the API key secrets work
     └── ISSUE_TEMPLATE/
         ├── missing-special.yml
-        └── add-comedian.yml
+        └── add-comedian.yml  # planned
 ```
 
 ---
@@ -290,6 +306,10 @@ Add these under **Settings → Secrets and variables → Actions**:
 | `WATCHMODE_API_KEY` | api.watchmode.com | optional |
 | `ANTHROPIC_API_KEY` | console.anthropic.com (used for AI extraction from news articles) | v1.1 |
 
+**Check that the keys work:** go to **Actions → check-keys → Run workflow**. The run summary shows ✅ or ❌ for each key, and for a failure it says what to fix: a wrong key, YouTube Data API v3 not enabled for the key's project, or key restrictions that block it. The check uses 2 of YouTube's 10,000 daily quota units and never prints the keys. Locally, run `python -m specials check` with the keys in `collector/.env`.
+
+**YouTube key settings:** in Google Cloud Console, the key needs *YouTube Data API v3* enabled in the same project. Under the key's restrictions, set *Application restrictions* to **None**, because GitHub Actions isn't a website or a fixed IP. *API restrictions* can be limited to YouTube Data API v3. The API key is the only authentication needed: v1 reads only public data, so there's no Google sign-in (OAuth).
+
 The playlist builder needs its own secrets (Spotify, Last.fm, state key). See [PLAYLIST.md → Setup](PLAYLIST.md#setup).
 
 ### 3. Local development
@@ -301,22 +321,36 @@ pip install -e ".[dev]"
 cp .env.example .env                      # add TMDB_READ_TOKEN, YOUTUBE_API_KEY
 
 python -m specials comedians import ../data/seeds/pandora_comedians.txt
-python -m specials comedians add "Name"   # add one by hand (see "Adding comedians")
-python -m specials comedians resolve      # look up TMDB, YouTube, Spotify, Last.fm and Wikipedia IDs; unsure matches → review
+python -m specials comedians add "Name"   # planned: add one by hand (see "Adding comedians")
+python -m specials comedians resolve      # find TMDB person + YouTube channel; unsure matches → review
+                                          # (Spotify, Last.fm and Wikipedia IDs come with the playlist builder)
+python -m specials sources resolve        # look up the distributor channel IDs from their handles
+python -m specials check                  # confirm the API keys work
 python -m specials backfill --since 2017  # one-time history load
 python -m specials nightly                # collect → classify → match → export
 python -m specials review                 # review pending candidates on a computer
+python -m specials queue                  # print the review queue
+python -m specials export                 # write app/public/data/db.json
+pytest                                    # tests (no network needed)
 
 # app
 cd ../app
 npm install
 npm run dev                               # serves the app using the data export
+npm run dev:sample                        # or: try it with a small FICTIONAL sample database
+npm test
 npm run build
 ```
 
-### 4. Nightly job
+### 4. First run
+1. Paste the Pandora list into `data/seeds/pandora_comedians.txt`, run the `comedians import` command above and commit.
+2. Merge to `main`. Scheduled workflows only run from the default branch.
+3. **Actions → nightly → Run workflow** with `backfill_since` set to `2017` for the one-time history load. After that the schedule takes over.
+4. Optional: download the TMDB logo from themoviedb.org/about/logos-attribution and save it as `app/public/icons/tmdb.svg`. The About screen shows it next to the attribution line.
+
+### 5. Nightly job
 - **Schedule:** `23 9 * * *`, which is about 4:23 AM Eastern.
-- **Steps:** process `add-comedian` issues → resolve new comedian IDs → collect → classify → match → apply `overrides.yaml` → export → playlist `sync` (nightly) and `build` (weekly) → commit `data/` → build and deploy the app → update the review issue.
+- **Steps** (playlist and add-comedian steps are planned): process `add-comedian` issues → resolve new comedian IDs → collect → classify → match → apply `overrides.yaml` → export → playlist `sync` (nightly) and `build` (weekly) → commit `data/` → build and deploy the app → update the review issue.
 - **Deploy happens inside the nightly job.** Commits pushed with the default `GITHUB_TOKEN` don't trigger other workflows, so `nightly.yml` runs `pages.yml` itself as a reusable workflow.
 - **There's a commit every night.** `meta.json` changes on each run, which also keeps GitHub from turning off the schedule in a quiet repo.
 - **Permissions** are declared in the workflow file: `contents: write`, `pages: write`, `id-token: write`, `issues: write`.
@@ -325,7 +359,7 @@ npm run build
 
 ## Terms and attribution
 
-- **TMDB:** the About screen shows the TMDB logo and the line *"This product uses the TMDB API but is not endorsed or certified by TMDB."*
+- **TMDB:** the About screen shows the TMDB logo and the line *"This product uses the TMDB API but is not endorsed or certified by TMDB."* Where-to-watch data comes from JustWatch through TMDB and is credited the same way.
 - **Wikipedia:** only facts are stored (performer, title, date, platform), with a link back to the page. No article text is copied.
 - **YouTube:** follows the YouTube API Services Terms and Developer Policies. Only video IDs, titles, lengths and publish dates are stored, and YouTube records are re-checked regularly.
 - Personal, non-commercial project.

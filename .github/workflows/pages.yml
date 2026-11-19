@@ -1,0 +1,70 @@
+# Build the app with the current data export and deploy it to GitHub Pages.
+# Runs on push to main, by hand, and as a reusable workflow from nightly.yml
+# (pushes made with GITHUB_TOKEN don't trigger other workflows).
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["app/**", "data/**", "config/**", "collector/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Branch or commit to build (nightly passes the branch it just pushed)
+        type: string
+        required: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: collector/pyproject.toml
+      - name: Export data for the app
+        run: |
+          pip install ./collector
+          python -m specials export
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Build app
+        working-directory: app
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_REPO: ${{ github.repository }}
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

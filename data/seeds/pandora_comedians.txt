@@ -1,0 +1,394 @@
+# Comedian seed list, exported from the Pandora stand-up station on 2026-11-19.
+# Goes in data/seeds/. One name per line; lines starting with # are ignored.
+# Names are spelled as Pandora shows them. The "(Comedy)" / "(Comedian)" suffixes are
+# kept on purpose: Pandora uses them to separate these artists from musicians with the
+# same name, which helps `comedians resolve` match the right person.
+# Exact duplicates on the station (Robin Williams x3, Sinbad, Louie Anderson,
+# Jenny Slate, Pat Regan) were removed. `comedians import` normalizes the rest.
+Adam Burke
+Adam Carolla
+Adam Cayton-Holland
+Adam Newman
+Adam Ray
+Adam Rowe
+Adam Sandler
+Al Madrigal
+Albert Brooks
+Ali Siddiq
+Ali Wong
+Alice Fraser
+Allen Strickland Williams
+Alonzo Bodden
+Amanda Seales
+Amy Schumer
+Amy Silverberg
+Andrew Santino
+Andrew Schulz
+Andy Woodhull
+Andy Zaltzman
+Anjelah Johnson
+Anthony Jeselnik
+Aparna Nancherla
+Ari Shaffir
+Ayo Edebiri
+Aziz Ansari
+Baron Vaughn
+Bernie Mac
+Beth Stelling
+Big Jay Oakerson
+Bill Bellamy
+Bill Burr
+Bill Hicks
+Billy Connolly
+Billy Gardell
+Bo Burnham
+Bob Newhart
+Bob Saget
+Bobby Lee (Comedian)
+Bobcat Goldthwait
+Bonnie McFarlane
+Brad Williams
+Brent Weinbach
+Bret Ernst
+Brett Goldstein
+Brian Babylon
+Brian Holtzman
+Brian Posehn
+Brian Regan
+Brody Stevens
+Bruce Bruce (Comedian)
+Casey James Salengo
+Cedric The Entertainer
+Chad Daniels
+Chelsea Handler
+Chelsea Peretti
+Chris D'Elia
+Chris Distefano (Comedian)
+Chris Fleming
+Chris Gethard
+Chris Hardwick
+Chris Porter (Comedian)
+Chris Redd
+Chris Rock
+Chris Tucker
+Christopher Titus
+Colin Jost
+Colin Quinn
+Conan O'Brien
+Craig Ferguson
+Cristela Alonzo
+Dan Cummins
+Dan Mintz
+Dan Soder
+Dana Carvey
+Dana Gould
+Daniel Kitson
+Daniel Sloss
+Daniel Tosh
+Daniel Van Kirk
+Danny Bhoy
+Dave Attell
+Dave Chappelle
+David Brenner
+David Cross (Comedy)
+David Gborie
+David O'Doherty
+David Spade
+Demetri Martin
+Denis Leary
+Dennis Miller
+Deon Cole
+Des Bishop
+Dina Hashem
+Dom Irrera
+Donald Glover (Comedy)
+Doug Benson
+Doug Stanhope
+Dov Davidoff
+Drew Lynch
+Duncan Trussell
+Dusty Slay
+Ed Byrne
+Eddie Griffin
+Eddie Izzard
+Eddie Murphy (Comedy)
+Eddie Pepitone
+Ellen Degeneres
+Emily Catalano
+Emily Heller
+Emmy Blotnick
+Emo Philips
+Eric Andre
+Eugene Mirman
+Fahim Anwar
+Fern Brady
+Finesse Mitchell
+Flip Wilson
+Flula Borg
+Fortune Feimster
+Frank Caliendo
+Freddie Prinze
+Gabe Liedman
+Garfunkel and Oates
+Gary Gulman
+Geoff Tate (Comedian)
+George Burns
+George Carlin
+George Wallace (Comedy)
+Gilbert Gottfried
+Gilda Radner
+Gina Yashere
+Godfrey (Comedy)
+Greg Behrendt
+Greg Davies
+Greg Fitzsimmons
+Greg Giraldo
+Greg Proops
+Greg Warren
+Hampton Yount
+Hannibal Buress
+Hari Kondabolu
+Harland Williams
+Hasan Minhaj
+Helen Hong
+Henry Phillips
+Howard Kremer
+Ian Edwards
+Ian Karmel
+Ian Lara
+Iliza Shlesinger
+Jack Whitehall
+Jackie Kashian
+Jacqueline Novak
+Jake Johannsen
+James Acaster
+James Davis (Comedian)
+Jamie Lee (Comedian)
+Janeane Garofalo
+Jason Cheny
+Jason Salmon
+Jasper Redd
+Jay Larson (Comedy)
+Jay Leno
+Jay Mohr
+Jeff Garlin
+Jena Friedman
+Jenny Slate
+Jenny Zigrino
+Jermaine Fowler
+Jerrod Carmichael
+Jerry Seinfeld
+Jesse Joyce
+Jessi Klein
+Jessica Kirson
+Jim Breuer
+Jim Carrey
+Jim Gaffigan
+Jim Jefferies
+Jim Norton
+Jimmy Carr
+Jimmy O. Yang
+Jimmy Pardo
+Jo Brand
+Jo Firestone
+Jo Koy
+Joan Rivers
+Joe Derosa
+Joe List
+Joe Mande
+Joe Zimmerman
+Joel Kim Booster
+John Caparulo
+John Early
+John Heffron
+John Mulaney
+John Oliver
+John Pinette
+Jon Dore
+Jon Stewart
+Jonah Ray (Comedy)
+Jordan Temple
+Josh Blue
+Josh Gondelman
+Jourdain Fisher
+Judd Apatow
+Judy Gold
+Julio Torres
+Kathleen Madigan
+Kathy Griffin
+Keith Robinson
+Kevin Brennan (Comedy)
+Kevin Hart
+Kevin Heffernan
+Kevin James (Comedy)
+Kevin Meaney
+Kevin Nealon
+Kevin Pollak
+Kristen Schaal
+Kumail Nanjiani
+Kurt Braunohler
+Kyle Kinane
+Lace Larrabee
+Langston Kerman
+Larry Miller (Comedian)
+Laurie Kilmartin
+Lavell Crawford
+Lee Evans
+Lenny Bruce
+Lil Rel Howery
+Liz Miele
+Liza Treyger
+Louie Anderson
+Louis CK
+Louis Katz
+Mae Martin
+Maeve Higgins
+Marc Maron
+Marcia Belsky
+Margaret Cho
+Maria Bamford
+Mark Normand
+Marlon Wayans
+Martin Lawrence
+Martin Short
+Matt Besser
+Matt Braunger
+Matt Fulchiron
+Matt Koff
+Matt McCarthy
+Matteo Lane
+Matthew Broussard
+Maz Jobrani
+Megan Gailey
+Melissa Villaseñor (Comedy)
+Michael Che
+Michael Kosta
+Michael McIntyre
+Michelle Buteau
+Michelle Wolf
+Mike Birbiglia
+Mike Destefano
+Mike Feeney
+Mike Recine
+Mike Vecchione
+Mike Yard
+Milton Jones
+Mitch Hedberg
+Mo Amer
+Mo'Nique (Comedy)
+Moms Mabley
+Morgan Murphy
+Mort Sahl
+Moshe Kasher
+Ms. Pat
+Myq Kaplan
+Naomi Ekperigin
+Natasha Leggero
+Nate Bargatze
+Nate Craig
+Nathan Macintosh
+Neal Brennan
+Nick Kroll
+Nick Swardson
+Nick Thune
+Nikki Glaser
+Nimesh Patel
+Nore Davis
+Norm MacDonald
+Pablo Francisco
+Pat Regan
+Patrice O'Neal
+Patton Oswalt
+Paul F. Tompkins
+Paul Mooney
+Paul Rodriguez
+Paula Poundstone
+Pete Davidson
+Pete Holmes
+Phil Hanley
+Phoebe Robinson
+Phyllis Diller
+Punkie Johnson
+Rachel Feinstein
+Rachel Mac
+Rafael Barbosa
+Ralph Barbosa Jr
+Ralphie May
+Ray Romano
+Redd Foxx
+Reggie Watts
+Rhys Darby
+Rich Vos
+Richard Belzer
+Richard Jeni
+Richard Lewis
+Richie Redding
+Riki Lindhome
+Rob Delaney
+Robert Klein
+Robert Schimmel
+Robin Harris
+Robin Williams
+Rodney Dangerfield
+Ron Funches
+Ronny Chieng
+Rory Scovel
+Roseanne Barr
+Rosebud Baker
+Rowan Atkinson
+Roy Blount, Jr.
+Roy Wood Jr.
+Russell Peters
+Sam Jay
+Sam Kinison
+Sam Morril
+Sam Tallent
+Sara Schaefer
+Sarah Silverman
+Sarah Tollemache
+Sasheer Zamata
+Sean Lock
+Sean O'Connor
+Sean Patton
+Sebastian Maniscalco
+Shalewa Sharpe
+Shane Gillis
+Shane Mauss
+Sinbad
+Solomon Georgio
+Stephen Colbert
+Steve Agee
+Steve Coogan
+Steve Harvey
+Steve Martin
+Steven Wright
+T.J. Miller
+Taylor Williamson
+Ted Alexandro
+The Sklar Brothers
+Tiffany Haddish (Comedy)
+Tig Notaro
+Tim Dillon
+Todd Barry
+Todd Glass
+Tom Papa
+Tom Segura
+Tom Thakkar
+Tommy Johnagin
+Tony Woods
+Tracey Ullman
+Tracy Morgan
+Trevor Moore
+Trevor Noah
+Vic Henley
+Victor Borge
+Vir Das
+Wanda Sykes
+Whitney Cummings
+Will Miles
+Woody Allen
+Wyatt Cenac
+Yamaneika Saunders
+Yannis Pappas
+Yvonne Orji
+Zach Galifianakis

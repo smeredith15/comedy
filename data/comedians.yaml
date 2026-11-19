@@ -1,0 +1,2782 @@
+# Comedians. Edit by hand any time.
+#   tracked:   true = their YouTube channel and TMDB credits are checked every night.
+#              Performers found by the collectors are added with tracked: false.
+#   followed:  true = pre-followed in the app on a new device.
+#   flags:     things to check once (e.g. name shared with a musician). Set checked: true when done.
+#   needs_review: an unsure TMDB / YouTube match from `comedians resolve`. Fix the ID or clear it.
+comedians:
+  - slug: adam-burke
+    name: Adam Burke
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-carolla
+    name: Adam Carolla
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-cayton-holland
+    name: Adam Cayton-Holland
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-newman
+    name: Adam Newman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-ray
+    name: Adam Ray
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-rowe
+    name: Adam Rowe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: adam-sandler
+    name: Adam Sandler
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: al-madrigal
+    name: Al Madrigal
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: albert-brooks
+    name: Albert Brooks
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ali-siddiq
+    name: Ali Siddiq
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ali-wong
+    name: Ali Wong
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: alice-fraser
+    name: Alice Fraser
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: allen-strickland-williams
+    name: Allen Strickland Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: alonzo-bodden
+    name: Alonzo Bodden
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: amanda-seales
+    name: Amanda Seales
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: amy-schumer
+    name: Amy Schumer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: amy-silverberg
+    name: Amy Silverberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: andrew-santino
+    name: Andrew Santino
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: andrew-schulz
+    name: Andrew Schulz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: andy-woodhull
+    name: Andy Woodhull
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: andy-zaltzman
+    name: Andy Zaltzman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: anjelah-johnson
+    name: Anjelah Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: anthony-jeselnik
+    name: Anthony Jeselnik
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: aparna-nancherla
+    name: Aparna Nancherla
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ari-shaffir
+    name: Ari Shaffir
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ayo-edebiri
+    name: Ayo Edebiri
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: aziz-ansari
+    name: Aziz Ansari
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: baron-vaughn
+    name: Baron Vaughn
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bernie-mac
+    name: Bernie Mac
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: beth-stelling
+    name: Beth Stelling
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: big-jay-oakerson
+    name: Big Jay Oakerson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bill-bellamy
+    name: Bill Bellamy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bill-burr
+    name: Bill Burr
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bill-hicks
+    name: Bill Hicks
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: billy-connolly
+    name: Billy Connolly
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: billy-gardell
+    name: Billy Gardell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bo-burnham
+    name: Bo Burnham
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bob-newhart
+    name: Bob Newhart
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bob-saget
+    name: Bob Saget
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bobby-lee
+    name: Bobby Lee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: bobcat-goldthwait
+    name: Bobcat Goldthwait
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bonnie-mcfarlane
+    name: Bonnie McFarlane
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brad-williams
+    name: Brad Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brent-weinbach
+    name: Brent Weinbach
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bret-ernst
+    name: Bret Ernst
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brett-goldstein
+    name: Brett Goldstein
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brian-babylon
+    name: Brian Babylon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brian-holtzman
+    name: Brian Holtzman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brian-posehn
+    name: Brian Posehn
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brian-regan
+    name: Brian Regan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: brody-stevens
+    name: Brody Stevens
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: bruce-bruce
+    name: Bruce Bruce
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: casey-james-salengo
+    name: Casey James Salengo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: cedric-the-entertainer
+    name: Cedric The Entertainer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chad-daniels
+    name: Chad Daniels
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chelsea-handler
+    name: Chelsea Handler
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chelsea-peretti
+    name: Chelsea Peretti
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-delia
+    name: Chris D'Elia
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-distefano
+    name: Chris Distefano
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: chris-fleming
+    name: Chris Fleming
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-gethard
+    name: Chris Gethard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-hardwick
+    name: Chris Hardwick
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-porter
+    name: Chris Porter
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: chris-redd
+    name: Chris Redd
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-rock
+    name: Chris Rock
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: chris-tucker
+    name: Chris Tucker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: christopher-titus
+    name: Christopher Titus
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: colin-jost
+    name: Colin Jost
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: colin-quinn
+    name: Colin Quinn
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: conan-obrien
+    name: Conan O'Brien
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: craig-ferguson
+    name: Craig Ferguson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: cristela-alonzo
+    name: Cristela Alonzo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dan-cummins
+    name: Dan Cummins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dan-mintz
+    name: Dan Mintz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dan-soder
+    name: Dan Soder
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dana-carvey
+    name: Dana Carvey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dana-gould
+    name: Dana Gould
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: daniel-kitson
+    name: Daniel Kitson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: daniel-sloss
+    name: Daniel Sloss
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: daniel-tosh
+    name: Daniel Tosh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: daniel-van-kirk
+    name: Daniel Van Kirk
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: danny-bhoy
+    name: Danny Bhoy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dave-attell
+    name: Dave Attell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dave-chappelle
+    name: Dave Chappelle
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: david-brenner
+    name: David Brenner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: david-cross
+    name: David Cross
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: david-gborie
+    name: David Gborie
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: david-odoherty
+    name: David O'Doherty
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: david-spade
+    name: David Spade
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: demetri-martin
+    name: Demetri Martin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: denis-leary
+    name: Denis Leary
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dennis-miller
+    name: Dennis Miller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: deon-cole
+    name: Deon Cole
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: des-bishop
+    name: Des Bishop
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dina-hashem
+    name: Dina Hashem
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dom-irrera
+    name: Dom Irrera
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: donald-glover
+    name: Donald Glover
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: doug-benson
+    name: Doug Benson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: doug-stanhope
+    name: Doug Stanhope
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dov-davidoff
+    name: Dov Davidoff
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: drew-lynch
+    name: Drew Lynch
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: duncan-trussell
+    name: Duncan Trussell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: dusty-slay
+    name: Dusty Slay
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ed-byrne
+    name: Ed Byrne
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: eddie-griffin
+    name: Eddie Griffin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: eddie-izzard
+    name: Eddie Izzard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: eddie-murphy
+    name: Eddie Murphy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: eddie-pepitone
+    name: Eddie Pepitone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ellen-degeneres
+    name: Ellen Degeneres
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: emily-catalano
+    name: Emily Catalano
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: emily-heller
+    name: Emily Heller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: emmy-blotnick
+    name: Emmy Blotnick
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: emo-philips
+    name: Emo Philips
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: eric-andre
+    name: Eric Andre
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: eugene-mirman
+    name: Eugene Mirman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: fahim-anwar
+    name: Fahim Anwar
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: fern-brady
+    name: Fern Brady
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: finesse-mitchell
+    name: Finesse Mitchell
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: flip-wilson
+    name: Flip Wilson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: flula-borg
+    name: Flula Borg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: fortune-feimster
+    name: Fortune Feimster
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: frank-caliendo
+    name: Frank Caliendo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: freddie-prinze
+    name: Freddie Prinze
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: gabe-liedman
+    name: Gabe Liedman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: garfunkel-and-oates
+    name: Garfunkel and Oates
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - looks like a group or band name
+    checked: false
+  - slug: gary-gulman
+    name: Gary Gulman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: geoff-tate
+    name: Geoff Tate
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: george-burns
+    name: George Burns
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: george-carlin
+    name: George Carlin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: george-wallace
+    name: George Wallace
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: gilbert-gottfried
+    name: Gilbert Gottfried
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: gilda-radner
+    name: Gilda Radner
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: gina-yashere
+    name: Gina Yashere
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: godfrey
+    name: Godfrey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: greg-behrendt
+    name: Greg Behrendt
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: greg-davies
+    name: Greg Davies
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: greg-fitzsimmons
+    name: Greg Fitzsimmons
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: greg-giraldo
+    name: Greg Giraldo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: greg-proops
+    name: Greg Proops
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: greg-warren
+    name: Greg Warren
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: hampton-yount
+    name: Hampton Yount
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: hannibal-buress
+    name: Hannibal Buress
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: hari-kondabolu
+    name: Hari Kondabolu
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: harland-williams
+    name: Harland Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: hasan-minhaj
+    name: Hasan Minhaj
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: helen-hong
+    name: Helen Hong
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: henry-phillips
+    name: Henry Phillips
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: howard-kremer
+    name: Howard Kremer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ian-edwards
+    name: Ian Edwards
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ian-karmel
+    name: Ian Karmel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ian-lara
+    name: Ian Lara
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: iliza-shlesinger
+    name: Iliza Shlesinger
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jack-whitehall
+    name: Jack Whitehall
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jackie-kashian
+    name: Jackie Kashian
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jacqueline-novak
+    name: Jacqueline Novak
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jake-johannsen
+    name: Jake Johannsen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: james-acaster
+    name: James Acaster
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: james-davis
+    name: James Davis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: jamie-lee
+    name: Jamie Lee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: janeane-garofalo
+    name: Janeane Garofalo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jason-cheny
+    name: Jason Cheny
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jason-salmon
+    name: Jason Salmon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jasper-redd
+    name: Jasper Redd
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jay-larson
+    name: Jay Larson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: jay-leno
+    name: Jay Leno
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jay-mohr
+    name: Jay Mohr
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jeff-garlin
+    name: Jeff Garlin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jena-friedman
+    name: Jena Friedman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jenny-slate
+    name: Jenny Slate
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jenny-zigrino
+    name: Jenny Zigrino
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jermaine-fowler
+    name: Jermaine Fowler
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jerrod-carmichael
+    name: Jerrod Carmichael
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jerry-seinfeld
+    name: Jerry Seinfeld
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jesse-joyce
+    name: Jesse Joyce
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jessi-klein
+    name: Jessi Klein
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jessica-kirson
+    name: Jessica Kirson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jim-breuer
+    name: Jim Breuer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jim-carrey
+    name: Jim Carrey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jim-gaffigan
+    name: Jim Gaffigan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jim-jefferies
+    name: Jim Jefferies
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jim-norton
+    name: Jim Norton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jimmy-carr
+    name: Jimmy Carr
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jimmy-o-yang
+    name: Jimmy O. Yang
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jimmy-pardo
+    name: Jimmy Pardo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jo-brand
+    name: Jo Brand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jo-firestone
+    name: Jo Firestone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jo-koy
+    name: Jo Koy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joan-rivers
+    name: Joan Rivers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joe-derosa
+    name: Joe Derosa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joe-list
+    name: Joe List
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joe-mande
+    name: Joe Mande
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joe-zimmerman
+    name: Joe Zimmerman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: joel-kim-booster
+    name: Joel Kim Booster
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-caparulo
+    name: John Caparulo
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-early
+    name: John Early
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-heffron
+    name: John Heffron
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-mulaney
+    name: John Mulaney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-oliver
+    name: John Oliver
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: john-pinette
+    name: John Pinette
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jon-dore
+    name: Jon Dore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jon-stewart
+    name: Jon Stewart
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jonah-ray
+    name: Jonah Ray
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: jordan-temple
+    name: Jordan Temple
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: josh-blue
+    name: Josh Blue
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: josh-gondelman
+    name: Josh Gondelman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: jourdain-fisher
+    name: Jourdain Fisher
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: judd-apatow
+    name: Judd Apatow
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: judy-gold
+    name: Judy Gold
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: julio-torres
+    name: Julio Torres
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kathleen-madigan
+    name: Kathleen Madigan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kathy-griffin
+    name: Kathy Griffin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: keith-robinson
+    name: Keith Robinson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kevin-brennan
+    name: Kevin Brennan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: kevin-hart
+    name: Kevin Hart
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kevin-heffernan
+    name: Kevin Heffernan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kevin-james
+    name: Kevin James
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: kevin-meaney
+    name: Kevin Meaney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kevin-nealon
+    name: Kevin Nealon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kevin-pollak
+    name: Kevin Pollak
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kristen-schaal
+    name: Kristen Schaal
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kumail-nanjiani
+    name: Kumail Nanjiani
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kurt-braunohler
+    name: Kurt Braunohler
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: kyle-kinane
+    name: Kyle Kinane
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: lace-larrabee
+    name: Lace Larrabee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: langston-kerman
+    name: Langston Kerman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: larry-miller
+    name: Larry Miller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: laurie-kilmartin
+    name: Laurie Kilmartin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: lavell-crawford
+    name: Lavell Crawford
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: lee-evans
+    name: Lee Evans
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: lenny-bruce
+    name: Lenny Bruce
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: lil-rel-howery
+    name: Lil Rel Howery
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: liz-miele
+    name: Liz Miele
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: liza-treyger
+    name: Liza Treyger
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: louie-anderson
+    name: Louie Anderson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: louis-ck
+    name: Louis CK
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: louis-katz
+    name: Louis Katz
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mae-martin
+    name: Mae Martin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: maeve-higgins
+    name: Maeve Higgins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: marc-maron
+    name: Marc Maron
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: marcia-belsky
+    name: Marcia Belsky
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: margaret-cho
+    name: Margaret Cho
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: maria-bamford
+    name: Maria Bamford
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mark-normand
+    name: Mark Normand
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: marlon-wayans
+    name: Marlon Wayans
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: martin-lawrence
+    name: Martin Lawrence
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: martin-short
+    name: Martin Short
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matt-besser
+    name: Matt Besser
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matt-braunger
+    name: Matt Braunger
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matt-fulchiron
+    name: Matt Fulchiron
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matt-koff
+    name: Matt Koff
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matt-mccarthy
+    name: Matt McCarthy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matteo-lane
+    name: Matteo Lane
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: matthew-broussard
+    name: Matthew Broussard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: maz-jobrani
+    name: Maz Jobrani
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: megan-gailey
+    name: Megan Gailey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: melissa-villasenor
+    name: Melissa Villaseñor
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: michael-che
+    name: Michael Che
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: michael-kosta
+    name: Michael Kosta
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: michael-mcintyre
+    name: Michael McIntyre
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: michelle-buteau
+    name: Michelle Buteau
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: michelle-wolf
+    name: Michelle Wolf
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-birbiglia
+    name: Mike Birbiglia
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-destefano
+    name: Mike Destefano
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-feeney
+    name: Mike Feeney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-recine
+    name: Mike Recine
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-vecchione
+    name: Mike Vecchione
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mike-yard
+    name: Mike Yard
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: milton-jones
+    name: Milton Jones
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mitch-hedberg
+    name: Mitch Hedberg
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mo-amer
+    name: Mo Amer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: moms-mabley
+    name: Moms Mabley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: monique
+    name: Mo'Nique
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: morgan-murphy
+    name: Morgan Murphy
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: mort-sahl
+    name: Mort Sahl
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: moshe-kasher
+    name: Moshe Kasher
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ms-pat
+    name: Ms. Pat
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: myq-kaplan
+    name: Myq Kaplan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: naomi-ekperigin
+    name: Naomi Ekperigin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: natasha-leggero
+    name: Natasha Leggero
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nate-bargatze
+    name: Nate Bargatze
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nate-craig
+    name: Nate Craig
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nathan-macintosh
+    name: Nathan Macintosh
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: neal-brennan
+    name: Neal Brennan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nick-kroll
+    name: Nick Kroll
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nick-swardson
+    name: Nick Swardson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nick-thune
+    name: Nick Thune
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nikki-glaser
+    name: Nikki Glaser
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nimesh-patel
+    name: Nimesh Patel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: nore-davis
+    name: Nore Davis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: norm-macdonald
+    name: Norm MacDonald
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: pablo-francisco
+    name: Pablo Francisco
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: pat-regan
+    name: Pat Regan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: patrice-oneal
+    name: Patrice O'Neal
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: patton-oswalt
+    name: Patton Oswalt
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: paul-f-tompkins
+    name: Paul F. Tompkins
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: paul-mooney
+    name: Paul Mooney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: paul-rodriguez
+    name: Paul Rodriguez
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: paula-poundstone
+    name: Paula Poundstone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: pete-davidson
+    name: Pete Davidson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: pete-holmes
+    name: Pete Holmes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: phil-hanley
+    name: Phil Hanley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: phoebe-robinson
+    name: Phoebe Robinson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: phyllis-diller
+    name: Phyllis Diller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: punkie-johnson
+    name: Punkie Johnson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rachel-feinstein
+    name: Rachel Feinstein
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rachel-mac
+    name: Rachel Mac
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rafael-barbosa
+    name: Rafael Barbosa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ralph-barbosa-jr
+    name: Ralph Barbosa Jr
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ralphie-may
+    name: Ralphie May
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ray-romano
+    name: Ray Romano
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: redd-foxx
+    name: Redd Foxx
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: reggie-watts
+    name: Reggie Watts
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rhys-darby
+    name: Rhys Darby
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rich-vos
+    name: Rich Vos
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: richard-belzer
+    name: Richard Belzer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: richard-jeni
+    name: Richard Jeni
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: richard-lewis
+    name: Richard Lewis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: richie-redding
+    name: Richie Redding
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: riki-lindhome
+    name: Riki Lindhome
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rob-delaney
+    name: Rob Delaney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: robert-klein
+    name: Robert Klein
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: robert-schimmel
+    name: Robert Schimmel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: robin-harris
+    name: Robin Harris
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: robin-williams
+    name: Robin Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rodney-dangerfield
+    name: Rodney Dangerfield
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ron-funches
+    name: Ron Funches
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ronny-chieng
+    name: Ronny Chieng
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rory-scovel
+    name: Rory Scovel
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: roseanne-barr
+    name: Roseanne Barr
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rosebud-baker
+    name: Rosebud Baker
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: rowan-atkinson
+    name: Rowan Atkinson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: roy-blount-jr
+    name: Roy Blount, Jr.
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: roy-wood-jr
+    name: Roy Wood Jr.
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: russell-peters
+    name: Russell Peters
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sam-jay
+    name: Sam Jay
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sam-kinison
+    name: Sam Kinison
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sam-morril
+    name: Sam Morril
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sam-tallent
+    name: Sam Tallent
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sara-schaefer
+    name: Sara Schaefer
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sarah-silverman
+    name: Sarah Silverman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sarah-tollemache
+    name: Sarah Tollemache
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sasheer-zamata
+    name: Sasheer Zamata
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sean-lock
+    name: Sean Lock
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sean-oconnor
+    name: Sean O'Connor
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sean-patton
+    name: Sean Patton
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sebastian-maniscalco
+    name: Sebastian Maniscalco
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: shalewa-sharpe
+    name: Shalewa Sharpe
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: shane-gillis
+    name: Shane Gillis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: shane-mauss
+    name: Shane Mauss
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: sinbad
+    name: Sinbad
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: solomon-georgio
+    name: Solomon Georgio
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: stephen-colbert
+    name: Stephen Colbert
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: steve-agee
+    name: Steve Agee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: steve-coogan
+    name: Steve Coogan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: steve-harvey
+    name: Steve Harvey
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: steve-martin
+    name: Steve Martin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: steven-wright
+    name: Steven Wright
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: t-j-miller
+    name: T.J. Miller
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: taylor-williamson
+    name: Taylor Williamson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: ted-alexandro
+    name: Ted Alexandro
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: the-sklar-brothers
+    name: The Sklar Brothers
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - looks like a group or band name
+    checked: false
+  - slug: tiffany-haddish
+    name: Tiffany Haddish
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+    flags:
+      - name shared with another artist on Pandora (likely a musician)
+    checked: false
+  - slug: tig-notaro
+    name: Tig Notaro
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tim-dillon
+    name: Tim Dillon
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: todd-barry
+    name: Todd Barry
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: todd-glass
+    name: Todd Glass
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tom-papa
+    name: Tom Papa
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tom-segura
+    name: Tom Segura
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tom-thakkar
+    name: Tom Thakkar
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tommy-johnagin
+    name: Tommy Johnagin
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tony-woods
+    name: Tony Woods
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tracey-ullman
+    name: Tracey Ullman
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: tracy-morgan
+    name: Tracy Morgan
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: trevor-moore
+    name: Trevor Moore
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: trevor-noah
+    name: Trevor Noah
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: vic-henley
+    name: Vic Henley
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: victor-borge
+    name: Victor Borge
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: vir-das
+    name: Vir Das
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: wanda-sykes
+    name: Wanda Sykes
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: whitney-cummings
+    name: Whitney Cummings
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: will-miles
+    name: Will Miles
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: woody-allen
+    name: Woody Allen
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: wyatt-cenac
+    name: Wyatt Cenac
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: yamaneika-saunders
+    name: Yamaneika Saunders
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: yannis-pappas
+    name: Yannis Pappas
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: yvonne-orji
+    name: Yvonne Orji
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true
+  - slug: zach-galifianakis
+    name: Zach Galifianakis
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: true

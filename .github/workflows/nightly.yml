@@ -1,0 +1,74 @@
+# collect → classify → match → apply overrides.yaml → export → commit data/ → deploy → update review issue
+name: nightly
+
+on:
+  schedule:
+    - cron: "23 9 * * *"     # about 4:23 AM Eastern
+  workflow_dispatch:
+    inputs:
+      backfill_since:
+        description: "One-time history load: first year (e.g. 2017). Leave empty for a normal nightly run."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    outputs:
+      ref: ${{ steps.commit.outputs.ref }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: collector/pyproject.toml
+      - run: pip install ./collector
+      - name: Run collector
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          WATCHMODE_API_KEY: ${{ secrets.WATCHMODE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BACKFILL_SINCE: ${{ inputs.backfill_since }}
+        run: |
+          if [ -n "$BACKFILL_SINCE" ]; then
+            python -m specials backfill --since "$BACKFILL_SINCE" --github-issue
+          else
+            python -m specials nightly --github-issue
+          fi
+      - name: Commit data
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ config/sources.yaml
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            counts=$(python -c "import json;c=json.load(open('data/meta.json'))['counts'];print(f\"{c['specials']} specials, +{c['created_this_run']} new, {c['candidates_pending']} to review\")")
+            git commit -m "data: nightly update ($counts)"
+            git push
+          fi
+          echo "ref=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: collect
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.collect.outputs.ref }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
