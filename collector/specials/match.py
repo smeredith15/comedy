@@ -133,6 +133,9 @@ def merge_into(s: dict, c: dict) -> None:
             ids[k] = v
         elif v and ids.get(k) != v and k != "wikipedia":
             _add_alt(s, f"{k}:{v}")
+    ch = (c.get("channel") or {}).get("id")
+    if ch and not ids.get("youtube_channel"):
+        ids["youtube_channel"] = ch
     for alt in c.get("alt_ids") or []:
         _add_alt(s, alt)
     for p in c.get("platforms") or []:

@@ -27,6 +27,8 @@ CANDIDATE_FIELDS = [
     "release_date", "runtime_min", "language", "platforms", "ids", "url", "channel",
     "evidence", "showcase", "trusted", "reasons", "match", "first_seen", "updated",
 ]
+REJECTED_FIELDS = ["id", "source", "performer_names", "title", "release_date", "runtime_min", "url",
+                   "reasons", "last_seen"]
 ID_KEYS = ["tmdb", "imdb", "youtube", "wikipedia"]
 
 
@@ -73,6 +75,7 @@ class State:
     overrides: CommentedMap = field(default_factory=CommentedMap)
     redirects: dict[str, str] = field(default_factory=dict)
     meta: dict = field(default_factory=dict)
+    rejected: dict[str, dict] = field(default_factory=dict)   # rule rejections, for `specials gaps`
 
     @property
     def comedians(self) -> CommentedSeq:
@@ -110,6 +113,7 @@ def load_state(repo: Repo) -> State:
         overrides=overrides,
         redirects=read_json(d / "redirects.json", {}),
         meta=read_json(d / "meta.json", {}),
+        rejected={r["id"]: r for r in read_jsonl(d / "rejected.jsonl")},
     )
 
 
@@ -122,6 +126,7 @@ def save_state(state: State, *, overrides: bool = False) -> None:
     write_jsonl(d / "candidates.jsonl", list(state.candidates.values()), CANDIDATE_FIELDS)
     write_json(d / "redirects.json", state.redirects)
     write_json(d / "meta.json", state.meta)
+    write_jsonl(d / "rejected.jsonl", list(state.rejected.values()), REJECTED_FIELDS)
     if overrides:
         dump_yaml(d / "overrides.yaml", state.overrides)
 

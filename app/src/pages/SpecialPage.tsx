@@ -3,6 +3,7 @@ import { addWatch, data, getMark, removeWatch, specialsById, updateMark } from '
 import { resolveId, todayIso, watchUrl } from '../logic';
 import { route } from '../router';
 import { Empty, formatDate, Performers, runtimeLabel, StatusButtons } from '../components/ui';
+import { notASpecialUrl } from './Settings';
 
 const KIND_LABEL: Record<string, string> = {
   subscription: 'Subscription', free: 'Free', ads: 'Free with ads', early_access: 'Early access', paid: 'Paid', tv: 'TV',
@@ -79,6 +80,13 @@ export function SpecialPage() {
         {s.ids?.imdb && <> · <a href={`https://www.imdb.com/title/${s.ids.imdb}/`} target="_blank" rel="noopener">IMDb</a></>}
         {s.ids?.wikipedia && <> · <a href={`https://en.wikipedia.org/wiki/${s.ids.wikipedia}`} target="_blank" rel="noopener">Wikipedia</a></>}
       </p>
+      {notASpecialUrl(s.id, s.title) && (
+        <p class="muted small remove">
+          Not actually a special (a podcast, clip, interview)?{' '}
+          <a href={notASpecialUrl(s.id, s.title)!} target="_blank" rel="noopener">Remove it from the database</a>.
+          It opens a short GitHub form; the next nightly run removes it for good.
+        </p>
+      )}
     </div>
   );
 }

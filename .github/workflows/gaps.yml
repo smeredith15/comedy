@@ -1,0 +1,31 @@
+# Actions → gaps → Run workflow. Shows where coverage is thin and, for specials you
+# name, where each one is or why it's missing. Results appear in the run summary.
+name: gaps
+
+on:
+  workflow_dispatch:
+    inputs:
+      specials:
+        description: 'Specials you know are missing, separated by ";" e.g.  Brian Regan: Nunchucks and Flamethrowers; Colin Quinn'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  gaps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ./collector
+      - name: Report
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          SPECIALS: ${{ inputs.specials }}
+        run: |
+          printf '%s' "$SPECIALS" | tr ';' '\n' > /tmp/queries.txt
+          python -m specials gaps --file /tmp/queries.txt | tee -a "$GITHUB_STEP_SUMMARY"

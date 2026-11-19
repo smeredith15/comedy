@@ -118,49 +118,59 @@ def ensure_performers(state: State, names: list[str], index: NameIndex) -> list[
 
 # --- resolution -------------------------------------------------------------
 
-def resolve(state: State, ctx, *, limit: int, retry_after_days: int = 30) -> dict:
-    """Find TMDB person IDs and YouTube channel IDs for tracked comedians."""
+def resolve(state: State, ctx, *, limit: int, retry_after_days: int = 30,
+            tmdb_limit: int = 1000) -> dict:
+    """Find TMDB person IDs and YouTube channel IDs for tracked comedians.
+
+    TMDB lookups are free, so every tracked comedian is tried each run (up to tmdb_limit).
+    YouTube channel searches cost 100 quota units each, so only `limit` run per night.
+    """
     from .sources import tmdb, youtube_api
 
-    stats = {"tmdb": 0, "youtube": 0, "needs_review": 0, "attempted": 0}
+    stats = {"tmdb": 0, "youtube": 0, "needs_review": 0, "tmdb_tried": 0, "youtube_tried": 0}
     today = ctx.today
-    todo = []
-    for c in state.comedians:
-        if not c.get("tracked"):
-            continue
-        last = parse_iso_date(c.get("resolve_attempted"))
-        if last and (today - last).days < retry_after_days:
-            continue
-        if c.get("tmdb_id") and c.get("youtube_channel_id"):
-            continue
-        todo.append(c)
-    for c in todo[:limit]:
-        stats["attempted"] += 1
-        notes: list[str] = []
-        if not c.get("tmdb_id") and ctx.env.get("TMDB_READ_TOKEN"):
+
+    def due(c, key: str) -> bool:
+        last = parse_iso_date(c.get(key) or c.get("resolve_attempted"))
+        return not last or (today - last).days >= retry_after_days
+
+    tracked = [c for c in state.comedians if c.get("tracked")]
+    if ctx.env.get("TMDB_READ_TOKEN"):
+        for c in [c for c in tracked if not c.get("tmdb_id") and due(c, "tmdb_attempted")][:tmdb_limit]:
+            stats["tmdb_tried"] += 1
             pid, note = tmdb.find_person(ctx, c["name"])
             if pid:
                 c["tmdb_id"] = pid
                 stats["tmdb"] += 1
-            if note:
-                notes.append(note)
-        if not c.get("youtube_channel_id") and ctx.env.get("YOUTUBE_API_KEY"):
+            _note(c, "tmdb_review", note)
+            c["tmdb_attempted"] = iso(today)
+    if ctx.env.get("YOUTUBE_API_KEY"):
+        for c in [c for c in tracked if not c.get("youtube_channel_id") and due(c, "youtube_attempted")][:limit]:
+            stats["youtube_tried"] += 1
             cid, note = youtube_api.find_channel(ctx, c["name"], c.get("youtube_handle"))
             if cid:
                 c["youtube_channel_id"] = cid
                 stats["youtube"] += 1
-            if note:
-                notes.append(note)
-        c["resolve_attempted"] = iso(today)
-        if notes:
-            c["needs_review"] = "; ".join(notes)
-            stats["needs_review"] += 1
-        elif "needs_review" in c:
-            del c["needs_review"]
+            _note(c, "youtube_review", note)
+            c["youtube_attempted"] = iso(today)
+    for c in tracked:   # tidy up the fields used by the first version
+        if c.get("tmdb_attempted") or c.get("youtube_attempted"):
+            c.pop("resolve_attempted", None)
+        if "tmdb_review" in c or "youtube_review" in c:
+            c.pop("needs_review", None)
+    stats["needs_review"] = sum(1 for c in tracked if c.get("tmdb_review") or c.get("youtube_review"))
     return stats
+
+
+def _note(c, key: str, note: str | None) -> None:
+    if note:
+        c[key] = note
+    elif key in c:
+        del c[key]
 
 
 def flagged(state: State) -> list[dict]:
     return [c for c in state.comedians
-            if (c.get("flags") and not c.get("checked")) or c.get("needs_review")]
+            if (c.get("flags") and not c.get("checked"))
+            or c.get("needs_review") or c.get("tmdb_review") or c.get("youtube_review")]
 

@@ -45,9 +45,13 @@ class FakeHttp:
 def repo(tmp_path):
     shutil.copytree(ROOT / "config", tmp_path / "config")
     (tmp_path / "data").mkdir()
-    for name in ("comedians.yaml", "overrides.yaml", "specials.jsonl", "candidates.jsonl",
-                 "redirects.json", "meta.json"):
-        shutil.copy(ROOT / "data" / name, tmp_path / "data" / name)
+    d = tmp_path / "data"
+    (d / "comedians.yaml").write_text("# Comedians\ncomedians: []\n")
+    (d / "overrides.yaml").write_text("# decisions\naccept: []\nreject: []\nmerge: []\nedit: {}\n")
+    for name in ("specials.jsonl", "candidates.jsonl"):
+        (d / name).write_text("")
+    for name in ("redirects.json", "meta.json"):
+        (d / name).write_text("{}\n")
     return Repo(tmp_path)
 
 

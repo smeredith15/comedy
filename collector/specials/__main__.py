@@ -100,7 +100,17 @@ def _run(args, since_year=None) -> None:
     http = _http()
     token, slug = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
     extra = []
+    decided = 0
     if getattr(args, "github_issue", False) and token and slug:
+        for label, step in (("review-queue boxes", review.read_issue_decisions),
+                            ("not-a-special issues", review.apply_removal_requests)):
+            try:
+                n = step(http, token, slug, state)
+                decided += n
+                if n:
+                    print(f"  applied {n} decision(s) from {label}")
+            except Exception as e:
+                print(f"  warning: couldn't read {label}: {e}")
         try:
             extra = review.fetch_reports(http, token, slug, Platforms(config.platforms))
         except Exception as e:
@@ -108,8 +118,8 @@ def _run(args, since_year=None) -> None:
     rcfg = plain(config.sources).get("resolve") or {}
     report = pipeline.run(state, config, http, today=today(), since_year=since_year,
                           sources=_sources(args.sources), extra=extra,
-                          resolve_limit=0 if since_year or args.sources else int(rcfg.get("per_night_limit", 25)))
-    save_state(state)
+                          resolve_limit=0 if args.sources else int(rcfg.get("per_night_limit", 25)))
+    save_state(state, overrides=bool(decided))
     export.write(state, config)
     build_sqlite(state)
     print(f"{'backfill' if since_year else 'nightly'}: {state.meta['counts']}")
@@ -153,6 +163,21 @@ def cmd_export(args) -> None:
 def cmd_db(args) -> None:
     repo, _ = _setup()
     print(f"wrote {build_sqlite(load_state(repo))}")
+
+
+def cmd_gaps(args) -> None:
+    from . import gaps
+    repo, _ = _setup()
+    state = load_state(repo)
+    queries = list(args.query or [])
+    if args.file:
+        queries += [l.strip() for l in Path(args.file).read_text().splitlines() if l.strip() and not l.startswith("#")]
+    out = [] if args.no_coverage else [gaps.coverage(state)]
+    if queries:
+        out.append("## Specials you asked about")
+        http = _http()
+        out += [gaps.explain(state, q, http, dict(os.environ)) for q in queries]
+    print("\n\n".join(out))
 
 
 def cmd_check(args) -> None:
@@ -203,6 +228,11 @@ def main(argv=None) -> None:
     e.set_defaults(func=cmd_export)
     sub.add_parser("db", help="rebuild the SQLite cache").set_defaults(func=cmd_db)
     sub.add_parser("check", help="confirm the API keys work").set_defaults(func=cmd_check)
+    g = sub.add_parser("gaps", help="coverage report, and why specific specials are missing")
+    g.add_argument("query", nargs="*", help='"Comedian: Title" or just "Comedian"')
+    g.add_argument("--file", help="one query per line")
+    g.add_argument("--no-coverage", action="store_true", help="only explain the queries")
+    g.set_defaults(func=cmd_gaps)
 
     args = p.parse_args(argv)
     args.func(args)
