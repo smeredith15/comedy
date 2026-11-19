@@ -2,7 +2,9 @@
 
 A self-updating database of stand-up comedy specials, plus an installable phone app (PWA) for tracking what you've seen and what you want to see, and for picking a special at random.
 
-> **Status: v1 built.** The collector, data files, app and workflows below are in the repo. The database fills in on the first nightly run, once the API keys are set (see [Setup](#setup)). Items marked v1.1 or later are still stubs.
+The same repo will also hold a **Spotify comedy playlist builder** that works from the same comedian list. See [PLAYLIST.md](PLAYLIST.md).
+
+> **Status:** the specials tracker v1 is built: the collector, data files, app and workflows below are in the repo. The database fills in on the first nightly run, once the API keys are set (see [Setup](#setup)). Items marked v1.1 or later, everything in [PLAYLIST.md](PLAYLIST.md), and the parts of the shared comedian list marked *planned* are still to be built.
 
 ---
 
@@ -12,6 +14,7 @@ A self-updating database of stand-up comedy specials, plus an installable phone 
 - **Phone app (PWA).** You install it from the browser. You can browse new, upcoming and older specials and mark each one *Want to see*, *Seen* (with date, rating and notes) or *Not interested*. You can also follow comedians.
 - **Spin.** A random picker that respects filters like "unseen only", "under 45 minutes" or "on services I have".
 - **Your lists stay on your phone.** The specials database is public information. What you've watched is stored only on your device, and you can export it as a backup file.
+- **One comedian list for everything.** You can add comedians by hand from the app, the GitHub web editor or the command line. The specials collectors and the [playlist builder](PLAYLIST.md) both use it.
 
 ---
 
@@ -47,9 +50,62 @@ nightly GitHub Action
 | **News / press RSS** (v1.1) | Announcements and less common platforms (Veeps, Patreon, comedians' own sites) | Free. Turning articles into records needs an extraction step |
 | **Watchmode** (optional) | Second check on streaming availability | Free developer tier |
 
-**Comedian list.** The starting list in `data/seeds/pandora_comedians.txt` comes from the Pandora station. The import step removes duplicates and strips suffixes like "(Comedy)" and "(Comedian)". It also flags names you should check once: a "(Comedy)" suffix means Pandora had another artist with that name, usually a musician, and names that look like a band or group are flagged too. Comedians who also release music can't be detected automatically. Mark any you know with a flag in `comedians.yaml`.
-
 **Distributors.** These are channels watched no matter who is performing, such as 800 Pound Gorilla, Comedy Central Stand-Up, Don't Tell Comedy, Comedy Dynamics and Spesh. The list lives in `config/sources.yaml`.
+
+---
+
+## Comedian list (shared)
+
+`data/comedians.yaml` is the single list behind both the specials collectors and the playlist builder.
+
+> **Planned schema.** The file in the repo today uses the v1 fields: `slug`, `name`, `aliases`, `tmdb_id`, `youtube_channel_id`, `tracked` (checked nightly), `followed` (pre-followed in the app on a new device) and `flags` / `checked` for names to check once. Performers the collectors discover are added with `tracked: false`. It moves to the layout below when the playlist builder is built, with a one-time migration.
+
+```yaml
+- id: jane-doe                 # stable slug, never changes
+  name: Jane Doe
+  aliases: []
+  status: tracked              # tracked | probation | removed
+  added: 2026-11-19
+  added_by: manual             # seed | manual | discovery | specials
+  use_for:
+    specials: true             # watch for her specials
+    playlist: true             # include her in the Spotify playlist
+  ids:                         # filled in automatically; fix by hand if a match is wrong
+    tmdb_person: null
+    youtube_channel: null
+    spotify_artist: null
+    lastfm: null
+    wikipedia: null
+    musicbrainz: null
+  playlist:                    # playlist-only settings, see PLAYLIST.md
+    weight: 1.0
+    exclude_albums: []
+    music_ok: false
+```
+
+**Statuses**
+- **tracked:** fully on the list.
+- **probation:** being tried out. This covers playlist discoveries and comedians you add for a trial. The specials collectors watch them too.
+- **removed:** kept in the file so they aren't suggested again, but ignored by both functions.
+
+**Tracked is different from Following.** *Tracked* is shared and lives in the repo. *Following* in the app is personal and stays on your phone; it controls the "new from comedians you follow" list on the Home screen.
+
+### Adding comedians
+
+*Planned: today, add a name to the seed file and re-run `comedians import`, or add an entry to `comedians.yaml` by hand.*
+
+Every method below only needs a **name**. The next nightly run looks up the IDs. If a match is unclear, for example a musician with the same name, it goes to the review queue instead of being guessed.
+
+- **From the app:** tap **Add comedian** in Settings, or **Track this comedian** on the page of any comedian who isn't on the list yet. This opens a pre-filled GitHub issue (label `add-comedian`) with optional fields for a Spotify artist link, a YouTube channel, the status (tracked or probation) and which functions to use them for. The nightly run adds the comedian, replies on the issue with what it matched, and closes it.
+- **GitHub web editor (works from your phone):** add a line like `- name: Josh Johnson` to `data/comedians.yaml`.
+- **Command line:**
+  ```bash
+  python -m specials comedians add "Josh Johnson" \
+      --spotify https://open.spotify.com/artist/… \
+      --youtube @handle --status probation --only playlist
+  ```
+
+**Starting list.** `data/seeds/pandora_comedians.txt` holds the names from the Pandora station. The import step removes duplicates and strips suffixes like "(Comedy)" and "(Comedian)". It also flags names that are shared with musicians, and comedians who also release music, so you can check them once.
 
 ---
 
@@ -106,7 +162,7 @@ Early-access releases are kept as one record with two dates. An example is a spe
 
 | File | Contents |
 |---|---|
-| `data/comedians.yaml` | Comedians: name, aliases, TMDB person ID, YouTube channel ID, `tracked` (checked nightly) and `followed` (pre-followed in the app) flags. Performers the collectors discover are added with `tracked: false`. You can edit it by hand |
+| `data/comedians.yaml` | The shared comedian list (see [Comedian list](#comedian-list-shared)). You can edit it by hand |
 | `data/specials.jsonl` | The finished records |
 | `data/candidates.jsonl` | Possible specials waiting for review |
 | `data/overrides.yaml` | Your manual decisions (accept, reject, merge, edit). The job applies these after its own rules |
@@ -147,10 +203,10 @@ The issue also lists comedians to check once: names Pandora shared with another 
 - **Home:** new this month, upcoming, and new from comedians you follow.
 - **Browse / search:** filter by platform, comedian, year, format, runtime, free only, and unseen only.
 - **Special:** watch links, Want to see / Seen / Not interested, rating, notes, and watch dates (rewatches are fine).
-- **Comedian:** every special by that comedian, plus a Follow button.
+- **Comedian:** every special by that comedian, a Follow button (personal), and **Track this comedian** for anyone not on the shared list yet (planned).
 - **My lists:** Want to see, Seen, Not interested.
 - **Spin:** the random picker (described below).
-- **Settings:** your streaming services, region, backup and restore, and a manual data refresh.
+- **Settings:** your streaming services, region, **Add comedian** (planned), backup and restore, and a manual data refresh.
 
 **Spin**
 
@@ -181,18 +237,21 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 ```
 .
 ├── README.md
+├── PLAYLIST.md               # Spotify playlist builder
 ├── config/
 │   ├── scope.yaml            # what counts as a special
 │   ├── sources.yaml          # collectors on/off, distributor channels, news feeds
-│   └── platforms.yaml        # platform names, normalization, icons
+│   ├── platforms.yaml        # platform names, normalization, icons
+│   └── playlist.yaml         # playlist mix and rules (planned)
 ├── data/
 │   ├── seeds/pandora_comedians.txt
-│   ├── comedians.yaml
+│   ├── comedians.yaml        # shared comedian list
 │   ├── specials.jsonl
 │   ├── candidates.jsonl
 │   ├── overrides.yaml
 │   ├── redirects.json
-│   └── meta.json
+│   ├── meta.json
+│   └── playlist/             # catalog cache, metrics, encrypted state (planned)
 ├── collector/                # Python package `specials`
 │   ├── pyproject.toml
 │   ├── .env.example
@@ -208,7 +267,10 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 │   │   ├── ids.py            # stable slugs, redirects
 │   │   ├── store.py          # jsonl/yaml ↔ SQLite cache
 │   │   ├── review.py         # review queue + GitHub issue + missing-special reports
-│   │   └── export.py         # JSON for the app
+│   │   ├── comedians.py      # shared list: import, resolve IDs (add + add-comedian issues planned)
+│   │   ├── check.py          # `specials check`: confirm the API keys work
+│   │   ├── export.py         # JSON for the app
+│   │   └── playlist/         # Spotify playlist builder, planned (see PLAYLIST.md)
 │   └── tests/                # pytest, against fixture data (no network)
 ├── app/                      # the PWA
 │   ├── index.html
@@ -219,9 +281,11 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
     ├── workflows/
     │   ├── nightly.yml       # collect → commit → build → deploy (also the one-time backfill)
     │   ├── pages.yml         # build + deploy (reusable; also runs on push)
-    │   └── ci.yml            # tests on pull requests and branches
+    │   ├── ci.yml            # tests on pull requests and branches
+    │   └── check-keys.yml    # Run workflow → confirms the API key secrets work
     └── ISSUE_TEMPLATE/
-        └── missing-special.yml
+        ├── missing-special.yml
+        └── add-comedian.yml  # planned
 ```
 
 ---
@@ -242,6 +306,12 @@ Add these under **Settings → Secrets and variables → Actions**:
 | `WATCHMODE_API_KEY` | api.watchmode.com | optional |
 | `ANTHROPIC_API_KEY` | console.anthropic.com (used for AI extraction from news articles) | v1.1 |
 
+**Check that the keys work:** go to **Actions → check-keys → Run workflow**. The run summary shows ✅ or ❌ for each key, and for a failure it says what to fix: a wrong key, YouTube Data API v3 not enabled for the key's project, or key restrictions that block it. The check uses 2 of YouTube's 10,000 daily quota units and never prints the keys. Locally, run `python -m specials check` with the keys in `collector/.env`.
+
+**YouTube key settings:** in Google Cloud Console, the key needs *YouTube Data API v3* enabled in the same project. Under the key's restrictions, set *Application restrictions* to **None**, because GitHub Actions isn't a website or a fixed IP. *API restrictions* can be limited to YouTube Data API v3. The API key is the only authentication needed: v1 reads only public data, so there's no Google sign-in (OAuth).
+
+The playlist builder needs its own secrets (Spotify, Last.fm, state key). See [PLAYLIST.md → Setup](PLAYLIST.md#setup).
+
 ### 3. Local development
 ```bash
 # collector (Python 3.12+)
@@ -251,8 +321,11 @@ pip install -e ".[dev]"
 cp .env.example .env                      # add TMDB_READ_TOKEN, YOUTUBE_API_KEY
 
 python -m specials comedians import ../data/seeds/pandora_comedians.txt
+python -m specials comedians add "Name"   # planned: add one by hand (see "Adding comedians")
 python -m specials comedians resolve      # find TMDB person + YouTube channel; unsure matches → review
+                                          # (Spotify, Last.fm and Wikipedia IDs come with the playlist builder)
 python -m specials sources resolve        # look up the distributor channel IDs from their handles
+python -m specials check                  # confirm the API keys work
 python -m specials backfill --since 2017  # one-time history load
 python -m specials nightly                # collect → classify → match → export
 python -m specials review                 # review pending candidates on a computer
@@ -277,7 +350,7 @@ npm run build
 
 ### 5. Nightly job
 - **Schedule:** `23 9 * * *`, which is about 4:23 AM Eastern.
-- **Steps:** collect → classify → match → apply `overrides.yaml` → export → commit `data/` → build and deploy the app → update the review issue.
+- **Steps** (playlist and add-comedian steps are planned): process `add-comedian` issues → resolve new comedian IDs → collect → classify → match → apply `overrides.yaml` → export → playlist `sync` (nightly) and `build` (weekly) → commit `data/` → build and deploy the app → update the review issue.
 - **Deploy happens inside the nightly job.** Commits pushed with the default `GITHUB_TOKEN` don't trigger other workflows, so `nightly.yml` runs `pages.yml` itself as a reusable workflow.
 - **There's a commit every night.** `meta.json` changes on each run, which also keeps GitHub from turning off the schedule in a quiet repo.
 - **Permissions** are declared in the workflow file: `contents: write`, `pages: write`, `id-token: write`, `issues: write`.
@@ -298,4 +371,6 @@ npm run build
 - **v1:** TMDB, Wikipedia and YouTube collectors, the review queue, and the app (browse, lists, follow, Spin, backup).
 - **v1.1:** AI-assisted extraction from news feeds, Watchmode availability checks, and the missing-special issue flow.
 - **v1.2:** syncing your lists across devices (for example through a private GitHub Gist) and alerts for new specials from comedians you follow.
-- **Later:** specials in other languages, audio-only comedy albums, and a link to the Spotify comedy playlist project. A new special is the clearest sign a comedian is "hot," and a first special from a comedian who isn't on the list is a discovery candidate.
+- **Later:** specials in other languages and audio-only comedy albums.
+
+The playlist builder has its own roadmap in [PLAYLIST.md](PLAYLIST.md#roadmap). It already reads this database: a new special marks a comedian as "hot," and a first special from someone not on the list makes them a discovery candidate.
