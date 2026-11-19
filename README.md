@@ -2,7 +2,7 @@
 
 A self-updating database of stand-up comedy specials, plus an installable phone app (PWA) for tracking what you've seen and what you want to see, and for picking a special at random.
 
-> **Status: design stage.** This README is the build plan. The commands, files and screens described below don't exist yet.
+> **Status: v1 built.** The collector, data files, app and workflows below are in the repo. The database fills in on the first nightly run, once the API keys are set (see [Setup](#setup)). Items marked v1.1 or later are still stubs.
 
 ---
 
@@ -47,7 +47,7 @@ nightly GitHub Action
 | **News / press RSS** (v1.1) | Announcements and less common platforms (Veeps, Patreon, comedians' own sites) | Free. Turning articles into records needs an extraction step |
 | **Watchmode** (optional) | Second check on streaming availability | Free developer tier |
 
-**Comedian list.** The starting list in `data/seeds/pandora_comedians.txt` comes from the Pandora station. The import step removes duplicates and strips suffixes like "(Comedy)" and "(Comedian)". It also flags names that are shared with musicians, or comedians who also release music, so you can check them once.
+**Comedian list.** The starting list in `data/seeds/pandora_comedians.txt` comes from the Pandora station. The import step removes duplicates and strips suffixes like "(Comedy)" and "(Comedian)". It also flags names you should check once: a "(Comedy)" suffix means Pandora had another artist with that name, usually a musician, and names that look like a band or group are flagged too. Comedians who also release music can't be detected automatically. Mark any you know with a flag in `comedians.yaml`.
 
 **Distributors.** These are channels watched no matter who is performing, such as 800 Pound Gorilla, Comedy Central Stand-Up, Don't Tell Comedy, Comedy Dynamics and Spesh. The list lives in `config/sources.yaml`.
 
@@ -97,6 +97,7 @@ Early-access releases are kept as one record with two dates. An example is a spe
     {"platform": "youtube", "kind": "free", "url": "https://www.youtube.com/watch?v=…"}
   ],
   "ids": {"tmdb": null, "imdb": null, "youtube": "…", "wikipedia": "2026_in_stand-up_comedy"},
+  "alt_ids": ["youtube:…"],
   "sources": ["https://…", "https://…"],
   "first_seen": "2026-03-01",
   "updated": "2026-04-14"
@@ -105,12 +106,14 @@ Early-access releases are kept as one record with two dates. An example is a spe
 
 | File | Contents |
 |---|---|
-| `data/comedians.yaml` | Tracked comedians: name, aliases, TMDB person ID, YouTube channel ID, followed flag. You can edit it by hand |
+| `data/comedians.yaml` | Comedians: name, aliases, TMDB person ID, YouTube channel ID, `tracked` (checked nightly) and `followed` (pre-followed in the app) flags. Performers the collectors discover are added with `tracked: false`. You can edit it by hand |
 | `data/specials.jsonl` | The finished records |
 | `data/candidates.jsonl` | Possible specials waiting for review |
 | `data/overrides.yaml` | Your manual decisions (accept, reject, merge, edit). The job applies these after its own rules |
 | `data/redirects.json` | Merged IDs mapped to the record that replaced them |
 | `data/meta.json` | Time and counts of the last run |
+
+Small additions to the record: each platform entry can carry its own `date` (used to work out `public_release_date`), `alt_ids` keeps the TMDB/YouTube IDs of records merged into this one, and `"hidden": true` marks a record you rejected (it stays so re-collection lands on it, but the app doesn't show it).
 
 **IDs never change.** A special keeps its ID even if its title is corrected later. When two records are merged, the old ID goes into `redirects.json`, and the app uses it to move your Seen and Want-to-see marks to the surviving record.
 
@@ -132,7 +135,9 @@ edit:
     format: half_hour
 ```
 
-`python -m specials review` gives you the same review on a computer.
+`python -m specials review` gives you the same review on a computer. `reject` also takes a special ID (hides the record), and `merge` takes `[special_id, special_id]` to fold one record into another.
+
+The issue also lists comedians to check once: names Pandora shared with another artist, and unsure TMDB/YouTube matches from `comedians resolve`.
 
 ---
 
@@ -167,7 +172,7 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 
 **Install on Android:** open the GitHub Pages URL in Chrome, then tap ⋮ → **Install app** (or **Add to Home screen**).
 
-**Planned stack:** Vite + TypeScript + Preact, `vite-plugin-pwa` (Workbox) for offline support, Dexie for IndexedDB.
+**Stack:** Vite + TypeScript + Preact (+ signals), `vite-plugin-pwa` (Workbox) for the offline app shell, Dexie for IndexedDB. The app downloads `data/db.json` itself and keeps the last copy in IndexedDB, so it opens instantly offline and swaps in new data when it arrives.
 
 ---
 
@@ -193,23 +198,28 @@ The default weights can be edited in Settings. *Want to see* counts ×3, a follo
 │   ├── .env.example
 │   ├── specials/
 │   │   ├── __main__.py       # CLI
-│   │   ├── sources/          # tmdb.py, wikipedia.py, youtube_feeds.py,
-│   │   │                     # youtube_search.py, news.py, watchmode.py
+│   │   ├── sources/          # tmdb.py, wikipedia.py, youtube_feeds.py, youtube_search.py,
+│   │   │                     # youtube_api.py (shared), news.py + watchmode.py (v1.1 stubs)
+│   │   ├── pipeline.py       # collect → classify → match → overrides
 │   │   ├── classify.py       # scope rules
 │   │   ├── match.py          # dedupe / merge
+│   │   ├── titles.py         # "Name: Title | Full Special" cleanup
+│   │   ├── comedians.py      # seed import, name lookup, TMDB/YouTube resolution
 │   │   ├── ids.py            # stable slugs, redirects
 │   │   ├── store.py          # jsonl/yaml ↔ SQLite cache
-│   │   ├── review.py         # review queue + GitHub issue
+│   │   ├── review.py         # review queue + GitHub issue + missing-special reports
 │   │   └── export.py         # JSON for the app
-│   └── tests/
+│   └── tests/                # pytest, against fixture data (no network)
 ├── app/                      # the PWA
 │   ├── index.html
-│   ├── public/               # manifest.webmanifest, icons
-│   └── src/
+│   ├── public/icons/         # app icons (manifest is generated by vite-plugin-pwa)
+│   ├── scripts/              # sample-data.mjs (fictional data for trying the app), make-icons.mjs
+│   └── src/                  # pages/, components/, logic.ts (+ tests), store.ts, db.ts
 └── .github/
     ├── workflows/
-    │   ├── nightly.yml       # collect → commit → build → deploy
-    │   └── pages.yml         # build + deploy (reusable; also runs on push)
+    │   ├── nightly.yml       # collect → commit → build → deploy (also the one-time backfill)
+    │   ├── pages.yml         # build + deploy (reusable; also runs on push)
+    │   └── ci.yml            # tests on pull requests and branches
     └── ISSUE_TEMPLATE/
         └── missing-special.yml
 ```
@@ -242,18 +252,30 @@ cp .env.example .env                      # add TMDB_READ_TOKEN, YOUTUBE_API_KEY
 
 python -m specials comedians import ../data/seeds/pandora_comedians.txt
 python -m specials comedians resolve      # find TMDB person + YouTube channel; unsure matches → review
+python -m specials sources resolve        # look up the distributor channel IDs from their handles
 python -m specials backfill --since 2017  # one-time history load
 python -m specials nightly                # collect → classify → match → export
 python -m specials review                 # review pending candidates on a computer
+python -m specials queue                  # print the review queue
+python -m specials export                 # write app/public/data/db.json
+pytest                                    # tests (no network needed)
 
 # app
 cd ../app
 npm install
 npm run dev                               # serves the app using the data export
+npm run dev:sample                        # or: try it with a small FICTIONAL sample database
+npm test
 npm run build
 ```
 
-### 4. Nightly job
+### 4. First run
+1. Paste the Pandora list into `data/seeds/pandora_comedians.txt`, run the `comedians import` command above and commit.
+2. Merge to `main`. Scheduled workflows only run from the default branch.
+3. **Actions → nightly → Run workflow** with `backfill_since` set to `2017` for the one-time history load. After that the schedule takes over.
+4. Optional: download the TMDB logo from themoviedb.org/about/logos-attribution and save it as `app/public/icons/tmdb.svg`. The About screen shows it next to the attribution line.
+
+### 5. Nightly job
 - **Schedule:** `23 9 * * *`, which is about 4:23 AM Eastern.
 - **Steps:** collect → classify → match → apply `overrides.yaml` → export → commit `data/` → build and deploy the app → update the review issue.
 - **Deploy happens inside the nightly job.** Commits pushed with the default `GITHUB_TOKEN` don't trigger other workflows, so `nightly.yml` runs `pages.yml` itself as a reusable workflow.
@@ -264,7 +286,7 @@ npm run build
 
 ## Terms and attribution
 
-- **TMDB:** the About screen shows the TMDB logo and the line *"This product uses the TMDB API but is not endorsed or certified by TMDB."*
+- **TMDB:** the About screen shows the TMDB logo and the line *"This product uses the TMDB API but is not endorsed or certified by TMDB."* Where-to-watch data comes from JustWatch through TMDB and is credited the same way.
 - **Wikipedia:** only facts are stored (performer, title, date, platform), with a link back to the page. No article text is copied.
 - **YouTube:** follows the YouTube API Services Terms and Developer Policies. Only video IDs, titles, lengths and publish dates are stored, and YouTube records are re-checked regularly.
 - Personal, non-commercial project.

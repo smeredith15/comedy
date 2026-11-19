@@ -1,0 +1,54 @@
+# Collectors on/off, distributor channels and news feeds.
+
+collectors:
+  tmdb:
+    enabled: true
+    # Looked up by name through TMDB's keyword search at run time.
+    discover_keywords: ["stand-up comedy"]
+    lookback_days: 60         # nightly: re-check specials released this recently
+    lookahead_days: 365       # and anything announced up to this far ahead
+    person_credits: true      # also check the movie credits of tracked comedians with a TMDB ID
+    max_pages: 200
+  wikipedia:
+    enabled: true
+    page_pattern: "{year}_in_stand-up_comedy"
+  youtube_feeds:
+    enabled: true             # channel RSS, no key or quota
+  youtube_search:
+    enabled: true
+    max_searches_per_day: 3   # search.list costs 100 quota units each
+    queries:
+      - "full stand-up comedy special"
+      - "full comedy special"
+      - "stand-up special full hour"
+  news:
+    enabled: false            # v1.1
+    feeds: []
+  watchmode:
+    enabled: false            # optional, v1.1
+
+resolve:
+  # Comedians resolved per nightly run (TMDB person + YouTube channel).
+  # A YouTube channel search costs 100 of the 10,000 daily quota units.
+  per_night_limit: 25
+  retry_after_days: 30
+
+# Channels watched no matter who is performing.
+# Handles are best guesses. `python -m specials sources resolve` looks them up
+# and fills in channel_id. Check the result once, then set channel_id by hand if it is wrong.
+distributors:
+  - name: 800 Pound Gorilla
+    handle: "@800PoundGorillaMedia"
+    channel_id: null
+  - name: Comedy Central Stand-Up
+    handle: "@ComedyCentralStandUp"
+    channel_id: null
+  - name: Don't Tell Comedy
+    handle: "@DontTellComedy"
+    channel_id: null
+  - name: Comedy Dynamics
+    handle: "@ComedyDynamics"
+    channel_id: null
+  - name: Spesh
+    handle: "@SpeshComedy"
+    channel_id: null

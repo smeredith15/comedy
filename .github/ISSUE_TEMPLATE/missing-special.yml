@@ -1,0 +1,36 @@
+name: Missing special
+description: A stand-up special that isn't in the database yet
+title: "Missing special: "
+labels: ["missing-special"]
+body:
+  - type: input
+    id: comedian
+    attributes:
+      label: Comedian
+      description: Separate several with commas
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Netflix, YouTube, Veeps, Patreon, the comedian's site…
+  - type: input
+    id: link
+    attributes:
+      label: Link
+  - type: input
+    id: release_date
+    attributes:
+      label: Release date
+      placeholder: YYYY-MM-DD
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

@@ -1,0 +1,97 @@
+# Platform names, normalization and display.
+#   aliases:     names collectors may report (matched case-insensitively)
+#   kind:        default availability when a source doesn't say
+#                (subscription, free, ads, early_access, paid, tv)
+#   search_url:  used for the Watch button when a record has no direct link ({q} = title)
+#   color:       chip color in the app
+
+netflix:
+  name: Netflix
+  aliases: ["netflix", "netflix basic with ads", "netflix standard with ads"]
+  kind: subscription
+  search_url: "https://www.netflix.com/search?q={q}"
+  color: "#e50914"
+max:
+  name: Max
+  aliases: ["max", "hbo max", "hbo", "max amazon channel", "hbo max amazon channel"]
+  kind: subscription
+  search_url: "https://play.max.com/search?q={q}"
+  color: "#002be7"
+prime-video:
+  name: Prime Video
+  aliases: ["amazon prime video", "prime video", "amazon", "amazon prime", "amazon prime video with ads", "amazon video"]
+  kind: subscription
+  search_url: "https://www.amazon.com/s?k={q}&i=instant-video"
+  color: "#1399ff"
+hulu:
+  name: Hulu
+  aliases: ["hulu", "fx", "fxx"]
+  kind: subscription
+  search_url: "https://www.hulu.com/search?q={q}"
+  color: "#1ce783"
+peacock:
+  name: Peacock
+  aliases: ["peacock", "peacock premium", "peacock premium plus", "nbc"]
+  kind: subscription
+  search_url: "https://www.peacocktv.com/search?q={q}"
+  color: "#f5c518"
+paramount-plus:
+  name: Paramount+
+  aliases: ["paramount+", "paramount plus", "paramount+ with showtime", "paramount plus essential", "paramount plus premium", "showtime", "cbs", "comedy central"]
+  kind: subscription
+  search_url: "https://www.paramountplus.com/search/?q={q}"
+  color: "#0064ff"
+apple-tv:
+  name: Apple TV+
+  aliases: ["apple tv+", "apple tv plus", "apple tv"]
+  kind: subscription
+  search_url: "https://tv.apple.com/search?term={q}"
+  color: "#888888"
+disney-plus:
+  name: Disney+
+  aliases: ["disney+", "disney plus"]
+  kind: subscription
+  search_url: "https://www.disneyplus.com/search?q={q}"
+  color: "#113ccf"
+youtube:
+  name: YouTube
+  aliases: ["youtube", "youtube free"]
+  kind: free
+  search_url: "https://www.youtube.com/results?search_query={q}"
+  color: "#ff0033"
+tubi:
+  name: Tubi
+  aliases: ["tubi", "tubi tv"]
+  kind: ads
+  search_url: "https://tubitv.com/search/{q}"
+  color: "#7408ff"
+pluto-tv:
+  name: Pluto TV
+  aliases: ["pluto tv", "pluto"]
+  kind: ads
+  color: "#fff200"
+roku-channel:
+  name: The Roku Channel
+  aliases: ["the roku channel", "roku channel"]
+  kind: ads
+  color: "#6c3c97"
+800-pound-gorilla:
+  name: 800 Pound Gorilla
+  aliases: ["800 pound gorilla", "800 pound gorilla media", "800 pound gorilla records"]
+  kind: early_access
+  color: "#444444"
+veeps:
+  name: Veeps
+  aliases: ["veeps"]
+  kind: paid
+  color: "#00b8a9"
+patreon:
+  name: Patreon
+  aliases: ["patreon"]
+  kind: paid
+  color: "#ff424d"
+dry-bar:
+  name: Dry Bar Comedy
+  aliases: ["dry bar comedy", "dry bar"]
+  kind: free
+  color: "#2f6f8f"

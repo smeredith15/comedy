@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specials"
+version = "0.1.0"
+description = "Collector for a self-updating database of stand-up comedy specials"
+requires-python = ">=3.12"
+dependencies = [
+  "requests>=2.31",
+  "ruamel.yaml>=0.18",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["specials*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

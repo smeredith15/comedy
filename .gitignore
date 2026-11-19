@@ -1,0 +1,9 @@
+__pycache__/
+*.egg-info/
+.venv/
+.env
+.pytest_cache/
+data/cache.sqlite
+node_modules/
+app/dist/
+app/public/data/

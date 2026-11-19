@@ -1,0 +1,24 @@
+# What counts as a special. These are the v1 defaults; change anything here.
+language: en                  # English-language only for v1
+region: US                    # where-to-watch region
+min_runtime_minutes: 25
+half_hour_max_minutes: 40     # runtimes under this are labeled half_hour, the rest hour
+cutoff_margin_minutes: 3      # runtimes this close to min_runtime_minutes go to review
+formats: [hour, half_hour]    # solo specials; half-hours are labeled as such
+include_showcases: false      # multi-comic showcase episodes
+include_audio_albums: false   # audio-only releases (later)
+
+# Titles containing these look like multi-comic showcases.
+showcase_title_hints: ["presents", "& friends", "and friends", "showcase", "the standups", "the stand-ups", "all-stars", "all stars", "lineup", "gala", "comedy festival"]
+
+match:
+  date_window_days: 45        # dates within this many days count as the same release
+  strong_title_similarity: 0.92
+  partial_title_similarity: 0.6
+
+youtube:
+  # A YouTube video is only accepted automatically if it comes from a tracked
+  # comedian's channel or a known distributor. Anything else goes to review.
+  trusted_channels_only: true
+  title_hints_positive: ["special", "full special", "stand-up", "standup", "stand up", "full hour"]
+  title_hints_negative: ["podcast", "episode", "clip", "compilation", "reacts", "interview", "trailer", "teaser", "shorts", "highlights", "behind the scenes"]

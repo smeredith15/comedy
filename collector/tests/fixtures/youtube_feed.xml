@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <title>Sam Rivera</title>
+ <entry>
+  <id>yt:video:VIDkitchen1</id>
+  <yt:videoId>VIDkitchen1</yt:videoId>
+  <yt:channelId>UCsamrivera000000000000</yt:channelId>
+  <title>Sam Rivera | Kitchen Table (Full Comedy Special)</title>
+  <author><name>Sam Rivera</name></author>
+  <published>2026-01-06T17:00:00+00:00</published>
+ </entry>
+ <entry>
+  <id>yt:video:VIDpodcast1</id>
+  <yt:videoId>VIDpodcast1</yt:videoId>
+  <yt:channelId>UCsamrivera000000000000</yt:channelId>
+  <title>Sam Rivera Podcast Episode 112</title>
+  <author><name>Sam Rivera</name></author>
+  <published>2026-01-10T17:00:00+00:00</published>
+ </entry>
+ <entry>
+  <id>yt:video:VIDjanefree</id>
+  <yt:videoId>VIDjanefree</yt:videoId>
+  <yt:channelId>UCsamrivera000000000000</yt:channelId>
+  <title>Sam Rivera Reacts To Crowd Work Compilation</title>
+  <author><name>Sam Rivera</name></author>
+  <published>2026-01-12T17:00:00+00:00</published>
+ </entry>
+</feed>

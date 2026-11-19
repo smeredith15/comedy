@@ -1,0 +1,4 @@
+# Paste the comedian names from the Pandora station here, one per line.
+# Suffixes like "(Comedy)" and "(Comedian)" are fine; the import step strips them.
+# Lines starting with # are ignored. Then run:
+#   python -m specials comedians import ../data/seeds/pandora_comedians.txt

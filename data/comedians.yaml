@@ -1,0 +1,7 @@
+# Comedians. Edit by hand any time.
+#   tracked:   true = their YouTube channel and TMDB credits are checked every night.
+#              Performers found by the collectors are added with tracked: false.
+#   followed:  true = pre-followed in the app on a new device.
+#   flags:     things to check once (e.g. name shared with a musician). Set checked: true when done.
+#   needs_review: an unsure TMDB / YouTube match from `comedians resolve`. Fix the ID or clear it.
+comedians: []
