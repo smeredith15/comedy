@@ -1,31 +1,30 @@
 {
   "counts": {
-    "candidates_pending": 683,
+    "candidates_pending": 685,
     "comedians_tracked": 387,
-    "created_this_run": 1097,
-    "merged_this_run": 1501,
-    "rejected_by_rules_this_run": 1357,
-    "released": 2058,
-    "specials": 2064,
+    "created_this_run": 2,
+    "merged_this_run": 143,
+    "rejected_by_rules_this_run": 878,
+    "released": 2060,
+    "specials": 2066,
     "upcoming": 6
   },
-  "last_run": "2026-11-19T22:31:53+00:00",
-  "mode": "backfill",
+  "last_run": "2026-11-20T17:55:03+00:00",
+  "mode": "nightly",
   "sources": {
     "news": {
       "status": "disabled"
     },
     "resolve": {
-      "distributors": 4,
-      "needs_review": 123,
-      "tmdb": 351,
-      "tmdb_tried": 362,
+      "needs_review": 126,
+      "tmdb": 0,
+      "tmdb_tried": 0,
       "youtube": 20,
       "youtube_tried": 25
     },
     "tmdb": {
-      "items": 2881,
-      "seconds": 689.9,
+      "items": 52,
+      "seconds": 34.0,
       "status": "ok",
       "warnings": [
         "tmdb: movie 1171765: HTTP 404 for https://api.themoviedb.org/3/movie/1171765: {\"success\":false,\"status_code\":34,\"status_message\":\"The resource you requested could not be found.\"}"
@@ -35,40 +34,19 @@
       "status": "disabled"
     },
     "wikipedia": {
-      "items": 1164,
-      "seconds": 8.5,
-      "status": "ok",
-      "warnings": [
-        "wikipedia: 1970_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1971_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1972_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1973_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1974_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1975_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1976_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1977_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1978_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1979_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1980_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1981_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1982_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1983_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1984_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1985_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1986_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1987_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1988_in_stand-up_comedy: The page you specified doesn't exist.",
-        "wikipedia: 1989_in_stand-up_comedy: The page you specified doesn't exist."
-      ]
+      "items": 102,
+      "seconds": 0.2,
+      "status": "ok"
     },
     "youtube_feeds": {
-      "items": 569,
-      "seconds": 11.5,
+      "items": 837,
+      "seconds": 11.6,
       "status": "ok"
     },
     "youtube_search": {
-      "reason": "not used for backfill (search quota is small)",
-      "status": "skipped"
+      "items": 46,
+      "seconds": 1.2,
+      "status": "ok"
     }
   }
 }

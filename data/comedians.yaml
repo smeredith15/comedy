@@ -384,6 +384,13 @@ comedians:
     followed: false
     tracked: true
     resolve_attempted: '2026-11-19'
+  - slug: alvin-williams
+    name: Alvin Williams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: amanda-seales
     name: Amanda Seales
     aliases: []
@@ -1209,6 +1216,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Brody Scopes (UCa_1_rkTDQ73wOITSItDqng)'
+    youtube_attempted: '2026-11-20'
   - slug: bron-lewis
     name: Bron Lewis
     aliases: []
@@ -1220,13 +1229,14 @@ comedians:
     name: Bruce Bruce
     aliases: []
     tmdb_id: 1568932
-    youtube_channel_id: null
+    youtube_channel_id: UCjUaTjoJ9dW1Fd6CXW-G8VA
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: bryan-callen
     name: Bryan Callen
     aliases: []
@@ -1319,6 +1329,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Casey James Salengo - Topic (UCdQVhvUFRzstkxOR02oeutQ)'
+    youtube_attempted: '2026-11-20'
   - slug: catherine-cohen
     name: Catherine Cohen
     aliases: []
@@ -1330,10 +1342,11 @@ comedians:
     name: Cedric The Entertainer
     aliases: []
     tmdb_id: 5726
-    youtube_channel_id: null
+    youtube_channel_id: UCCzn20zq5K8pWpi-ay8sKmA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: celeste-barber
     name: Celeste Barber
     aliases: []
@@ -1352,11 +1365,12 @@ comedians:
     name: Chad Daniels
     aliases: []
     tmdb_id: 1698816
-    youtube_channel_id: null
+    youtube_channel_id: UC9UBPfi4B_j1Ua7xDOcyBnA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Chad Daniels (1698816, 3029673); picked 1698816'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chad-ridgely
     name: Chad Ridgely
     aliases: []
@@ -1403,18 +1417,20 @@ comedians:
     name: Chelsea Handler
     aliases: []
     tmdb_id: 151254
-    youtube_channel_id: null
+    youtube_channel_id: UCrUaq85q6ueB6C86BzPKFHA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chelsea-peretti
     name: Chelsea Peretti
     aliases: []
     tmdb_id: 1240868
-    youtube_channel_id: null
+    youtube_channel_id: UCruJlGpgYoNTFw7hCVQx_ig
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chico-bean
     name: Chico Bean
     aliases: []
@@ -1440,10 +1456,11 @@ comedians:
     name: Chris D'Elia
     aliases: []
     tmdb_id: 1260036
-    youtube_channel_id: null
+    youtube_channel_id: UCf5jQ69wmmjojV8WtYw2EQw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-distefano
     name: Chris Distefano
     aliases: []
@@ -1455,23 +1472,27 @@ comedians:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is chrisdcomedy (UCon_vk_hDDMjhecQq-9Dc4Q)'
+    youtube_attempted: '2026-11-20'
   - slug: chris-fleming
     name: Chris Fleming
     aliases: []
     tmdb_id: 2051375
-    youtube_channel_id: null
+    youtube_channel_id: UCghR6gNuBneEKkDuKtXQM4w
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 8 people named Chris Fleming (2051375, 4099915, 4541856, 6216683, 2099926, 2867916, 4913842, 6302599); picked 2051375'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-gethard
     name: Chris Gethard
     aliases: []
     tmdb_id: 169265
-    youtube_channel_id: null
+    youtube_channel_id: UCGAjzNRjJkGJCNHHYmevQWg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-grace
     name: Chris Grace
     aliases: []
@@ -1483,10 +1504,11 @@ comedians:
     name: Chris Hardwick
     aliases: []
     tmdb_id: 27738
-    youtube_channel_id: null
+    youtube_channel_id: UCn3gm8PhgChiOJYQHVCmV-w
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-parker
     name: Chris Parker
     aliases: []
@@ -1498,7 +1520,7 @@ comedians:
     name: Chris Porter
     aliases: []
     tmdb_id: 934364
-    youtube_channel_id: null
+    youtube_channel_id: UCW-LFF7HlRfd4suVsyh49vg
     followed: false
     tracked: true
     flags:
@@ -1506,6 +1528,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 11 people named Chris Porter (3220994, 934364, 4279404, 5119542, 4316072, 5259094, 3749958, 5420052, 5985032, 1572735, 5336168); picked 934364'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-ramsey
     name: Chris Ramsey
     aliases: []
@@ -1517,10 +1540,11 @@ comedians:
     name: Chris Redd
     aliases: []
     tmdb_id: 1631358
-    youtube_channel_id: null
+    youtube_channel_id: UCmXTBM6xsCLK2sSGGPN80SQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-rock
     name: Chris Rock
     aliases: []
@@ -1530,6 +1554,8 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 2 people named Chris Rock (2632, 4344716); picked 2632'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Chris Rock - Topic (UCtw2Si4a4YKr69xFNIwaE_g)'
+    youtube_attempted: '2026-11-20'
   - slug: chris-spencer
     name: Chris Spencer
     aliases: []
@@ -1541,11 +1567,12 @@ comedians:
     name: Chris Tucker
     aliases: []
     tmdb_id: 66
-    youtube_channel_id: null
+    youtube_channel_id: UCfglxaJURr0BCzeC2_tuUBg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Chris Tucker (66, 2788182, 6189510, 3279428, 5783114); picked 66'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: chris-weir
     name: Chris Weir
     aliases: []
@@ -1583,6 +1610,8 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 2 people named Christopher Titus (80103, 6419692); picked 80103'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is christophertitustv (UCNUTZU0Xh8Aem_RlYkSSLrQ)'
+    youtube_attempted: '2026-11-20'
   - slug: claudia-oshry
     name: Claudia Oshry
     aliases: []
@@ -1622,19 +1651,21 @@ comedians:
     name: Colin Jost
     aliases: []
     tmdb_id: 1226277
-    youtube_channel_id: null
+    youtube_channel_id: UCR6TM83yOUovRJqiyxoBDxA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: colin-quinn
     name: Colin Quinn
     aliases: []
     tmdb_id: 1219901
-    youtube_channel_id: null
+    youtube_channel_id: UCOVzUVSWj-DcX7XoJ3hR50w
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Colin Quinn (1219901, 2972498, 5029823); picked 1219901'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: colleen-ballinger
     name: Colleen Ballinger
     aliases: []
@@ -1660,10 +1691,11 @@ comedians:
     name: Conan O'Brien
     aliases: []
     tmdb_id: 81200
-    youtube_channel_id: null
+    youtube_channel_id: UCo3nWXH_6vVJ5-xbF3bKb3Q
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: conner-omalley
     name: Conner O'Malley
     aliases: []
@@ -1689,19 +1721,21 @@ comedians:
     name: Craig Ferguson
     aliases: []
     tmdb_id: 24264
-    youtube_channel_id: null
+    youtube_channel_id: UC7Fav99QhGaxqtGIMcOkh0w
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 6 people named Craig Ferguson (24264, 586533, 2320225, 2900620, 6467912, 5979677); picked 24264'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: cristela-alonzo
     name: Cristela Alonzo
     aliases: []
     tmdb_id: 1374727
-    youtube_channel_id: null
+    youtube_channel_id: UCr94b_uQwQH7-DYfOg-BSqg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: d-l-hughley
     name: D. L. Hughley
     aliases: []
@@ -1727,10 +1761,11 @@ comedians:
     name: Dan Cummins
     aliases: []
     tmdb_id: 1238010
-    youtube_channel_id: null
+    youtube_channel_id: UChm_BaUjEADyth4wzCNHMQA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: dan-levy
     name: Dan Levy
     aliases: []
@@ -1749,11 +1784,12 @@ comedians:
     name: Dan Mintz
     aliases: []
     tmdb_id: 224512
-    youtube_channel_id: null
+    youtube_channel_id: UCZ20E1BjbkP3DSkBvvG8pog
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Dan Mintz (224512, 205018, 3948623); picked 224512'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: dan-rath
     name: Dan Rath
     aliases: []
@@ -1765,10 +1801,11 @@ comedians:
     name: Dan Soder
     aliases: []
     tmdb_id: 1578815
-    youtube_channel_id: null
+    youtube_channel_id: UCjVmtPD7hXOkzN80OJM_fXg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-20'
   - slug: dana-carvey
     name: Dana Carvey
     aliases: []
@@ -1908,6 +1945,13 @@ comedians:
     tracked: false
   - slug: dave-stone
     name: Dave Stone
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: dave-thornton
+    name: Dave Thornton
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
