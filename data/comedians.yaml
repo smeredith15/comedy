@@ -1810,18 +1810,20 @@ comedians:
     name: Dana Carvey
     aliases: []
     tmdb_id: 56159
-    youtube_channel_id: null
+    youtube_channel_id: UC5LezDdzAxGNZt4R4LeVzug
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dana-gould
     name: Dana Gould
     aliases: []
     tmdb_id: 122807
-    youtube_channel_id: null
+    youtube_channel_id: UCxoVkk_gwgL9HWLrd22R5iw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dane-cook
     name: Dane Cook
     aliases: []
@@ -1840,10 +1842,11 @@ comedians:
     name: Daniel Kitson
     aliases: []
     tmdb_id: 1271491
-    youtube_channel_id: null
+    youtube_channel_id: UCy8E-hsN9ldHfyAzOArUxAw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: daniel-muggleton
     name: Daniel Muggleton
     aliases: []
@@ -1855,11 +1858,12 @@ comedians:
     name: Daniel Sloss
     aliases: []
     tmdb_id: 1122344
-    youtube_channel_id: null
+    youtube_channel_id: UCuiLwd-45fhOq94CKuKJX6A
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Daniel Sloss (1122344, 5866088); picked 1122344'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: daniel-tosh
     name: Daniel Tosh
     aliases: []
@@ -1869,22 +1873,26 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 2 people named Daniel Tosh (1221694, 2508229); picked 1221694'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is tosh show (UCLc1NRldPFA6lI3It3JMBVA)'
+    youtube_attempted: '2026-11-21'
   - slug: daniel-van-kirk
     name: Daniel Van Kirk
     aliases: []
     tmdb_id: 3505541
-    youtube_channel_id: null
+    youtube_channel_id: UCwLJ_I78jWEaN3WCWnPq1Lw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: danny-bhoy
     name: Danny Bhoy
     aliases: []
     tmdb_id: 87088
-    youtube_channel_id: null
+    youtube_channel_id: UCldsiZGmE2LEHCE1Zk4sm3g
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dans-karagannis
     name: Dans Karagannis
     aliases: []
@@ -1917,18 +1925,20 @@ comedians:
     name: Dave Attell
     aliases: []
     tmdb_id: 65923
-    youtube_channel_id: null
+    youtube_channel_id: UCgRXqLSTnYg-McTp3HUcgvQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dave-chappelle
     name: Dave Chappelle
     aliases: []
     tmdb_id: 4169
-    youtube_channel_id: null
+    youtube_channel_id: UCRhvA56IH53urTMs8P1xXsA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dave-hughes
     name: Dave Hughes
     aliases: []
@@ -1968,16 +1978,17 @@ comedians:
     name: David Brenner
     aliases: []
     tmdb_id: 1224212
-    youtube_channel_id: null
+    youtube_channel_id: UCHpJOdFRsb-c4MbaqFroDtA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 4 people named David Brenner (1224212, 6051, 1572879, 4799646); picked 1224212'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: david-cross
     name: David Cross
     aliases: []
     tmdb_id: 212
-    youtube_channel_id: null
+    youtube_channel_id: UCIIWnbq2IIhWub8UnruCUFw
     followed: false
     tracked: true
     flags:
@@ -1985,14 +1996,16 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 10 people named David Cross (212, 127442, 1583790, 4104496, 5410648, 4140423, 4997430, 2776090, 4485708, 5985150); picked 212'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: david-gborie
     name: David Gborie
     aliases: []
     tmdb_id: 1838652
-    youtube_channel_id: null
+    youtube_channel_id: UCmCaDVZQb1sjjqVHdLIWNQQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: david-nihill
     name: David Nihill
     aliases: []
@@ -2004,18 +2017,20 @@ comedians:
     name: David O'Doherty
     aliases: []
     tmdb_id: 109977
-    youtube_channel_id: null
+    youtube_channel_id: UCq24qttE9AhxgQbp83DHqhA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: david-spade
     name: David Spade
     aliases: []
     tmdb_id: 60950
-    youtube_channel_id: null
+    youtube_channel_id: UC1fZObMuyW0dBHt95kS-MGg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: david-steinberg
     name: David Steinberg
     aliases: []
@@ -2041,10 +2056,11 @@ comedians:
     name: Demetri Martin
     aliases: []
     tmdb_id: 84075
-    youtube_channel_id: null
+    youtube_channel_id: UCIHpJzYCUZ6tw1Inv0LZItw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: demi-adejuyigbe
     name: Demi Adejuyigbe
     aliases: []
@@ -2056,10 +2072,11 @@ comedians:
     name: Denis Leary
     aliases: []
     tmdb_id: 5724
-    youtube_channel_id: null
+    youtube_channel_id: UCu2Rd06hBlkn6Y2iXK7ZIag
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dennis-miller
     name: Dennis Miller
     aliases: []
@@ -2069,14 +2086,17 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 6 people named Dennis Miller (18326, 1233003, 1842288, 4821514, 5277836, 5490353); picked 18326'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is earl6021 (UCzY8X_NC4_yE-uankRlE-1g)'
+    youtube_attempted: '2026-11-21'
   - slug: deon-cole
     name: Deon Cole
     aliases: []
     tmdb_id: 216140
-    youtube_channel_id: null
+    youtube_channel_id: UCYzjmo24qLAMok5OvKmrQ3A
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: deray-davis
     name: DeRay Davis
     aliases: []
@@ -2095,10 +2115,11 @@ comedians:
     name: Des Bishop
     aliases: []
     tmdb_id: 1504664
-    youtube_channel_id: null
+    youtube_channel_id: UC6tmHeVPyz1jOXNsA2b3gtQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: diane-spencer
     name: Diane Spencer
     aliases: []
@@ -2117,10 +2138,11 @@ comedians:
     name: Dina Hashem
     aliases: []
     tmdb_id: 2261093
-    youtube_channel_id: null
+    youtube_channel_id: UCO_U82lpJpNRnPyRhSZAW5g
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dino-archie
     name: Dino Archie
     aliases: []
@@ -2139,10 +2161,11 @@ comedians:
     name: Dom Irrera
     aliases: []
     tmdb_id: 60275
-    youtube_channel_id: null
+    youtube_channel_id: UCprmBSrVS1aPL2XIgsz3_MA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: don-rickles
     name: Don Rickles
     aliases: []
@@ -2154,7 +2177,7 @@ comedians:
     name: Donald Glover
     aliases: []
     tmdb_id: 119589
-    youtube_channel_id: null
+    youtube_channel_id: UC20LoHy2mX0LQODrkUalxVQ
     followed: false
     tracked: true
     flags:
@@ -2162,32 +2185,36 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 2 people named Donald Glover (119589, 3376295); picked 119589'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: doug-benson
     name: Doug Benson
     aliases: []
     tmdb_id: 143073
-    youtube_channel_id: null
+    youtube_channel_id: UCGPq9AxIEXqjwjurJDdK2JQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Doug Benson (143073, 5032362); picked 143073'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: doug-stanhope
     name: Doug Stanhope
     aliases: []
     tmdb_id: 82994
-    youtube_channel_id: null
+    youtube_channel_id: UCjofMaVOmBN3nAm7_mwsGWA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Doug Stanhope (82994, 3201947); picked 82994'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: dov-davidoff
     name: Dov Davidoff
     aliases: []
     tmdb_id: 176763
-    youtube_channel_id: null
+    youtube_channel_id: UCZLK4bwuMALlyG81wKzuZ9g
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-21'
   - slug: drew-lynch
     name: Drew Lynch
     aliases: []
