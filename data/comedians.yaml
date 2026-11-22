@@ -2219,11 +2219,12 @@ comedians:
     name: Drew Lynch
     aliases: []
     tmdb_id: 2478796
-    youtube_channel_id: null
+    youtube_channel_id: UCqBvyjQOrXPcwSpvfovjREg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Drew Lynch (2478796, 94094, 5192861, 5534497, 5792911); picked 2478796'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: drew-michael
     name: Drew Michael
     aliases: []
@@ -2246,14 +2247,24 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Duncan Trussell Family Hour (UCTofCOHO5Pik4GrqwDzk2Gw)'
+    youtube_attempted: '2026-11-22'
+  - slug: dustin-nickerson
+    name: Dustin Nickerson
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: dusty-slay
     name: Dusty Slay
     aliases: []
     tmdb_id: 2438292
-    youtube_channel_id: null
+    youtube_channel_id: UC0v2M5bPNyQqti4xTyq0h6A
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: dwayne-perkins
     name: Dwayne Perkins
     aliases: []
@@ -2293,11 +2304,12 @@ comedians:
     name: Ed Byrne
     aliases: []
     tmdb_id: 95664
-    youtube_channel_id: null
+    youtube_channel_id: UCmuypQTRNsQ4v4gr9qUcSAA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Ed Byrne (95664, 5307128); picked 95664'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: ed-gamble
     name: Ed Gamble
     aliases: []
@@ -2323,25 +2335,27 @@ comedians:
     name: Eddie Griffin
     aliases: []
     tmdb_id: 62842
-    youtube_channel_id: null
+    youtube_channel_id: UCKDkKX3rp3WIUrklfhGmXZw
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 4 people named Eddie Griffin (62842, 6030249, 6030248, 2336187); picked 62842'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eddie-izzard
     name: Eddie Izzard
     aliases: []
     tmdb_id: null
-    youtube_channel_id: null
+    youtube_channel_id: UC37HyyyTKASpUxqGUwjjD6A
     followed: false
     tracked: true
     tmdb_review: 'tmdb: no exact match; closest is Suzy Eddie Izzard (1926)'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eddie-murphy
     name: Eddie Murphy
     aliases: []
     tmdb_id: 776
-    youtube_channel_id: null
+    youtube_channel_id: UC24Hpo5rrREIA4jTXuTItTQ
     followed: false
     tracked: true
     flags:
@@ -2349,14 +2363,16 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 4 people named Eddie Murphy (776, 1551813, 1414933, 5927370); picked 776'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eddie-pepitone
     name: Eddie Pepitone
     aliases: []
     tmdb_id: 1214063
-    youtube_channel_id: null
+    youtube_channel_id: UCHZ_d5Ql0prhzUYJ9_NZsnw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: edy-modica
     name: Edy Modica
     aliases: []
@@ -2382,10 +2398,11 @@ comedians:
     name: Ellen Degeneres
     aliases: []
     tmdb_id: 14
-    youtube_channel_id: null
+    youtube_channel_id: UCEBYW51R8PVIX2XmvADCIkA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: elliott-morgan
     name: Elliott Morgan
     aliases: []
@@ -2397,18 +2414,20 @@ comedians:
     name: Emily Catalano
     aliases: []
     tmdb_id: 4946507
-    youtube_channel_id: null
+    youtube_channel_id: UCnTSUodWTWMMv7QJgdS-8Lw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: emily-heller
     name: Emily Heller
     aliases: []
     tmdb_id: 1475135
-    youtube_channel_id: null
+    youtube_channel_id: UCh8p7jHeMux6XnBRaqhlYWA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: emily-wilson
     name: Emily Wilson
     aliases: []
@@ -2420,27 +2439,30 @@ comedians:
     name: Emmy Blotnick
     aliases: []
     tmdb_id: 2892997
-    youtube_channel_id: null
+    youtube_channel_id: UC36UUkZ7K5YZi562PDGczSw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: emo-philips
     name: Emo Philips
     aliases: []
     tmdb_id: 216837
-    youtube_channel_id: null
+    youtube_channel_id: UCxZlMKZ1njA5_0Ud8g5i1VQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eric-andre
     name: Eric Andre
     aliases: []
     tmdb_id: 934159
-    youtube_channel_id: null
+    youtube_channel_id: UCLkMfHagXmy6GNHiHtsoDrg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Eric Andre (934159, 3883252, 6541402); picked 934159'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eric-rushton
     name: Eric Rushton
     aliases: []
@@ -2473,10 +2495,11 @@ comedians:
     name: Eugene Mirman
     aliases: []
     tmdb_id: 1217563
-    youtube_channel_id: null
+    youtube_channel_id: UCs6AsL_xzNdqD7EPJ0znelg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: eunji-kim
     name: Eunji Kim
     aliases: []
@@ -2495,10 +2518,11 @@ comedians:
     name: Fahim Anwar
     aliases: []
     tmdb_id: 1037154
-    youtube_channel_id: null
+    youtube_channel_id: UCDKpUpUJIRWHJLi3j96MTpQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: fakkah-fuzz
     name: Fakkah Fuzz
     aliases: []
@@ -2521,6 +2545,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Ignore That Feeling (UCtVUDIntTxokVtpV7GWXf0g)'
+    youtube_attempted: '2026-11-22'
   - slug: fin-taylor
     name: Fin Taylor
     aliases: []
@@ -2532,10 +2558,11 @@ comedians:
     name: Finesse Mitchell
     aliases: []
     tmdb_id: 66528
-    youtube_channel_id: null
+    youtube_channel_id: UCBr_9WZsFPfguca30WUpSRA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: finlay-christie
     name: Finlay Christie
     aliases: []
@@ -2547,11 +2574,12 @@ comedians:
     name: Flip Wilson
     aliases: []
     tmdb_id: 103903
-    youtube_channel_id: null
+    youtube_channel_id: UCSDBPvwcc7-bj4R3qvc4QPA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Flip Wilson (103903, 1672174); picked 103903'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: flula-borg
     name: Flula Borg
     aliases: []
@@ -2560,22 +2588,26 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Flula (UCTbC3hJmqKotBt4s2BGRjrA)'
+    youtube_attempted: '2026-11-22'
   - slug: fortune-feimster
     name: Fortune Feimster
     aliases: []
     tmdb_id: 1183672
-    youtube_channel_id: null
+    youtube_channel_id: UCUoQrvJv0AfZ24PuP-EJlyQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: frank-caliendo
     name: Frank Caliendo
     aliases: []
     tmdb_id: 209203
-    youtube_channel_id: null
+    youtube_channel_id: UCyA1MBXph4aZTpkaY9td6Jg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: frank-skinner
     name: Frank Skinner
     aliases: []
@@ -2608,10 +2640,11 @@ comedians:
     name: Freddie Prinze
     aliases: []
     tmdb_id: 198940
-    youtube_channel_id: null
+    youtube_channel_id: UCliSiPt5cFGXVeXcsq-qekA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: gabe-kea
     name: Gabe Kea
     aliases: []
@@ -2623,10 +2656,11 @@ comedians:
     name: Gabe Liedman
     aliases: []
     tmdb_id: 1304330
-    youtube_channel_id: null
+    youtube_channel_id: UCEu6B-xtUb10iPUxpPfECIw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: gabriel-iglesias
     name: Gabriel Iglesias
     aliases: []
@@ -2673,7 +2707,7 @@ comedians:
     name: Garfunkel and Oates
     aliases: []
     tmdb_id: null
-    youtube_channel_id: null
+    youtube_channel_id: UC1R9fG_iKqvt9FIhEQH9nTA
     followed: false
     tracked: true
     flags:
@@ -2681,6 +2715,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: no person found'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-22'
   - slug: gary-gulman
     name: Gary Gulman
     aliases: []
