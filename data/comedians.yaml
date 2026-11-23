@@ -2720,10 +2720,11 @@ comedians:
     name: Gary Gulman
     aliases: []
     tmdb_id: 1123616
-    youtube_channel_id: null
+    youtube_channel_id: UCpJLmMkUMLNLgJvecl2IojA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: gary-owen
     name: Gary Owen
     aliases: []
@@ -2749,7 +2750,7 @@ comedians:
     name: Geoff Tate
     aliases: []
     tmdb_id: 1618531
-    youtube_channel_id: null
+    youtube_channel_id: UC1FQlZeR6hpH_dJRMVGy6uQ
     followed: false
     tracked: true
     flags:
@@ -2757,6 +2758,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 2 people named Geoff Tate (1618531, 2434163); picked 1618531'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: geoff-tice
     name: Geoff Tice
     aliases: []
@@ -2775,18 +2777,20 @@ comedians:
     name: George Burns
     aliases: []
     tmdb_id: 80625
-    youtube_channel_id: null
+    youtube_channel_id: UCRYuVb-FYZd_mm97uoDytsQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: george-carlin
     name: George Carlin
     aliases: []
     tmdb_id: 15903
-    youtube_channel_id: null
+    youtube_channel_id: UC9fERn7ivHkl0Kcc_jlpNvg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: george-civeris
     name: George Civeris
     aliases: []
@@ -2813,6 +2817,8 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 12 people named George Wallace (552139, 1587842, 1482702, 1626409, 2102588, 2432757, 3228982, 3886944, 2968159, 4794444, 6291790, 5819684); picked 552139'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is George Wallace TV (UC_3hRmxF1S_Fwok-Bj1q1jQ)'
+    youtube_attempted: '2026-11-23'
   - slug: gerry-dee
     name: Gerry Dee
     aliases: []
@@ -2831,26 +2837,29 @@ comedians:
     name: Gilbert Gottfried
     aliases: []
     tmdb_id: 15832
-    youtube_channel_id: null
+    youtube_channel_id: UCGrmw_5NzHfVm0m1heexpng
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: gilda-radner
     name: Gilda Radner
     aliases: []
     tmdb_id: 46949
-    youtube_channel_id: null
+    youtube_channel_id: UC09hIUpFYZoGAt0AG4cIxdA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: gina-yashere
     name: Gina Yashere
     aliases: []
     tmdb_id: 585607
-    youtube_channel_id: null
+    youtube_channel_id: UCkh046jBtW-W10sXuRDQwKQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: ginger-billy
     name: Ginger Billy
     aliases: []
@@ -2869,13 +2878,14 @@ comedians:
     name: Godfrey
     aliases: []
     tmdb_id: 73831
-    youtube_channel_id: null
+    youtube_channel_id: UCsCPBqT33iCXmvh7LaUs5Pg
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: grace-jarvis
     name: Grace Jarvis
     aliases: []
@@ -2894,52 +2904,58 @@ comedians:
     name: Greg Behrendt
     aliases: []
     tmdb_id: 109365
-    youtube_channel_id: null
+    youtube_channel_id: UCJAh4rZKkJs3bGD6Lk4RoHw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: greg-davies
     name: Greg Davies
     aliases: []
     tmdb_id: 1240641
-    youtube_channel_id: null
+    youtube_channel_id: UCkkvWBaZ_wDRPs4OENgPw9A
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Greg Davies (1240641, 5316600); picked 1240641'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: greg-fitzsimmons
     name: Greg Fitzsimmons
     aliases: []
     tmdb_id: 1218686
-    youtube_channel_id: null
+    youtube_channel_id: UCbvXBPkDe6APk8yT-Wc_fAg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: greg-giraldo
     name: Greg Giraldo
     aliases: []
     tmdb_id: 105787
-    youtube_channel_id: null
+    youtube_channel_id: UCIvmMg8Cq7fIoeGKENGBIDA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: greg-proops
     name: Greg Proops
     aliases: []
     tmdb_id: 61965
-    youtube_channel_id: null
+    youtube_channel_id: UC2ANtYYYJ6uo4xE2z0Usp_A
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: greg-warren
     name: Greg Warren
     aliases: []
     tmdb_id: 1904470
-    youtube_channel_id: null
+    youtube_channel_id: UCgGKquKdNJKmXtXZIBlawbA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Greg Warren (1904470, 2223477); picked 1904470'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: gus-tate
     name: Gus Tate
     aliases: []
@@ -2972,11 +2988,12 @@ comedians:
     name: Hampton Yount
     aliases: []
     tmdb_id: 1796125
-    youtube_channel_id: null
+    youtube_channel_id: UCHldpdpy2iM4dQJy0BOjj3Q
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Hampton Yount (1796125, 2600432); picked 1796125'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: handren-seavey
     name: Handren Seavey
     aliases: []
@@ -3016,18 +3033,20 @@ comedians:
     name: Hannibal Buress
     aliases: []
     tmdb_id: 500427
-    youtube_channel_id: null
+    youtube_channel_id: UCi-ZwTCdxP2YXQ-8fvFkRKw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: hari-kondabolu
     name: Hari Kondabolu
     aliases: []
     tmdb_id: 1882905
-    youtube_channel_id: null
+    youtube_channel_id: UCElBbly7HKp_77KtJc2BxVA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: harith-iskander
     name: Harith Iskander
     aliases: []
@@ -3039,10 +3058,11 @@ comedians:
     name: Harland Williams
     aliases: []
     tmdb_id: 16846
-    youtube_channel_id: null
+    youtube_channel_id: UCapCg70cgD7WWgQ0P8VpvPA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: harry-anderson
     name: Harry Anderson
     aliases: []
@@ -3054,10 +3074,11 @@ comedians:
     name: Hasan Minhaj
     aliases: []
     tmdb_id: 552252
-    youtube_channel_id: null
+    youtube_channel_id: UCarEovlrD9QY-fy-Z6apIDQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: hazel-brugger
     name: Hazel Brugger
     aliases: []
@@ -3076,20 +3097,22 @@ comedians:
     name: Helen Hong
     aliases: []
     tmdb_id: 1552816
-    youtube_channel_id: null
+    youtube_channel_id: UCfQ68HIjkbVN9-THktcWZWQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Helen Hong (1552816, 6462852); picked 1552816'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: henry-phillips
     name: Henry Phillips
     aliases: []
     tmdb_id: 139541
-    youtube_channel_id: null
+    youtube_channel_id: UCd25I7Y3-NEKNOoImYhQ-3g
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Henry Phillips (139541, 2841532, 3579230, 2841555, 4742740); picked 139541'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: henry-rollins
     name: Henry Rollins
     aliases: []
@@ -3108,11 +3131,12 @@ comedians:
     name: Howard Kremer
     aliases: []
     tmdb_id: 4079066
-    youtube_channel_id: null
+    youtube_channel_id: UCnBGDhnXHOvZv7a2Fe5--tA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Howard Kremer (4079066, 1505911); picked 4079066'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: ian-abramson
     name: Ian Abramson
     aliases: []
@@ -3131,11 +3155,12 @@ comedians:
     name: Ian Edwards
     aliases: []
     tmdb_id: 4742163
-    youtube_channel_id: null
+    youtube_channel_id: UCDIyoa6iIwwzfPxnE_sOVNA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Ian Edwards (160007, 4658881, 3361702, 2364279, 4742163); picked 4742163'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: ian-fidance
     name: Ian Fidance
     aliases: []
@@ -3154,10 +3179,11 @@ comedians:
     name: Ian Karmel
     aliases: []
     tmdb_id: 1498100
-    youtube_channel_id: null
+    youtube_channel_id: UCjOn7vZ-BnWy5xGZDSJl_Mw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-23'
   - slug: ian-lara
     name: Ian Lara
     aliases: []
@@ -3181,6 +3207,13 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+  - slug: irene-tu
+    name: Irene Tu
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: isaac-butterfield
     name: Isaac Butterfield
     aliases: []

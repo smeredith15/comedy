@@ -1,15 +1,15 @@
 {
   "counts": {
-    "candidates_pending": 694,
+    "candidates_pending": 701,
     "comedians_tracked": 387,
-    "created_this_run": 3,
-    "merged_this_run": 145,
-    "rejected_by_rules_this_run": 1403,
-    "released": 2063,
-    "specials": 2070,
+    "created_this_run": 2,
+    "merged_this_run": 148,
+    "rejected_by_rules_this_run": 1689,
+    "released": 2065,
+    "specials": 2072,
     "upcoming": 7
   },
-  "last_run": "2026-11-22T17:15:54+00:00",
+  "last_run": "2026-11-23T21:34:48+00:00",
   "mode": "nightly",
   "sources": {
     "news": {
@@ -19,12 +19,12 @@
       "needs_review": 129,
       "tmdb": 0,
       "tmdb_tried": 0,
-      "youtube": 22,
+      "youtube": 24,
       "youtube_tried": 25
     },
     "tmdb": {
-      "items": 54,
-      "seconds": 33.4,
+      "items": 55,
+      "seconds": 37.8,
       "status": "ok",
       "warnings": [
         "tmdb: movie 1171765: HTTP 404 for https://api.themoviedb.org/3/movie/1171765: {\"success\":false,\"status_code\":34,\"status_message\":\"The resource you requested could not be found.\"}"
@@ -39,13 +39,13 @@
       "status": "ok"
     },
     "youtube_feeds": {
-      "items": 1364,
-      "seconds": 19.1,
+      "items": 1652,
+      "seconds": 23.9,
       "status": "ok"
     },
     "youtube_search": {
-      "items": 48,
-      "seconds": 1.2,
+      "items": 49,
+      "seconds": 1.0,
       "status": "ok"
     }
   }
