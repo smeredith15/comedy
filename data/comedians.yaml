@@ -3188,10 +3188,11 @@ comedians:
     name: Ian Lara
     aliases: []
     tmdb_id: 3624599
-    youtube_channel_id: null
+    youtube_channel_id: UCvSGFci1G70944jV16y6CRQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: ilana-glazer
     name: Ilana Glazer
     aliases: []
@@ -3203,10 +3204,11 @@ comedians:
     name: Iliza Shlesinger
     aliases: []
     tmdb_id: 96316
-    youtube_channel_id: null
+    youtube_channel_id: UCXRyMpKWPT9kajqAi9r_jlw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: irene-tu
     name: Irene Tu
     aliases: []
@@ -3288,19 +3290,21 @@ comedians:
     name: Jack Whitehall
     aliases: []
     tmdb_id: 212285
-    youtube_channel_id: null
+    youtube_channel_id: UC0gyfK7sgvki7Rk-_EKyZnA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Jack Whitehall (212285, 6007707); picked 212285'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jackie-kashian
     name: Jackie Kashian
     aliases: []
     tmdb_id: 199706
-    youtube_channel_id: null
+    youtube_channel_id: UC33_x7kfsw8Zc3gkU1MEHtQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jackie-mason
     name: Jackie Mason
     aliases: []
@@ -3312,19 +3316,21 @@ comedians:
     name: Jacqueline Novak
     aliases: []
     tmdb_id: 3319727
-    youtube_channel_id: null
+    youtube_channel_id: UCJ5EvqG1Wla98GLZB4_Nvsw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jake-johannsen
     name: Jake Johannsen
     aliases: []
     tmdb_id: 176029
-    youtube_channel_id: null
+    youtube_channel_id: UCWKN1PA7Vq58XwbXvM7JMCw
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Jake Johannsen (176029, 1234617, 4103056); picked 176029'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jake-schick
     name: Jake Schick
     aliases: []
@@ -3343,10 +3349,11 @@ comedians:
     name: James Acaster
     aliases: []
     tmdb_id: 1684762
-    youtube_channel_id: null
+    youtube_channel_id: UC-UZ_hCLhWxbpGMMbRxag4w
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: james-austin-johnson
     name: James Austin Johnson
     aliases: []
@@ -3358,7 +3365,7 @@ comedians:
     name: James Davis
     aliases: []
     tmdb_id: 2198141
-    youtube_channel_id: null
+    youtube_channel_id: UCLEyq1Dj0gkTj6CjQDy_bsA
     followed: false
     tracked: true
     flags:
@@ -3366,6 +3373,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 20 people named James Davis (2198141, 1458334, 1807720, 1557359, 6118902, 1097028, 5387295, 1072418, 2952569, 4332860, 3113778, 4438181, 4626972, 5367961, 4679825, 3520334, 3728769, 6492408, 2673124, 2526098); picked 2198141'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: james-donald-forbes-mccaan
     name: James Donald Forbes McCaan
     aliases: []
@@ -3391,7 +3399,7 @@ comedians:
     name: Jamie Lee
     aliases: []
     tmdb_id: 2205532
-    youtube_channel_id: null
+    youtube_channel_id: UCnuCAkRyAixy02zLaAx0c6A
     followed: false
     tracked: true
     flags:
@@ -3399,6 +3407,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 15 people named Jamie Lee (3150813, 2205532, 2676108, 1700698, 4550533, 2238072, 5099839, 3803092, 3928582, 2675239, 1425761, 6466014, 4291104, 2770471, 4694304); picked 2205532'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jan-uuspold
     name: Jan Uuspõld
     aliases: []
@@ -3414,6 +3423,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Janeane Garofalo - Topic (UCINUa33AFA93pKrN0uyFHsg)'
+    youtube_attempted: '2026-11-24'
   - slug: janeane-garofalo-album-version-of-her-october-26
     name: Janeane Garofalo album version of her October 26
     aliases: []
@@ -3460,11 +3471,12 @@ comedians:
     name: Jason Cheny
     aliases: []
     tmdb_id: 5099516
-    youtube_channel_id: null
+    youtube_channel_id: UCpOYcKOMJRgnGqEbp7t6uAg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Jason Cheny (5099516, 4490363); picked 5099516'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jason-manford
     name: Jason Manford
     aliases: []
@@ -3476,18 +3488,20 @@ comedians:
     name: Jason Salmon
     aliases: []
     tmdb_id: 4252423
-    youtube_channel_id: null
+    youtube_channel_id: UC7y7CTTIM7QPGpPQL7O5myQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jasper-redd
     name: Jasper Redd
     aliases: []
     tmdb_id: 983578
-    youtube_channel_id: null
+    youtube_channel_id: UCfKH1KxRX9IarDTqXx3MVPQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jatty-robinson
     name: Jatty Robinson
     aliases: []
@@ -3513,29 +3527,32 @@ comedians:
     name: Jay Larson
     aliases: []
     tmdb_id: 1334288
-    youtube_channel_id: null
+    youtube_channel_id: UCs9HoaIPHtiC16s5Pfu6cAQ
     followed: false
     tracked: true
     flags:
       - name shared with another artist on Pandora (likely a musician)
     checked: false
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jay-leno
     name: Jay Leno
     aliases: []
     tmdb_id: 14991
-    youtube_channel_id: null
+    youtube_channel_id: UCxMmdr7nA3shTDPXew1knkw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jay-mohr
     name: Jay Mohr
     aliases: []
     tmdb_id: 12217
-    youtube_channel_id: null
+    youtube_channel_id: UCsCZ5e_UlxeuHXofus5qxnA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jay-pharoah
     name: Jay Pharoah
     aliases: []
@@ -3589,10 +3606,11 @@ comedians:
     name: Jeff Garlin
     aliases: []
     tmdb_id: 60074
-    youtube_channel_id: null
+    youtube_channel_id: UCWMyUP1a2NchiEDpQX0npCA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jeff-innocent
     name: Jeff Innocent
     aliases: []
@@ -3632,18 +3650,20 @@ comedians:
     name: Jena Friedman
     aliases: []
     tmdb_id: 1696096
-    youtube_channel_id: null
+    youtube_channel_id: UCvcXVzKbRccr1MpurNH4UjQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jenny-slate
     name: Jenny Slate
     aliases: []
     tmdb_id: 213001
-    youtube_channel_id: null
+    youtube_channel_id: UCOPW_V7gfwy_pfj6fv7zU7Q
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jenny-tian
     name: Jenny Tian
     aliases: []
@@ -3659,6 +3679,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is jennyzigrino (UCPl5cP3lwSWu7IznhW46KVQ)'
+    youtube_attempted: '2026-11-24'
   - slug: jeremiah-watkins
     name: Jeremiah Watkins
     aliases: []
@@ -3677,10 +3699,11 @@ comedians:
     name: Jermaine Fowler
     aliases: []
     tmdb_id: 1488960
-    youtube_channel_id: null
+    youtube_channel_id: UClt_JtjsTZzxRjacftfRwlg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jerrod-carmichael
     name: Jerrod Carmichael
     aliases: []
@@ -3689,6 +3712,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Jerrod Carmichael - Topic (UCJr5oXZxe06Mn5AfRLrRcnw)'
+    youtube_attempted: '2026-11-24'
   - slug: jerry-law
     name: Jerry Law
     aliases: []
@@ -3700,26 +3725,29 @@ comedians:
     name: Jerry Seinfeld
     aliases: []
     tmdb_id: 16377
-    youtube_channel_id: null
+    youtube_channel_id: UCUx_598_Gcarnh1rRVYX7hQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jesse-joyce
     name: Jesse Joyce
     aliases: []
     tmdb_id: 933410
-    youtube_channel_id: null
+    youtube_channel_id: UCxPXG__ZuUUNfpFoYUMneWA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jessi-klein
     name: Jessi Klein
     aliases: []
     tmdb_id: 1226305
-    youtube_channel_id: null
+    youtube_channel_id: UCdaoQz9twkZejTeEk-A4llw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-24'
   - slug: jessica-kirson
     name: Jessica Kirson
     aliases: []
@@ -7159,6 +7187,13 @@ comedians:
     tmdb_attempted: '2026-11-19'
   - slug: sindhu-vee
     name: Sindhu Vee
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
+  - slug: slade-ham
+    name: Slade Ham
     aliases: []
     tmdb_id: null
     youtube_channel_id: null
