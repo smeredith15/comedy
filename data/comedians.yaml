@@ -2104,6 +2104,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: derek-adams
+    name: Derek Adams
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: derrick-stroup
     name: Derrick Stroup
     aliases: []
@@ -3752,10 +3759,11 @@ comedians:
     name: Jessica Kirson
     aliases: []
     tmdb_id: 1226535
-    youtube_channel_id: null
+    youtube_channel_id: UC7GkPVpg45VICZ2mRMCgZyw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jesus-sepulveda
     name: Jesus Sepulveda
     aliases: []
@@ -3785,15 +3793,18 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: "youtube: no exact channel; closest is Jim Breuer's Breuniverse (UCSKahHRdCJatNTZpBFh2Ibw)"
+    youtube_attempted: '2026-11-25'
   - slug: jim-carrey
     name: Jim Carrey
     aliases: []
     tmdb_id: 206
-    youtube_channel_id: null
+    youtube_channel_id: UCjsWnIPsC8TGXHGfjYP_kcg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Jim Carrey (206, 6178767, 6250524); picked 206'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jim-florentine
     name: Jim Florentine
     aliases: []
@@ -3805,27 +3816,30 @@ comedians:
     name: Jim Gaffigan
     aliases: []
     tmdb_id: 84407
-    youtube_channel_id: null
+    youtube_channel_id: UCe3emDRCNTL4ekYKlNnSNwg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jim-jefferies
     name: Jim Jefferies
     aliases: []
     tmdb_id: 142516
-    youtube_channel_id: null
+    youtube_channel_id: UCm0DJ7GBsBZ7-Nq5x10c9hQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jim-norton
     name: Jim Norton
     aliases: []
     tmdb_id: 14950
-    youtube_channel_id: null
+    youtube_channel_id: UCrdCzMuAhPgRR94yvnFZjvQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 6 people named Jim Norton (14950, 135855, 2437943, 4838366, 6307369, 6438444); picked 14950'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jimeoin
     name: Jimeoin
     aliases: []
@@ -3837,11 +3851,12 @@ comedians:
     name: Jimmy Carr
     aliases: []
     tmdb_id: 59077
-    youtube_channel_id: null
+    youtube_channel_id: UCf9BO33b-MnIxB5y0azrxmg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Jimmy Carr (59077, 4408626, 4655917, 2571361, 5066900); picked 59077'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jimmy-dore
     name: Jimmy Dore
     aliases: []
@@ -3853,18 +3868,20 @@ comedians:
     name: Jimmy O. Yang
     aliases: []
     tmdb_id: 1468779
-    youtube_channel_id: null
+    youtube_channel_id: UCi2rNogXeswPLmcHxl7tHPA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jimmy-pardo
     name: Jimmy Pardo
     aliases: []
     tmdb_id: 1212434
-    youtube_channel_id: null
+    youtube_channel_id: UCQossTWSkh23AOt8ftmFmEg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jin-hao-li
     name: Jin Hao Li
     aliases: []
@@ -3883,11 +3900,12 @@ comedians:
     name: Jo Brand
     aliases: []
     tmdb_id: 117352
-    youtube_channel_id: null
+    youtube_channel_id: UCVHizqxOaoY3WFfV-Tv3ZOQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Jo Brand (117352, 5727230); picked 117352'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jo-caulfield
     name: Jo Caulfield
     aliases: []
@@ -3899,18 +3917,20 @@ comedians:
     name: Jo Firestone
     aliases: []
     tmdb_id: 1726012
-    youtube_channel_id: null
+    youtube_channel_id: UCxAkDd2syLqL4wtJOcshjzg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jo-koy
     name: Jo Koy
     aliases: []
     tmdb_id: 114394
-    youtube_channel_id: null
+    youtube_channel_id: UCI0xqzZrJdNlnsmzD_Fliiw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joan-rivers
     name: Joan Rivers
     aliases: []
@@ -3919,14 +3939,17 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is The Joan Rivers Show: Unboxed (UCECA-pU2M1XmnaWjqNGxdHw)'
+    youtube_attempted: '2026-11-25'
   - slug: joe-derosa
     name: Joe Derosa
     aliases: []
     tmdb_id: 1452575
-    youtube_channel_id: null
+    youtube_channel_id: UC-l5kklrXnLc9f9K0Zd7UqQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joe-dombrowski
     name: Joe Dombrowski
     aliases: []
@@ -3959,18 +3982,20 @@ comedians:
     name: Joe List
     aliases: []
     tmdb_id: 2432951
-    youtube_channel_id: null
+    youtube_channel_id: UCZPJkYRPZjJ-QofSS-27Gew
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joe-mande
     name: Joe Mande
     aliases: []
     tmdb_id: 1052684
-    youtube_channel_id: null
+    youtube_channel_id: UCmEYTNLSaEXP5VgXwcX9fyw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joe-matarese
     name: Joe Matarese
     aliases: []
@@ -4010,19 +4035,21 @@ comedians:
     name: Joe Zimmerman
     aliases: []
     tmdb_id: 91150
-    youtube_channel_id: null
+    youtube_channel_id: UCJA241zxsDMEVs1LYLD1CKw
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Joe Zimmerman (91150, 2281437, 4303472); picked 91150'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joel-kim-booster
     name: Joel Kim Booster
     aliases: []
     tmdb_id: 2371545
-    youtube_channel_id: null
+    youtube_channel_id: UCjmyDTptceaKYKoa1oIE4vA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: joel-mchale
     name: Joel McHale
     aliases: []
@@ -4055,10 +4082,11 @@ comedians:
     name: John Caparulo
     aliases: []
     tmdb_id: 108658
-    youtube_channel_id: null
+    youtube_channel_id: UCv2RI62ugV2H53qjK83rC6w
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: john-crist
     name: John Crist
     aliases: []
@@ -4070,11 +4098,12 @@ comedians:
     name: John Early
     aliases: []
     tmdb_id: 1542758
-    youtube_channel_id: null
+    youtube_channel_id: UCeFKoY5dCZ-N8bsoBjrBjWw
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 7 people named John Early (1542758, 2065907, 3756462, 4170652, 4646491, 4416637, 5582538); picked 1542758'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: john-franklin
     name: John Franklin
     aliases: []
@@ -4093,10 +4122,11 @@ comedians:
     name: John Heffron
     aliases: []
     tmdb_id: 131727
-    youtube_channel_id: null
+    youtube_channel_id: UCD5_NxVOqLqO_WaSxkSZSnA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: john-mccombs
     name: John McCombs
     aliases: []
@@ -4108,10 +4138,11 @@ comedians:
     name: John Mulaney
     aliases: []
     tmdb_id: 933558
-    youtube_channel_id: null
+    youtube_channel_id: UC_tPEik-6JG0CvSHgt7C2lw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: john-novosad
     name: John Novosad
     aliases: []
@@ -4123,19 +4154,21 @@ comedians:
     name: John Oliver
     aliases: []
     tmdb_id: 84292
-    youtube_channel_id: null
+    youtube_channel_id: UCe74219VkhZXUyNCSxZaV_Q
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 9 people named John Oliver (84292, 1320871, 134202, 1527783, 5645033, 2680362, 6207318, 4599341, 5067330); picked 84292'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: john-pinette
     name: John Pinette
     aliases: []
     tmdb_id: 82415
-    youtube_channel_id: null
+    youtube_channel_id: UCuHWl1fB-kHBmcxrpdwuzvA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: johnny-casson
     name: Johnny Casson
     aliases: []
@@ -4147,10 +4180,11 @@ comedians:
     name: Jon Dore
     aliases: []
     tmdb_id: 205459
-    youtube_channel_id: null
+    youtube_channel_id: UCt2BPUwRJKQ1OjzcGt3ZIDw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-25'
   - slug: jon-richardson
     name: Jon Richardson
     aliases: []
