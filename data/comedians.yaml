@@ -4201,11 +4201,13 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 2 people named Jon Stewart (12219, 5283668); picked 12219'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is The Daily Show (UCwWhs_6x42TyRM4Wstoq8HA)'
+    youtube_attempted: '2026-11-26'
   - slug: jonah-ray
     name: Jonah Ray
     aliases: []
     tmdb_id: null
-    youtube_channel_id: null
+    youtube_channel_id: UCFxpLwVkyyOL5cRIO9MscgA
     followed: false
     tracked: true
     flags:
@@ -4213,6 +4215,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: no exact match; closest is Jonah Ray Rodrigues (1350757)'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: jonathan-katz
     name: Jonathan Katz
     aliases: []
@@ -4245,18 +4248,20 @@ comedians:
     name: Jordan Temple
     aliases: []
     tmdb_id: 2504620
-    youtube_channel_id: null
+    youtube_channel_id: UC_0Gk6qTsAh04Wud_bCvfmw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: josh-blue
     name: Josh Blue
     aliases: []
     tmdb_id: 488207
-    youtube_channel_id: null
+    youtube_channel_id: UCnYcoEwcvu-9FDOZw7sx3fQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: josh-glanc
     name: Josh Glanc
     aliases: []
@@ -4268,10 +4273,11 @@ comedians:
     name: Josh Gondelman
     aliases: []
     tmdb_id: 1935421
-    youtube_channel_id: null
+    youtube_channel_id: UCkDQY56zILv4ucFyxUS6mwA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: josh-johnson
     name: Josh Johnson
     aliases: []
@@ -4318,10 +4324,11 @@ comedians:
     name: Jourdain Fisher
     aliases: []
     tmdb_id: 2600450
-    youtube_channel_id: null
+    youtube_channel_id: UC0t8opOOvnP8WIbCizpFlNw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: joyelle-nicole-johnson
     name: Joyelle Nicole Johnson
     aliases: []
@@ -4347,10 +4354,11 @@ comedians:
     name: Judd Apatow
     aliases: []
     tmdb_id: 41039
-    youtube_channel_id: null
+    youtube_channel_id: UC3XVtPjnSzNYxCAFj-oLn-A
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: judith-lucy
     name: Judith Lucy
     aliases: []
@@ -4362,11 +4370,12 @@ comedians:
     name: Judy Gold
     aliases: []
     tmdb_id: 28024
-    youtube_channel_id: null
+    youtube_channel_id: UCsCq8MVEsgeXtkZOwe0V9pQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Judy Gold (28024, 5073627); picked 28024'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: julie-kavner
     name: Julie Kavner
     aliases: []
@@ -4378,11 +4387,12 @@ comedians:
     name: Julio Torres
     aliases: []
     tmdb_id: 1659144
-    youtube_channel_id: null
+    youtube_channel_id: UCR_lZPEMiG4lqj6zqMufNxA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 6 people named Julio Torres (1659144, 1517068, 2889445, 1126563, 6103170, 5780091); picked 1659144'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: justin-willman
     name: Justin Willman
     aliases: []
@@ -4450,18 +4460,20 @@ comedians:
     name: Kathleen Madigan
     aliases: []
     tmdb_id: 96317
-    youtube_channel_id: null
+    youtube_channel_id: UCjsLufQUymNORi_Sa5Ey2_w
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kathy-griffin
     name: Kathy Griffin
     aliases: []
     tmdb_id: 3138
-    youtube_channel_id: null
+    youtube_channel_id: UCOdq4xrTO0mVVAvLL92BcTQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: katie-boyle
     name: Katie Boyle
     aliases: []
@@ -4494,11 +4506,12 @@ comedians:
     name: Keith Robinson
     aliases: []
     tmdb_id: 1429611
-    youtube_channel_id: null
+    youtube_channel_id: UC3_qDypsUUfwTIf8TMUbbhQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 12 people named Keith Robinson (1280478, 1708073, 1429611, 1085614, 5367732, 3788361, 4009127, 4823866, 1406244, 5820881, 3136334, 2307931); picked 1429611'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kelsey-cook
     name: Kelsey Cook
     aliases: []
@@ -4531,7 +4544,7 @@ comedians:
     name: Kevin Brennan
     aliases: []
     tmdb_id: 186043
-    youtube_channel_id: null
+    youtube_channel_id: UC6zbid0iYzIMrOOyyec5klg
     followed: false
     tracked: true
     flags:
@@ -4539,6 +4552,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 10 people named Kevin Brennan (186043, 3126194, 3304179, 1238741, 5526121, 3229612, 5712927, 3841202, 5434481, 5751303); picked 186043'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-bridges
     name: Kevin Bridges
     aliases: []
@@ -4555,6 +4569,8 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: 11 people named Kevin Hart (55638, 4357866, 1118965, 1034445, 3012263, 4688530, 2101974, 1738553, 4688528, 5148006, 5264666); picked 55638'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Kevin Hart Golfs (UCCmD-f9YbHWXyLpEvaiKvEw)'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-harts
     name: Kevin Harts
     aliases: []
@@ -4566,16 +4582,17 @@ comedians:
     name: Kevin Heffernan
     aliases: []
     tmdb_id: 56251
-    youtube_channel_id: null
+    youtube_channel_id: UChRthRFHOuRInpq3Y0IUpMA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Kevin Heffernan (56251, 3125642); picked 56251'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-james
     name: Kevin James
     aliases: []
     tmdb_id: 32895
-    youtube_channel_id: null
+    youtube_channel_id: UC9k23HZ1xMiqxf4gFfmxr5w
     followed: false
     tracked: true
     flags:
@@ -4583,6 +4600,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 11 people named Kevin James (32895, 2788551, 1354419, 4835383, 1242163, 1657084, 3299632, 2047953, 3720967, 5399467, 4181403); picked 32895'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-james-doyle
     name: Kevin James Doyle
     aliases: []
@@ -4594,26 +4612,29 @@ comedians:
     name: Kevin Meaney
     aliases: []
     tmdb_id: 1234618
-    youtube_channel_id: null
+    youtube_channel_id: UC6YfWCABH4hr7_4Z821EN6A
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-nealon
     name: Kevin Nealon
     aliases: []
     tmdb_id: 58478
-    youtube_channel_id: null
+    youtube_channel_id: UC0BfPXleDan8dMbel6-C89Q
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-pollak
     name: Kevin Pollak
     aliases: []
     tmdb_id: 7166
-    youtube_channel_id: null
+    youtube_channel_id: UCr1B6jBYNtxT2oONm54Huug
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kevin-ryan
     name: Kevin Ryan
     aliases: []
@@ -4650,6 +4671,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Kristen Schaal - Topic (UC2NR9rIopwrkgOSJPkafJhQ)'
+    youtube_attempted: '2026-11-26'
   - slug: kristin-key
     name: Kristin Key
     aliases: []
@@ -4661,18 +4684,20 @@ comedians:
     name: Kumail Nanjiani
     aliases: []
     tmdb_id: 466505
-    youtube_channel_id: null
+    youtube_channel_id: UC0MYZ5rW2rWEueDt9HxtGMQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kurt-braunohler
     name: Kurt Braunohler
     aliases: []
     tmdb_id: 1059412
-    youtube_channel_id: null
+    youtube_channel_id: UCwMKGpgJJ2inRkvvx_7EPtQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: kurtis-conner
     name: Kurtis Conner
     aliases: []
@@ -4684,18 +4709,20 @@ comedians:
     name: Kyle Kinane
     aliases: []
     tmdb_id: 448526
-    youtube_channel_id: null
+    youtube_channel_id: UCDAukC261mCbmA3Ft9mLUoQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: lace-larrabee
     name: Lace Larrabee
     aliases: []
     tmdb_id: 4788010
-    youtube_channel_id: null
+    youtube_channel_id: UC5AQF2BXxSRtc14MgZ_IFmA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: lachlan-patterson
     name: Lachlan Patterson
     aliases: []
@@ -4707,10 +4734,11 @@ comedians:
     name: Langston Kerman
     aliases: []
     tmdb_id: 1677384
-    youtube_channel_id: null
+    youtube_channel_id: UCoa6BLYbL2SmiEfrK7bNv2g
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-26'
   - slug: lara-beitz
     name: Lara Beitz
     aliases: []
