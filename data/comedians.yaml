@@ -1750,6 +1750,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: daliso-chaponda
+    name: Daliso Chaponda
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: damien-power
     name: Damien Power
     aliases: []
@@ -4400,6 +4407,13 @@ comedians:
     youtube_channel_id: null
     followed: false
     tracked: false
+  - slug: juston-mckinney
+    name: Juston McKinney
+    aliases: []
+    tmdb_id: null
+    youtube_channel_id: null
+    followed: false
+    tracked: false
   - slug: k-trevor-wilson
     name: K. Trevor Wilson
     aliases: []
@@ -4764,7 +4778,7 @@ comedians:
     name: Larry Miller
     aliases: []
     tmdb_id: 1211
-    youtube_channel_id: null
+    youtube_channel_id: UCVR8rJNizBT6uRoHr9JgIJA
     followed: false
     tracked: true
     flags:
@@ -4772,6 +4786,7 @@ comedians:
     checked: false
     tmdb_review: 'tmdb: 7 people named Larry Miller (1211, 2829837, 1330712, 4224188, 4197287, 3978773, 6147136); picked 1211'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: larry-the-cable-guy
     name: Larry the Cable Guy
     aliases: []
@@ -4783,18 +4798,20 @@ comedians:
     name: Laurie Kilmartin
     aliases: []
     tmdb_id: 1251841
-    youtube_channel_id: null
+    youtube_channel_id: UCXlU7_Qck1nBg2BT5YFI-BA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: lavell-crawford
     name: Lavell Crawford
     aliases: []
     tmdb_id: 564348
-    youtube_channel_id: null
+    youtube_channel_id: UC68hSe_bu8snRgBK4Ofbeew
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: leanne-morgan
     name: Leanne Morgan
     aliases: []
@@ -4806,11 +4823,12 @@ comedians:
     name: Lee Evans
     aliases: []
     tmdb_id: 7400
-    youtube_channel_id: null
+    youtube_channel_id: UCshqGwndl-KzeUuvFp_gz-A
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 5 people named Lee Evans (7400, 2526834, 5166468, 2662896, 5516965); picked 7400'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: lee-kimbrell
     name: Lee Kimbrell
     aliases: []
@@ -4836,10 +4854,11 @@ comedians:
     name: Lenny Bruce
     aliases: []
     tmdb_id: 107605
-    youtube_channel_id: null
+    youtube_channel_id: UCQ4I1IQyFDUSF1rJR2PlWJA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: lenny-henry
     name: Lenny Henry
     aliases: []
@@ -4897,6 +4916,8 @@ comedians:
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Lil Rel Howery - Topic (UCYxENBnhD1q8FYMk3PlIpJg)'
+    youtube_attempted: '2026-11-27'
   - slug: lisa-ann-walter
     name: Lisa Ann Walter
     aliases: []
@@ -4915,18 +4936,20 @@ comedians:
     name: Liz Miele
     aliases: []
     tmdb_id: 2716737
-    youtube_channel_id: null
+    youtube_channel_id: UC0TgKURvvT1an-pLLJ2xFSg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: liza-treyger
     name: Liza Treyger
     aliases: []
     tmdb_id: 1580616
-    youtube_channel_id: null
+    youtube_channel_id: UCzaGBOMe3TWWcryCoUJHvGA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: lloyd-langford
     name: Lloyd Langford
     aliases: []
@@ -4959,11 +4982,12 @@ comedians:
     name: Louie Anderson
     aliases: []
     tmdb_id: 44795
-    youtube_channel_id: null
+    youtube_channel_id: UCs4PUVmL6WDdq1llU2NWC2Q
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 3 people named Louie Anderson (44795, 2039242, 1526792); picked 44795'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: louis-c-k
     name: Louis C.K.
     aliases: []
@@ -4980,15 +5004,18 @@ comedians:
     tracked: true
     tmdb_review: 'tmdb: no exact match; closest is Louis C.K. (52849)'
     tmdb_attempted: '2026-11-19'
+    youtube_review: 'youtube: no exact channel; closest is Louis C.K. - Topic (UCEUlUpnbNt6S95RnX9G1jGw)'
+    youtube_attempted: '2026-11-27'
   - slug: louis-katz
     name: Louis Katz
     aliases: []
     tmdb_id: 4331741
-    youtube_channel_id: null
+    youtube_channel_id: UCO_XJjAKJce_4P9hL3vc89g
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Louis Katz (2141418, 4331741); picked 4331741'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: loyiso-gola
     name: Loyiso Gola
     aliases: []
@@ -5049,19 +5076,21 @@ comedians:
     name: Mae Martin
     aliases: []
     tmdb_id: 2544703
-    youtube_channel_id: null
+    youtube_channel_id: UCx6sLE5ILSmFgyXhI08mChA
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: maeve-higgins
     name: Maeve Higgins
     aliases: []
     tmdb_id: 1237054
-    youtube_channel_id: null
+    youtube_channel_id: UC1POliDwgoiWw9DyUtNSFvg
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Maeve Higgins (1237054, 6396016); picked 1237054'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: maggie-faris
     name: Maggie Faris
     aliases: []
@@ -5094,10 +5123,11 @@ comedians:
     name: Marc Maron
     aliases: []
     tmdb_id: 1231717
-    youtube_channel_id: null
+    youtube_channel_id: UCK43yIURsT87qQDRDz09PYw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: marcella-arguello
     name: Marcella Arguello
     aliases: []
@@ -5116,10 +5146,11 @@ comedians:
     name: Marcia Belsky
     aliases: []
     tmdb_id: 3702421
-    youtube_channel_id: null
+    youtube_channel_id: UCxGyzQud0qWHWArkZOjqYrg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: marcus-d-wiley
     name: Marcus D. Wiley
     aliases: []
@@ -5131,18 +5162,20 @@ comedians:
     name: Margaret Cho
     aliases: []
     tmdb_id: 11152
-    youtube_channel_id: null
+    youtube_channel_id: UCaQMsbQwj85nOL2gBNjKQLw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: maria-bamford
     name: Maria Bamford
     aliases: []
     tmdb_id: 60278
-    youtube_channel_id: null
+    youtube_channel_id: UCz__WfJ5Oz7V-0KhV_9j91w
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: mario-adrion
     name: Mario Adrion
     aliases: []
@@ -5168,10 +5201,11 @@ comedians:
     name: Mark Normand
     aliases: []
     tmdb_id: 1580615
-    youtube_channel_id: null
+    youtube_channel_id: UCGmMFJB36GBXTgaLtfGd6Jg
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: mark-thomas
     name: Mark Thomas
     aliases: []
@@ -5190,29 +5224,32 @@ comedians:
     name: Marlon Wayans
     aliases: []
     tmdb_id: 9562
-    youtube_channel_id: null
+    youtube_channel_id: UCT4xHjLpklNXe-D9GrII8rA
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Marlon Wayans (9562, 5124272); picked 9562'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: martin-lawrence
     name: Martin Lawrence
     aliases: []
     tmdb_id: 78029
-    youtube_channel_id: null
+    youtube_channel_id: UCuMtEfYYwKGjWcZswLm33LQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Martin Lawrence (78029, 2204604); picked 78029'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: martin-short
     name: Martin Short
     aliases: []
     tmdb_id: 519
-    youtube_channel_id: null
+    youtube_channel_id: UCRcpJfh_u9DKqGPvrPQi2TQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 4 people named Martin Short (519, 3855976, 2171743, 4952669); picked 519'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: mary-basmadjian
     name: Mary Basmadjian
     aliases: []
@@ -5231,27 +5268,30 @@ comedians:
     name: Matt Besser
     aliases: []
     tmdb_id: 177475
-    youtube_channel_id: null
+    youtube_channel_id: UCfvtZoAYAI62NgqesFYgCUw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: matt-braunger
     name: Matt Braunger
     aliases: []
     tmdb_id: 208685
-    youtube_channel_id: null
+    youtube_channel_id: UCeD62yTGO4J0onoqiMVaZqQ
     followed: false
     tracked: true
     tmdb_review: 'tmdb: 2 people named Matt Braunger (208685, 5475629); picked 208685'
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: matt-fulchiron
     name: Matt Fulchiron
     aliases: []
     tmdb_id: 2082003
-    youtube_channel_id: null
+    youtube_channel_id: UCOMDrJ4TLPgOXjk-fpvZ8QQ
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: matt-green
     name: Matt Green
     aliases: []
@@ -5263,10 +5303,11 @@ comedians:
     name: Matt Koff
     aliases: []
     tmdb_id: 2705118
-    youtube_channel_id: null
+    youtube_channel_id: UCQZ_yuBmnBOKV139PKQ-5Cw
     followed: false
     tracked: true
     tmdb_attempted: '2026-11-19'
+    youtube_attempted: '2026-11-27'
   - slug: matt-mccarthy
     name: Matt McCarthy
     aliases: []
